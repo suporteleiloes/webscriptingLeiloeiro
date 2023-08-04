@@ -56,6 +56,10 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
             return leiloeiros;
         }
+        catch (e) {
+            console.log(e);
+            await driver.quit();
+        }
         finally {
             await driver.quit();
         }
