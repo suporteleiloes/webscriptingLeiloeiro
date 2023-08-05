@@ -90,11 +90,9 @@ getHtml().then((res) => {
       })
 
       pessoas = pessoas.map((pessoa, i) => {
-         if (pessoa != '') {
-            return pessoa.map((prop) => {
-               return e = prop.split(': ');
-            });
-         } 
+         return pessoa.map((prop) => {
+            return e = prop.split(': ');
+         });
       });
 
       const pessoasClone = [...pessoas]; 
@@ -104,6 +102,10 @@ getHtml().then((res) => {
          if(pessoa[pessoa.length -1][0]){
              pessoas.push(pessoa)
          }
+      })
+
+      pessoas.forEach((pessoa, i) => {
+         return pessoa.map((prop) => {})
       })
 
       return pessoas
