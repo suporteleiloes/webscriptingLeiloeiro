@@ -15,6 +15,8 @@ getHtml().then((res) => {
    const arrayS = []
    const leiloeiros = [];
 
+   const antonioText = $('div:nth-child(96)').text().trim();
+
    $('#P000 p').each((i, p) => {
       const text = $(p).text().trim();
 
@@ -40,28 +42,44 @@ getHtml().then((res) => {
       if (item.slice(0, 5) === 'Nomea' && (index === array.length - 1 || array[index+1].slice(0, 5) === 'Nomea')) {
          fragmentos.push(item);
       } else {
-         string += `${item} \n`;
-         if(array[index+1].slice(0, 5) === 'Nomea'){
+         string += `${item}\n`;
+         if(array[index+1].slice(0, 5) === 'Nomea' || index === array.length - 1 ){
             fragmentos.push(string);
             string = '';
          }
       }
    });
 
-   function getPessoas() {
+   function format(frags){
       const array = [];
+      let count = 1;
+      arrayS.forEach((leiloeiro, i) => {
+         if(leiloeiro === 'Antônio Romero Ferreira da Silva'){
+            array.push(`nome: ${leiloeiro}\n${antonioText}`);
+            count = 0;
+         }else{
+            if(count !== 0){
+               count++
+            }
 
-      fragmentos.forEach((frag, i) => {
-         array.push(`nome: ${arrayS[i]}\n${frag}`)
+            array.push(`nome: ${leiloeiro}\n${count ? frags[i] : frags[i-1]}`)
+         }
       })
 
-      return array;
+      let pessoas = [];
+      array.forEach((leilo, i) => {
+         pessoas.push([...leilo.split('\n')]);
+      })
+
+      pessoas = pessoas.map((pessoa) => {
+         console.log(pessoa[0])
+      });
+
    }
 
-   const pessoas = getPessoas();
-   console.log(pessoas)
+   format(fragmentos)
 
-   fs.writeFile('../data.json', JSON.stringify(fragmentos, null, 2), {encoding: "utf-8"} ,(err) => {
+   fs.writeFile('../data.json', JSON.stringify({}, null, 2), {encoding: "utf-8"} ,(err) => {
       if(err) throw err;
       console.log('webScrape successful')
    })
