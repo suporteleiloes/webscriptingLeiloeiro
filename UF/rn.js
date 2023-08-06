@@ -18,8 +18,6 @@ getHtml().then((res) => {
    // Array só de nomes de leiloeiros
    const arrayS = []
 
-   const leiloeiros = [];
-
    // Aqui é porque os dados desse antonio são especiais, o maluco que fez o site 
    // colocou só ele diferentao e acabou quebrando todo o codigo mais tarde porque eu nao havia percebido
    const antonioText = $('div:nth-child(96)').text().trim();
@@ -64,7 +62,6 @@ getHtml().then((res) => {
 
    // Essa é a função que vai retornar o objeto formatado
    function format(frags){
-
       // Aqui eu encontrei um jeito de inserir o antonio no meio dessa galera sem quebrar a ordem, pois bagunçava todos os dados
       const array = [];
       let count = 1;
@@ -82,40 +79,80 @@ getHtml().then((res) => {
          }
       })
 
-
       // daqui pra baixo é só manipulando os dados, geramente criando arrays de arrays, etc 
       let pessoas = [];
+
       array.forEach((leilo, i) => {
          pessoas.push([...leilo.split('\n')]);
       })
-
+      
       pessoas = pessoas.map((pessoa, i) => {
          return pessoa.map((prop) => {
             return e = prop.split(': ');
          });
       });
 
-      const pessoasClone = [...pessoas]; 
+      const pessoasClone = [...pessoas];
       pessoas = [];
-
       pessoasClone.forEach((pessoa) => {
          if(pessoa[pessoa.length -1][0]){
-             pessoas.push(pessoa)
+            pessoas.push(pessoa)
+         }else{
+            const array = [...pessoa];
+            array.pop()
+            pessoas.push(array)
          }
       })
 
-      pessoas.forEach((pessoa, i) => {
-         return pessoa.map((prop) => {})
+      let countLeilo = 0;
+      let suspenso = 0;
+      let leiloeiros = [];
+      let leiloeiro = [];
+
+      // todo: arrumar um jeito de chamar mais uma vez pra salvar o ultimo leiloeiro 
+
+      pessoas.forEach((pessoa, iPessoa) => {
+         pessoa.forEach((prop, iProp) => {
+            if(prop[0] === 'nome'){
+               if(countLeilo){
+                  leiloeiros.push(leiloeiro);
+                  leiloeiro = [];
+                  suspenso = 0;
+                  countLeilo = 0;
+               }
+
+               countLeilo++
+               const arrayNome = prop[1].split(' - ');
+               if(arrayNome[1] && (arrayNome[1].toLowerCase() === 'suspenso' || arrayNome[1].toLowerCase() === 'suspensa')){
+                  suspenso = 1
+                  leiloeiro.push(['nome', arrayNome[0]])
+               }else{
+                  leiloeiro.push(['nome', prop[1]]);
+               }
+            }
+
+            if(prop[0].toLowerCase().slice(0,4) === 'matr'){
+               if(prop.length === 1){
+                  const array = prop[0].split('nº');
+                  leiloeiro.push(['matricula', array[1].trim()]);
+               }else{
+                  leiloeiro.push(['matricula', prop[1].trim()])
+               }
+            }
+         })
+
       })
+      console.log(leiloeiros)
+
 
       return pessoas
    }
 
    format(fragmentos)
 
-   fs.writeFile('../data.json', JSON.stringify(format(fragmentos), null, 2), {encoding: "utf-8"} ,(err) => {
-      if(err) throw err;
-      console.log('webScrape successful')
-   })
+   // fs.writeFile('../data.json', JSON.stringify(format(fragmentos), null, 2), {encoding: "utf-8"} ,(err) => {
+   //    if(err) throw err;
+   //    console.log('webScrape successful')
+   // })
    
 })
