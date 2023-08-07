@@ -73,3 +73,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
     }
 
 module.exports = MG;
+
+/* const chamada = MG();
+chamada.then(function(result) {
+  const json = JSON.stringify(result, null, 2);
+     console.log(json);
+ }
+ );
+ */

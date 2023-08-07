@@ -1,0 +1,292 @@
+{
+  "CE": [
+    {
+      "nome": "Fernando Montenegro Castelo",
+      "matricula": "01",
+      "dataPosse": "22/08/1984",
+      "endereco": "Rua Ademar Paulo, Nº 1000, Bairro: Esplanada do Castelão, Fortaleza-Ce, Cep: 60.867-640",
+      "telefone": "(85) 3066-8282 / (85) 3066-8262 / (85) 9 9984-6461",
+      "email": "fernando@montenegroleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Francisca Graça de Oliveira Medeiros",
+      "matricula": "02",
+      "dataPosse": "22/08/1984",
+      "endereco": "Av Nunes Valente, Nº 2.115, Casa 45, Bairro: Dionísio Torres, Fortaleza-Ce, Cep: 60.125-071",
+      "telefone": "(85) 3246-2207 / (85) 999843925",
+      "email": "gracaleilao@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Sandra Maria Penha Araújo",
+      "matricula": "04",
+      "dataPosse": "29/04/1991",
+      "endereco": "Rua Marechal Deodoro, Nº 1395, Bairro: Benfica, Fortaleza-Ce, Cep: 60.020-061",
+      "telefone": "(85) 3246-2207 / (85) 9 9969-2311",
+      "email": "-",
+      "situação": 1
+    },
+    {
+      "nome": "João Lopes Cavalcante",
+      "matricula": "10",
+      "dataPosse": "17/08/2004",
+      "endereco": "Rua Gustavo Braga, Nº 150, Bairro: Rodolfo Teófilo, Fortaleza-Ce",
+      "telefone": "(85) 3292-8888 / (85) 9 9992-2032",
+      "email": "jlopesleiloes@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Marcio Morais Correia Gonçalves",
+      "matricula": "11",
+      "dataPosse": "25/01/2005",
+      "endereco": "Rua.Silva Jathay, Nº 1400 Apto. 1103, Bairro: Meireles, Fortaleza-Ce",
+      "telefone": "-",
+      "email": "marciomcg@uol.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Celso Alves Cunha",
+      "matricula": "13",
+      "dataPosse": "16/08/2006",
+      "endereco": "Rua Cel Zacarias José de França, Nº 255, Bairro: Cajazeiras, Fortaleza-Ce, Cep: 60.864-460",
+      "telefone": "(85) 3279-6038 / (85) 9 9933-4813",
+      "email": "celsocunhaleiloes@globo.com",
+      "situação": 1
+    },
+    {
+      "nome": "Willian Augusto Ferreira de Araújo",
+      "matricula": "17",
+      "dataPosse": "02/06/2008",
+      "endereco": "Av. Sargento Hermínio Sampaio, nº 1511, Bloco B, Apto. 710, Bairro: Monte Castelo, Fortaleza-Ce, Cep: 60326-515",
+      "telefone": "(85) 3034-1773 / (85) 9 9135-5654 / (85) 9 8663-0758 / (85) 9 8663-0164",
+      "email": "contato@willianleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Francisco das Chagas Pereira Júnior",
+      "matricula": "18",
+      "dataPosse": "26/01/2009",
+      "endereco": "Av. Washington Soares, 855 Sala 308, Bairro: Edson Queiroz, Cep: 60.810-300",
+      "telefone": "(85) 9.9996-7778 / (85) 85 997991371",
+      "email": "pereiraleiloesce@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Sergio Luis Jucá Bezerra",
+      "matricula": "19",
+      "dataPosse": "12/05/2009",
+      "endereco": "Avenida Dom Luis, 500 sala 1420, Shopping Aldeota, Bairro: Aldeota, Fortaleza, Ceará, Cep: 60.160-230",
+      "telefone": "(85) 3458-1112 / (85) 3261-6046 / (85) 9 8694-1800",
+      "email": "sergiobezerraleiloeiro.com",
+      "situação": 1
+    },
+    {
+      "nome": "Silvio Cesar Maraschi",
+      "matricula": "20",
+      "dataPosse": "23/09/2010",
+      "endereco": "Vila Local, 31, nº 1301, casa 16, Bairro: Porto das Dunas, Aquiraz, Ceará, Cep: 61.700-000",
+      "telefone": "(85) 9 8155-1504 / (85) 9 9108-1504",
+      "email": "silviocmaraschi@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Daniela de Souza Castelo",
+      "matricula": "23",
+      "dataPosse": "30/05/2012",
+      "endereco": "Rua Ademar Paula, nº 1000, Bairro: Esplanada do Castelão, Fortaleza, Ceará, CEP: 60.867-640",
+      "telefone": "(85) 3066-8282 / (85) 98880-6008",
+      "email": "daniela@montenegroleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Georgia de Souza Castelo",
+      "matricula": "24",
+      "dataPosse": "14/01/2016",
+      "endereco": "Rua Ademar Paula, nº 1000, Bairro: Esplanada do Castelão, Fortaleza – Ceará, Cep: 60.867-640",
+      "telefone": "(85)30668282 e (85) 988806008",
+      "email": "georgiacastelo@montenegroleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Marinete Alves de Brito Oliveira",
+      "matricula": "25",
+      "dataPosse": "14/04/2016",
+      "endereco": "Rua Maestro Azul, 106, Bairro: Vila Alta, Crato – Ceará, Cep: 63.119-370",
+      "telefone": "(88) 9 9921-2909",
+      "email": "caririleiloes@hotmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Francisco Jonnathan Santos Freitas",
+      "matricula": "26",
+      "dataPosse": "25/04/2016",
+      "endereco": "Rua Valparaíso, 156, Apto. H201, Bairro: Palmeiras – Fortaleza – Ceará",
+      "telefone": "(85) 9 8886-0585",
+      "email": "francisco@cearaleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Eduardo Sydney Bezerra de Girão",
+      "matricula": "27",
+      "dataPosse": "22/05/2017",
+      "endereco": "Rua Assunção 517, sala 202, Bairro: Centro Fortaleza/CE",
+      "telefone": "(85) 987017909 / 9 8711-7900",
+      "email": "sydneyleiloes@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Saulo Barbosa Catão Segundo",
+      "matricula": "28",
+      "dataPosse": "14/09/2017",
+      "endereco": "Rua Dr. Gilberto Studart Paulo, Nº 1839 – apto. 600, Bairro: Cocó –  Fortaleza – Ceará, CEP: 60.192-115",
+      "telefone": "(85) 99193.5917",
+      "email": "saulocatao@lancecertoleioloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Denys Pyerre de Oliveira",
+      "matricula": "29",
+      "dataPosse": "07/12/2017",
+      "endereco": "Av. Luis Vicente da Silva, 200, Bairro: Centro – Quixelô – Ceará, CEP: 63.515-000",
+      "telefone": "(88) 9.8147-1200",
+      "email": "contato@leje.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Ives Harrison Nasar dos Santos",
+      "matricula": "30",
+      "dataPosse": "04/04/2018",
+      "endereco": "Av. Carapinima, 1751, Bairro: Benfica –  Fortaleza – Ceará, CEP: 60.015-290",
+      "telefone": "(85) 98140-0033",
+      "email": "contato@nasarleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Érico Sobral Soares",
+      "matricula": "31",
+      "dataPosse": "11/11/2019",
+      "endereco": "Rua Frei Mansueto, 1500 /  apto.702, Bairro: Varjota –  Fortaleza – Ceará, CEP: 60.175-157",
+      "telefone": "(85) 9.9442-2023",
+      "email": "ericosobral@vipleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Hugo Moreira Pimenta",
+      "matricula": "33",
+      "dataPosse": "-",
+      "endereco": "endereco não fornecido",
+      "telefone": "(55) 92 98111-09099",
+      "email": "hugo@moreirapimenta.bl.br",
+      "situação": 1
+    },
+    {
+      "nome": "Alex William Hoppe",
+      "matricula": "34",
+      "dataPosse": "20/01/2010",
+      "endereco": "endereco não fornecido",
+      "telefone": "47-3622-5164",
+      "email": "contato@hoppeleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Eduardo Vinicius Fleury Lobo",
+      "matricula": "36",
+      "dataPosse": "27/07/2021",
+      "endereco": "endereco não fornecido",
+      "telefone": "(85) 99999-7500",
+      "email": "eduardo@leilomaster.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Maria Conceição Maria Fixer",
+      "matricula": "37",
+      "dataPosse": "17/02/2021",
+      "endereco": "Av. Tamandaré 1066, Bairro: Vila Alto Sumaré, Campo Grande – MS, CEP: 79009-790",
+      "telefone": "(67) 98112-9306",
+      "email": "contato@mariafixerleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Bhruna Christine Sales",
+      "matricula": "38",
+      "dataPosse": "17/02/2021",
+      "endereco": "endereco não fornecido",
+      "telefone": "(85) 99702-0449",
+      "email": "bhrunachristine@gmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "João Paulo Ferreira",
+      "matricula": "39",
+      "dataPosse": "22/07/2021",
+      "endereco": "Rua Ademar Paula 1000, Bairro Esplanada Castelão, Fortaleza – CE, CEP 60.867-640",
+      "telefone": "(85) 98610-0107 / (85) 3066-8282",
+      "email": "joaopaulo@montenegroleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Josecelli Kildare Fraga Gomes",
+      "matricula": "40",
+      "dataPosse": "-",
+      "endereco": "endereco não fornecido",
+      "telefone": "(85) 99247-8696",
+      "email": "administrativo@rjleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Rudival Almeida Gomes Júnior",
+      "matricula": "41",
+      "dataPosse": "-",
+      "endereco": "endereco não fornecido",
+      "telefone": "(71) 98211-2013",
+      "email": "rudival@leiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Mateus Nascimento Guerra",
+      "matricula": "42",
+      "dataPosse": "18/09/2020",
+      "endereco": "endereco não fornecido",
+      "telefone": "(81) 98788-8864",
+      "email": "mateusguerra@hotmail.com",
+      "situação": 1
+    },
+    {
+      "nome": "Daniel Elias Garcia",
+      "matricula": "43",
+      "dataPosse": "07/03/2022",
+      "endereco": "Rua Anardo Raul Garcia, nº 62, Bairro: São Luiz – Criciúma – SC, CEP: 88803-495",
+      "telefone": "0800 278 7431 / (48) 99138-6012",
+      "email": "contato@dgleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Davi Borges de Aquino",
+      "matricula": "44",
+      "dataPosse": "-",
+      "endereco": "Rua Vicente Linhares, 500, sala 2202, Bairro: Aldeora – Fortaleza – CE, CEP: 60135-270",
+      "telefone": "(11) 3230-1126",
+      "email": "contato@alfaleiloes.com",
+      "situação": 1
+    },
+    {
+      "nome": "Marcelo Valland",
+      "matricula": "45",
+      "dataPosse": "-",
+      "endereco": "Vila Local, 31, nº 1301, casa 16, Bairro: Porto das Dunas, Aquiraz – CE, CEP: 61700-000",
+      "telefone": "85 99997500",
+      "email": "marcelo@pactoleiloes.com.br",
+      "situação": 1
+    },
+    {
+      "nome": "Luiz Eduardo Gomes",
+      "matricula": "47",
+      "dataPosse": "-",
+      "endereco": "Rua Manoel dos Santos, nº 422, Bairro: Jardim Palmares – Ribeirão Preto – SP, CEP: 14092-430",
+      "telefone": "-",
+      "email": "-",
+      "situação": 1
+    }
+  ]
+}

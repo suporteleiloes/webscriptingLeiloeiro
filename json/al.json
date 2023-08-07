@@ -1,0 +1,163 @@
+{
+    "AL": [
+      {
+        "nome": "Isaldo Sobral e Silva",
+        "matricula": "041",
+        "CPF": "145.667.104-91",
+        "dataPosse": "25/06/1985",
+        "endereco": "BR 101, KM 100, Chã do Pilar/AL",
+        "telefone": "(82) 99928-1949",
+        "email": "portaldosleiloes@hotmal.com",
+        "situacao": 1
+      },
+      {
+        "nome": "Osman Sobral e Silva",
+        "matricula": "006",
+        "CPF": "164.023.324-53",
+        "dataPosse": "20/09/1989",
+        "endereco": "Maceió/AL Av. Mendonça Júnior, 268, Gruta de Lourdes, Maceió - AL. CEP: 57052-480",
+        "telefone": "(82) 3223-5212 | (82) 99981-6513",
+        "email": "osmanleiloesfreire@gmail.com",
+        "situacao": 1
+      },
+      {
+        "nome": "Fernando Gustavo Alencar de Albuquerque Lins",
+        "matricula": "013",
+        "CPF": "469.883.944-00",
+        "dataPosse": "25/06/2006",
+        "endereco": "Maceió/AL Rua Pedro Oliveira Rocha, nº 189, sala 101, no bairro do Pinheiro, CEP: 57057-560",
+        "telefone": "(82) 99982-4509",
+        "email": "fernandogustavolins@gmail.com",
+        "situacao": 1
+      },
+      {
+        "nome": "Oldicéa Sobral e Silva de Albuquerque",
+        "matricula": "014",
+        "CPF": "347.857.364-53",
+        "dataPosse": "24/11/2008",
+        "endereco": "",
+        "telefone": "(82) 3221-5312 | (82) 99640-7608 | (82) 99976-7401",
+        "email": "",
+        "situacao": 1
+      },
+      {
+        "nome": "Carlos Adriano Solano dos Santos Pinho",
+        "matricula": "015",
+        "CPF": "028.812.394-56",
+        "dataPosse": "26/05/2011",
+        "endereco": "Maceió/AL Rua Bancário Francisco Vicente Souza, 73, 103-A, Feitosa, Maceió/AL. CEP: 57042-210",
+        "telefone": "(82) 99673-7007",
+        "email": "carlospinholeiloeiro@hotmail.com",
+        "situacao": 1
+      },
+      {
+        "nome": "Adilson Bento de Araújo",
+        "matricula": "016",
+        "dataPosse": "13/08/2013",
+        "endereco": "Rua José Maia Gomes, nº 258, Sala 05, CXPST 189, Jatiúca, Maceió/AL, CEP: 57.036-240",
+        "telefone": "(82) 98200-0018",
+        "email": "contato@abaleiloes.com.br",
+        "site": "www.abaleiloes.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "Cristiane Barros da Mota Balbino",
+        "matricula": "018",
+        "CPF": "029.345.274-17",
+        "dataPosse": "25/03/2018",
+        "endereco": "Rua Professor Ernani Figueiredo Magalhães, 155, Cruz Das Alma, Maceió/AL",
+        "telefone": "(82) 999589580",
+        "email": "cristianebalbino@lancecertoleiloes.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "Alexandre Almeida de Souza e Silva",
+        "matricula": "2057",
+        "CPF": "013.133.084-55",
+        "dataPosse": "23/10/2018",
+        "endereco": "Maceió/AL Av. Mendonça Júnior, 268, Gruta de Lourdes, Maceió - AL. CEP: 57052-480",
+        "telefone": "(82) 3223-5212 | (82) 98112-7252",
+        "email": "alexandreleiloesfreire@gmail.com",
+        "site": "www.leiloesfreire.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "Alex Willin Hoppe",
+        "matricula": "01/2021",
+        "dataPosse": "10/08/2021",
+        "telefone": "(47) 3622-5164",
+        "email": "contato@hoppeleiloes.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "Rudival Almeida Gomes Junior",
+        "matricula": "03/2022",
+        "dataPosse": "16/03/2022",
+        "telefone": "(71) 98211-2013",
+        "endereco": "Av. Luís Viana Filho, 6462, Edf. Wall Street, Sl. 509- Torre A, Paralela - Salvador/BA - CEP: 41730-101",
+        "email": "rudival@rjleiloes.com.br",
+        "site": "http://www.rjleiloes.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "Altran Santana de Carvalho",
+        "matricula": "02/2022",
+        "dataPosse": "22/12/2022",
+        "telefone": "(79) 9.9888-3821",
+        "endereco": "Rua Paraíso, S/N, Centro - São Brás/AL - CEP: 57380-000",
+        "email": "altransc.sb@gmail.com",
+        "situacao": 1
+      },
+      {
+        "nome": "Daniel Elias Garcia",
+        "matricula": "01/2022",
+        "dataPosse": "22/12/2022",
+        "telefone": "(48) 3081-2310 / 0800 278 7431",
+        "endereco": "Rua Anardo Raul Garcia, 62, São Luiz, CEP 88803-495, Criciúma/SC",
+        "email": "contato@dgleiloes.com.br",
+        "site": "www.danielgarcialeiloes.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "DIOGO MATTOS DIAS MARTINS",
+        "matricula": "02/2023",
+        "dataPosse": "23/03/2023",
+        "telefone": "(81) 3132.5966 (Escritório) / (81) 9.9699.6535 (celular/whatsapp)",
+        "endereco": "Doutor Antônio Gomes de Barros - 625 - Jatiúca - 57.036-001 (The Square Park Office  Sala 921)",
+        "email": "diogomdm@gmail.com​ / diogo@inovaleilao.com.br",
+        "site": "www.inovaleilao.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "LUCAS KURY DIAS MARTINS",
+        "matricula": "01/2023",
+        "dataPosse": "23/03/2023",
+        "telefone": "(81) 98286-2727",
+        "endereco": "Doutor Antônio Gomes de Barros - 625 - Jatiúca - 57.036-001 (The Square Park Office  Sala 921)",
+        "email": "lucaskurydm@gmail.com / lucas@inovaleilao.com.br",
+        "site": "www.inovaleilao.com.br",
+        "situacao": 1
+      },
+      {
+        "nome": "DOUGLAS RICHER E SILVA NASCIMENTO",
+        "matricula": "03/2023",
+        "dataPosse": "23/03/2023",
+        "telefone": "(82) 99661-2014",
+        "endereco": "Br 101, km 100, chã do Pilar/AL - CEP: 57.150-000",
+        "email": "douglasrsn@hotmail.com",
+        "site": "http://portaldosleiloes.com/",
+        "situacao": 1
+      },
+      {
+        "nome": "DAVI BORGES DE AQUINO",
+        "matricula": "04/2023",
+        "dataPosse": "22/06/2023",
+        "telefone": "(11) 3230-1126/(11) 93207-1308 (WhatsApp)",
+        "endereco": "Avenida Paulista, nº 2421, 1º andar – Bela Vista, São Paulo/SP – CEP: 01311-300",
+        "email": "inscricoes@alfaleiloes.com",
+        "site": "https://alfaleiloes.com/",
+        "situacao": 1
+      }
+    ]
+  }
+  
