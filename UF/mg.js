@@ -77,7 +77,11 @@ module.exports = MG;
 /* const chamada = MG();
 chamada.then(function(result) {
   const json = JSON.stringify(result, null, 2);
-     console.log(json);
+    // console.log(json);
+    // Transforma em CSV
+    const csv = require('json2csv').parse(result); 
+    console.log(csv);
+
  }
  );
  */

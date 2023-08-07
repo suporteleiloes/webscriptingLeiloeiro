@@ -1,0 +1,976 @@
+{
+    "PR": [
+      {
+      "nome": "ADALBERTO SCHERER FILHO",
+      "matricula": "21/329-L",
+      "dataPosse": "02/08/2021",
+      "endereco": "Rua Professor Pedro Viriato Parigot de Souza, nº 3050 - casa 02 - Mossunguê CEP: 81.200-100 - Curitiba/PR",
+      "telefone": "",
+      "email": "scherer@cibraco.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ADRIANO MELNISKI",
+      "matricula": "07/010-L",
+      "dataPosse": "08/11/2007",
+      "endereco": "Rua Canal Belém, nº 6212, Barracão - Boqueirão CEP: 81.650-180 - Curitiba/PR",
+      "telefone": "Fixo (41)3079-6535 | Celular (41)99545-1962",
+      "email": "contato@amleiloeiro.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ADYEL MARQUES DE PAULA",
+      "matricula": "14/261-L",
+      "dataPosse": "29/05/2014",
+      "endereco": "Avenida Candio de Abreu, n° 381, Sobreloja - Centro Cívico CEP: 80.530-000 - Curitiba/PR",
+      "telefone": "Fixo (41)4141-3689 | Celular(41)99956-9226",
+      "email": "marquesleiloes@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "AFONSO MARANGONI",
+      "matricula": "12/046-L",
+      "dataPosse": "09/07/2012",
+      "endereco": "Rua Emiliano Perneta, nº 297, 12º andar - Centro CEP: 80.010-050 - Curitiba/PR",
+      "telefone": "Celular (41)99111-1140 | (41)99602-1632",
+      "email": "afonso.marangoni@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "AIRTON QUEIROZ SILVA",
+      "matricula": "590",
+      "dataPosse": "01/04/1998",
+      "endereco": "Rua Lodovico Geronazzo, nº 2046 - Boa Vista CEP: 82.560-040 - Curitiba/PR",
+      "telefone": "Fixo (41)3354-5608 | Celular (41)99991-9477",
+      "email": "airtons1@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "ALEX SANDRO VIEIRA FELIX",
+      "matricula": "18/297-L",
+      "dataPosse": "07/05/2018",
+      "endereco": "Rua Júlio Estrela Moreira, nº 74 - Lago Parque CEP: 86.015-070 - Londrina/PR",
+      "telefone": "",
+      "email": "contato@alleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ALEX WILLIAN HOPPE",
+      "matricula": "21/339-L",
+      "dataPosse": "22/11/2021",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@hoppeleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ALEXANDRE JOSE MENESES FRANÇA DOS SANTOS",
+      "matricula": "23/366-L",
+      "dataPosse": "30/03/2023",
+      "endereco": "Rua Bernardo Ozinski, n° 78 - Pineville CEP: 83.320-570 - Pinhais/PR",
+      "telefone": "",
+      "email": "alexandre@muniformes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ANDRE DE OLIVEIRA KUSS",
+      "matricula": "08/014-L",
+      "dataPosse": "02/05/2008",
+      "endereco": "Rua Eduardo Sprada, nº 2388, casa 03 - Campo Comprido CEP: 81.210-370 - Curitiba/PR",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "ANDRE LUIZ WUITSCHIK",
+      "matricula": "20/327-L",
+      "dataPosse": "13/10/2020",
+      "endereco": "Rua Santa Luzia, nº 332 - Vale das Palmeiras CEP:84.400-000 – Prudentópolis/PR",
+      "telefone": "",
+      "email": "andreluiz@andreluizleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ANTONIO COSTA",
+      "matricula": "491",
+      "dataPosse": "21/09/1976",
+      "endereco": "",
+      "telefone": "",
+      "email": "costa@acleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ANTONIO MAGNO JACOB DA ROCHA",
+      "matricula": "08/020-L",
+      "dataPosse": "12/11/2008",
+      "endereco": "Rua Alferes Poli, 311 – Cj. 4B - Centro CEP: 80.230-090 - Curitiba/PR",
+      "telefone": "",
+      "email": "magno@rochaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "APARECIDA MARIA FIXER",
+      "matricula": "22/347-L",
+      "dataPosse": "02/05/2022",
+      "endereco": "",
+      "telefone": "Celular (67)98131-0528 | (67)98151-0244",
+      "email": "contato@cidafixerleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ARNOLD STRASS",
+      "matricula": "22/341-L",
+      "dataPosse": "01/04/2022",
+      "endereco": "",
+      "telefone": "",
+      "email": "leiloes@savoyleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "AUGUSTO PARMEGGIANI PESTANA MARQUES GOMES",
+      "matricula": "20/321-L",
+      "dataPosse": "29/09/2020",
+      "endereco": "Av. João Wallig, nº 1800, Cj. 4005 - Passo D’Areia CEP: 91.349-900 - Porto Alegre/RS",
+      "telefone": "",
+      "email": "administrativo@pestanaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "BEATRIZ SILVA CARVALHO",
+      "matricula": "22/342-L",
+      "dataPosse": "01/04/2022",
+      "endereco": "Rua Conselheiro Antonio Prado, 1026 - Centro CEP: 18.900-017 - Santa Cruz do Rio Pardo/SP",
+      "telefone": "Fixo 0800-9709752 | Celular (14)99892-8770",
+      "email": "leiloeirabeatriz@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "BRUNA CRISTINA SOARES",
+      "matricula": "23/368-L",
+      "dataPosse": "06/06/2023",
+      "endereco": "Rua Tranquilo Noro, n° 642, casa 409 - Parque Verde CEP: 85.807-860 - Cascavel/PR",
+      "telefone": "",
+      "email": "brunna.csoares​@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "CARLOS AUGUSTO RIBEIRO LIMA",
+      "matricula": "23/371-L",
+      "dataPosse": "12/06/2023",
+      "endereco": "Avenida Boulevard Conde dos Arcos - Bloco D do Tropical Privê - apto 506 - Ed. Ponta Negra - Goiânia 2 CEP: 74.663-130 - Goiânia/GO",
+      "telefone": "",
+      "email": "administrativo@infinityleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "CAROLINE DE SOUSA RIBAS",
+      "matricula": "22/359-L",
+      "dataPosse": "15/06/2022",
+      "endereco": "Avenida Dom Pedro II, nº 620, sala 202 - Jardim CEP: 09.080-000 - Santo André/SP",
+      "telefone": "Fixo (11)4425-2905 | Celular (11)99553-2706",
+      "email": "desousacarol79@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "CARLOS CHUI",
+      "matricula": "22/353-L",
+      "dataPosse": "27/05/2022",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@arremataronline.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "CLAUDIO CESAR KUSS",
+      "matricula": "507",
+      "dataPosse": "23/10/1985",
+      "endereco": "Rua João Lunardelli, 2095 - CIC - Cidade Industrial, CEP: 81.460-100 - Curitiba/PR",
+      "telefone": "",
+      "email": "claudio@claudiokussleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "CLEVER ELMES MILANI",
+      "matricula": "16/283-L",
+      "dataPosse": "01/11/2016",
+      "endereco": "Travessa Sgoda, nº 45 - Roça Grande CEP: 83.403-525 - Colombo/PR",
+      "telefone": "Fixo (41)3332-6868 | Celular (41)99102-5685 | (41)99164-5435",
+      "email": "contato@milanileiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "CONRADO AUGUSTO CARVALHO DE MAGALHÃES",
+      "matricula": "22/343-L",
+      "dataPosse": "05/04/2022",
+      "endereco": "Avenida Higienópolis, nº 583 - 8° andar, sala 02 - Centro CEP: 86.020-080 - Londrina/PR",
+      "telefone": "Fixo (43)3334-0664",
+      "email": "contato@magalhaesleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "DANIEL ELIAS GARCIA",
+      "matricula": "20/316-L",
+      "dataPosse": "23/03/2020",
+      "endereco": "Rua Fernando Amaro, 60 - sala 34 - Alto da XV CEP: 80.045-150 - Curitiba/PR",
+      "telefone": "Fixo 0800 278-7431 | Celular (41)99192-8718",
+      "email": "contato@dgleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "DANIEL OLIVEIRA JUNIOR",
+      "matricula": "12/243-L",
+      "dataPosse": "10/01/2013",
+      "endereco": "Rua São Tomé, nº 333 - Centro CEP: 87.670-970 - Inajá/PR",
+      "telefone": "Celular (44)99874-0545 | (44)99148-5888",
+      "email": "daniel@danieloliveiraleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "DANIEL RIBAS ROSA FRAHM",
+      "matricula": "18/301-L",
+      "dataPosse": "14/12/2018",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@drrleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "DAVI BORGES DE AQUINO",
+      "matricula": "21/335-L",
+      "dataPosse": "31/03/2021",
+      "endereco": "Rua Francisco Rocha, nº 198 - Batel CEP: 80.420-130 - Curitiba/PR",
+      "telefone": "Fixo (11)3230-1126 | Celular (11)93207-1308",
+      "email": "inscricoes@alfaleiloes.com",
+      "situacao": 1
+    },
+    {
+      "nome": "DENYS PYERRE DE OLIVEIRA",
+      "matricula": "22/357-L",
+      "dataPosse": "06/06/2022",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@leje.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "DEYSE SCHEERER PIETNOZKA KULTZ",
+      "matricula": "19/310-L",
+      "dataPosse": "16/10/2019",
+      "endereco": "Rua Coronel Saldanha, nº 1868 - sala 02 - Centro CEP: 85.010-130 - Guarapuava/PR",
+      "telefone": "Fixo (42)3304-2911 | (42)3035-1507 | Celular (42)99955-1513 | (42)99961-4060",
+      "email": "deysescheerer03@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "DIEGO WOLF DE OLIVEIRA",
+      "matricula": "20/317-L",
+      "dataPosse": "12/08/2020",
+      "endereco": "Rua Dr. João Colin, nº 1285 - sala 03 - América CEP: 89.204-001 - Joinville/SC",
+      "telefone": "Fixo (47)3804-0874 | Celular (47)99928-5888",
+      "email": "diego@diegoleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "EDUARDO SCHMITZ",
+      "matricula": "20/318-L",
+      "dataPosse": "16/09/2020",
+      "endereco": "Rua XV de Novembro, nº 964 - 3° andar - Centro CEP: 80.060-000 - Curitiba/PR",
+      "telefone": "Fixo 0800 000-1986 | Celular (41)99185-4712",
+      "email": "comercial@clicleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ELTON LUIZ SIMON",
+      "matricula": "09/023-L",
+      "dataPosse": "10/07/2009",
+      "endereco": "Rua Osvaldo Aranha, nº 659 - Brasília CEP: 85.504-350 - Pato Branco/PR",
+      "telefone": "Fixo (46)3225-2268 | Celular (46)98419-2166",
+      "email": "contato@simonleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "EVANILDE AQUINO PIMENTEL",
+      "matricula": "22/361-L",
+      "dataPosse": "05/08/2022",
+      "endereco": "Rua Mato Grosso, nº 30, apto 901 - Água Verde CEP: 80.620-070 - Curitiba/PR",
+      "telefone": "Celular (69)98133-1688 | (69)99900-9299",
+      "email": "contato@lancevip.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "FÁBIO GONÇALVES BARBOSA",
+      "matricula": "12/042-L",
+      "dataPosse": "04/06/2012",
+      "endereco": "Rua Duque de Caxias, 280 - Centro, CEP: 87.260-000 - Araruna/PR",
+      "telefone": "",
+      "email": "contato@fabiobarbosaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "FABIO MARLON MACHADO",
+      "matricula": "23/374-L",
+      "dataPosse": "04/07/2023",
+      "endereco": "Avenida Euclides da Cunha, 389, apto 204 - Centro CEP:89.874-000 -Maravilha/SC",
+      "telefone": "Fixo(49)3198-1350 | Celular(49)99804-0807",
+      "email": "fabio@machadoleiloeiro.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "FERNANDO DE OLIVEIRA KUSS",
+      "matricula": "671",
+      "dataPosse": "17/01/2001",
+      "endereco": "Av. Água Verde, nº 1475 - Apto 802 - Água Verde CEP: 80.620-200 - Curitiba/PR",
+      "telefone": "Fixo (41)3085-2333 | Celular (41)99981-6141",
+      "email": "contato@ksleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "GABRIEL BARON JUNIOR",
+      "matricula": "585",
+      "dataPosse": "17/03/1998",
+      "endereco": "",
+      "telefone": "",
+      "email": "gabrielbaron@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "GALVÃO ADENYR LOPES JUNIOR",
+      "matricula": "21/333-L",
+      "dataPosse": "31/03/2021",
+      "endereco": "Avenida Cândido de Abreu, nº 526 - Cj. 111-A - Centro Cívico CEP: 80.530-905 - Curitiba/PR",
+      "telefone": "Fixo(41)3018-2857 | Celular (41)98837-7249",
+      "email": " lancejustoleiloes@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "GEORGIA DE SOUZA CASTELO",
+      "matricula": "23/367-L",
+      "dataPosse": "30/03/2023",
+      "endereco": "Rua Ademar Paula, 1000 -Boa Vista Castelão CEP:60.867-640 - Fortaleza/CE",
+      "telefone": "Fixo(85)3066-8282 | Celular(85)99689-4422",
+      "email": "georgiacastelo@montenegroleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "GIORDANO BRUNO COAN AMADOR",
+      "matricula": "22/348-L",
+      "dataPosse": "02/05/2022",
+      "endereco": "Rua Indiana, nº 903 - Brooklin Novo CEP: 04.562-001 - São Paulo/SP",
+      "telefone": "Celular (11)98690-0244",
+      "email": "contato@giordanoleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "GUILHERME DE ARAÚJO DOMINGOS",
+      "matricula": "13/245-L",
+      "dataPosse": "26/03/2013",
+      "endereco": "Rua Haj Mussi, n° 04 - Seminário CEP: 80.740-570 – Curitiba/PR",
+      "telefone": "",
+      "email": "guidomingos@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "GUILHERME EDUARDO STUTZ TOPOROSKI",
+      "matricula": "12/049-L",
+      "dataPosse": "17/02/2012",
+      "endereco": "Rua Marechal Hermes, nº 1413 - Ahu CEP: 80.540-290 - Curitiba/PR",
+      "telefone": "(41)3599-0110",
+      "email": "contato@topoleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "GUSTAVO MORETTO GUIMARÃES DE OLIVEIRA",
+      "matricula": "22/344-L",
+      "dataPosse": "11/04/2022",
+      "endereco": "Estrada Municipal Teodor Condiev, nº 970 - sala 1010 - Jardim Machissolo CEP: 13.171-105 - Sumaré/SP",
+      "telefone": "Fixo (19)3514-3740 | Celular (19)99605-2811",
+      "email": "contato@gustavomorettoleiloeiro.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "HELCIO KRONBERG",
+      "matricula": "653",
+      "dataPosse": "27/06/2000",
+      "endereco": "Rua André de Barros, nº 226 - 15º Andar - Centro CEP: 80.010-080 - Curitiba/PR",
+      "telefone": "Fixo (41)3233-1077 | Celular (41)99886-1400",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "HELTON ROGERIO VERRI VENTRILHO",
+      "matricula": "22/351-L",
+      "dataPosse": "02/05/2022",
+      "endereco": "Rua Nerci Aparecida Beraldo Gandolfi, nº 422 - Jardim Campo Belo CEP: 87.076-084 - Maringá/PR",
+      "telefone": "Celular (44)99982-5282",
+      "email": "contato@verrileiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ISABELLA KATARINA SCHACKER PERACCHI",
+      "matricula": "21/340-L",
+      "dataPosse": "24/03/2022",
+      "endereco": "Rua Dr. Brasilio Vicente de Castro, nº 111 - sala 804 - Campo Comprido CEP: 81.200-526 - Curitiba/PR",
+      "telefone": "",
+      "email": "contato@isabellaperacchi.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "IWER BRUNO CIVIDINI",
+      "matricula": "23/373-L",
+      "dataPosse": "22/06/2023",
+      "endereco": "Curitiba/PR",
+      "telefone": "",
+      "email": "brunocividini@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "JAIR VICENTE MARTINS",
+      "matricula": "609",
+      "dataPosse": "31/03/1988",
+      "endereco": "Rua Joinville, n° 3870 - sala 02 - São Pedro CEP: 83.020-000 - São José dos Pinhais/PR",
+      "telefone": "Fixo (41)3385-4656 | Celular (41)99969-9934",
+      "email": "atendimento@vmleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JAQUELINE CHRISTIANNI STRYK VARDANA",
+      "matricula": "684",
+      "dataPosse": "20/06/2003",
+      "endereco": "Rua Cyro Correia Pereira, n° 1223, CIC - Cidade Industrial CEP: 81.460-050 - Curitiba/PR",
+      "telefone": "",
+      "email": "cadastro@vardanaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JAQUELINE SPERANÇA",
+      "matricula": "21/328-L",
+      "dataPosse": "08/02/2021",
+      "endereco": "Rua André de Barros, nº 226, sala 602 - Centro CEP: 80.010-080 - Curitiba/PR",
+      "telefone": "Fixo (41)3122-5466 | Celular (41) 99137-2771",
+      "email": "contato@sperancaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JEFFERSON ADRIANO DA COSTA",
+      "matricula": "20/325-L",
+      "dataPosse": "29/09/2020",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@jacleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOACIR MONZON POUEY",
+      "matricula": "18/295-L",
+      "dataPosse": "11/04/2018",
+      "endereco": "Rua André de Barros, nº 226, sala 614 - Centro CEP: 80.010-080 - Curitiba/PR",
+      "telefone": "Celular (41)98505-5505 | (41)99555-7864",
+      "email": "contato@monzonleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOÃO LUIZ DE OLIVEIRA",
+      "matricula": "11/041-L",
+      "dataPosse": "09/01/2012",
+      "endereco": "Rua Carmelina Cavassin, nº 1655 - Barracão - Abranches CEP: 82.220-170 - Curitiba/PR",
+      "telefone": "Fixo (41)3255-5011 | Celular (41)99984-5423",
+      "email": "joaoluiz@joaoluizleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOÃO VITOR MARTINS FERREIRA",
+      "matricula": "21/331-L",
+      "dataPosse": "12/02/2021",
+      "endereco": "Rua das Lianas, Nº 199 - Vivendas do Arvoredo CEP: 86.055.746 - Londrina/PR",
+      "telefone": "",
+      "email": "contato@jmfleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JONEY MARCELO LOPES FERREIRA",
+      "matricula": "19/302-L",
+      "dataPosse": "28/05/2019",
+      "endereco": "Rua Dom Pedro II, nº 2822, sala 04 - Centro CEP: 85.902-010 - Toledo/PR",
+      "telefone": "Celular (45)99108-2822 | (45)99989-5111",
+      "email": "contato@jmleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JORGE FERLIN DALE NOGARI DOS SANTOS",
+      "matricula": "606",
+      "dataPosse": "08/04/1988",
+      "endereco": "Rua Chanceler Lauro Muller, 35 - Parolin CEP: 80.220-330 - Curitiba/PR",
+      "telefone": "Fixo (41)3333-1515 | Celular (41)99255-4592",
+      "email": "adm@nogari.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JORGE MARCO AURELIO BIAVATI",
+      "matricula": "17/289-L",
+      "dataPosse": "29/06/2017",
+      "endereco": "Rua Carlos de Carvalho, nº 2114 - CEP: 85.803-780 - Cascavel/PR",
+      "telefone": "Celular (47)98839-9868 | (47)99722-8159",
+      "email": " jorgeleiloeiro@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "JORGE VITORIO ESPOLADOR",
+      "matricula": "13/246-L",
+      "dataPosse": "27/03/2013",
+      "endereco": "Rua José Leite De Carvalho, nº 74 - Jardim Lilian CEP: 86.015-290 - Londrina/PR",
+      "telefone": "Fixo (43)3025-2288 | (43)3024-2288  | Celular (43)99101-2288 | (43)99137-2288",
+      "email": "jorgeespolador@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "JOSE LUIZ MARCHIOTTO JUNIOR",
+      "matricula": "18/294-L",
+      "dataPosse": "22/02/2018",
+      "endereco": "",
+      "telefone": "",
+      "email": "contato@zemarchiottoleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOSE LUIS TEIXEIRA QUENCA",
+      "matricula": "22/345-L",
+      "dataPosse": "11/04/2022",
+      "endereco": "Rua Abdallah Abujamra, nº 265 - Jardim América CEP: 19.914-130 - Ourinhos/SP",
+      "telefone": "Fixo (14)3161-9006",
+      "email": "contato@josequencaleiloeiro.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOSÉ VALÉRO SANTOS JUNIOR",
+      "matricula": "20/323-L",
+      "dataPosse": "17/09/2020",
+      "endereco": "Rua Eduardo Geronasso, nº 1073 - Bacacheri CEP: 82.510-280 - Curitiba/PR",
+      "telefone": "Fixo 3003-0321 | Celular (11)98080-2050",
+      "email": "contato@valeroleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOSECELLI KILDARE FRAGA GOMES",
+      "matricula": "21/337-L",
+      "dataPosse": "16/07/2021",
+      "endereco": "Rua Bombeiro Eliezer de Alexandrino, 107 - Ed. Praia de Aleluia, Ap. 04 - Boca do Rio CEP 41.710-790 - Salvador/BA",
+      "telefone": "",
+      "email": ".br",
+      "situacao": 1
+    },
+    {
+      "nome": "JOYCE RIBEIRO",
+      "matricula": "21/334-L",
+      "dataPosse": "03/03/2021",
+      "endereco": "Rua Chico Pedro, nº 331 - Camaquã CEP: 91.910-650 - Porto Alegre/RS",
+      "telefone": "Fixo (51)3126-8866 | Celular (51)98231-8713",
+      "email": "contato@leiloesjudiciaissul.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JULIO CESAR ALVES RIBEIRO",
+      "matricula": "635",
+      "dataPosse": "24/01/2000",
+      "endereco": "Rua Vanderlei Moreno, 9850 - Borda do Campo CEP: 83.070-245 - São José dos Pinhais/PR",
+      "telefone": "Fixo (41)3302-6451 | (41)3302-6458",
+      "email": "juliocleilao@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "JULIANO ZENZELUK",
+      "matricula": "23/369-L",
+      "dataPosse": "06/06/2023",
+      "endereco": "Travessa Japão, 99 -Vila Nova CEP:84.400-000 - Prudentópolis/PR",
+      "telefone": "",
+      "email": "jzenzeluk@bol.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "JUNIOR CESAR DA SILVA",
+      "matricula": "23/372-L",
+      "dataPosse": "12/06/2023",
+      "endereco": "Rua 126, n°1094 - Jardim Rio de Janeiro CEP: 87.113-528 - Sarandi/PR",
+      "telefone": "",
+      "email": "junior_jc86@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "LELIA MARIA DE PAULA LENZ CESAR",
+      "matricula": "630",
+      "dataPosse": "24/01/2000",
+      "endereco": "Av. Vicente Machado, 1187 - Apto 31 - Batel CEP: 80.420-011 - Curitiba/PR",
+      "telefone": "Fixo (41)3232-6577 | Celular (41)99972-8211",
+      "email": "leliacesar@yahoo.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "LEVY DOS SANTOS MORAES FILHO",
+      "matricula": "19/303-L",
+      "dataPosse": "05/06/2019",
+      "endereco": "Rua Don Fernando Taddey, nº 851, sala 04-07 CEP: 86.400-000 - Jacarezinho - PR",
+      "telefone": "Fixo (43)3525-1430 | Celular (43)98416-8417 | (43)99115-1979",
+      "email": "santosmoraesleiloes@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "LILIAMAR FÁTIMA PARMEGGIANI PESTANA MARQUES GOMES",
+      "matricula": "20/320-L",
+      "dataPosse": "29/09/2020",
+      "endereco": "Av. João Wallig, nº 1800, Conj. 4005 - Passo D’areia CEP: 91.349-900 – Porto Alegre/RS",
+      "telefone": "",
+      "email": "administrativo@pestanaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "LUCAS EDUARDO DALCANALE",
+      "matricula": "20/319-L",
+      "dataPosse": "29/09/2020",
+      "endereco": "Rua José Leal Fontoura, nº 560 - Centro CEP: 83.414-190 - Colombo/PR",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "LUCIANO MARANGONI",
+      "matricula": "19/308-L",
+      "dataPosse": "04/10/2019",
+      "endereco": "",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ BARBOSA DE LIMA JUNIOR",
+      "matricula": "10/030-L",
+      "dataPosse": "23/02/2010",
+      "endereco": "Av. Garibaldi nº 99, apto 28 - Bl Dom Duarte - Jardim Claudia CEP: 86.050-280 - Londrina/PR",
+      "telefone": "Fixo (43)3472-3641 | Celular (43)99984-3739",
+      "email": "luizb.lima@ymail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ CARLOS DALL’AGNOL",
+      "matricula": "639",
+      "dataPosse": "24/01/2000",
+      "endereco": "Rua Visconde do Rio Branco, nº 3265 - Centro CEP: 85.810-180 - Cascavel/PR",
+      "telefone": "Celular (45)99924-8184 | (45)999414-5555",
+      "email": "lucadallagnol@hotmail.com&nbsp;",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ EGIDIO CRUZ MEDEIROS",
+      "matricula": "13/249-L",
+      "dataPosse": "03/07/2013",
+      "endereco": "Rua Marechal Cândido Rondon, nº 1690 - sala 603 / 604 - Centro CEP: 87.704-900 - Paranavaí/PR",
+      "telefone": "Fixo (44)3045-7810 | Celular (44)99929-9382",
+      "email": "luiz@medeirosleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ FERNANDO FAVARETO",
+      "matricula": "05/002-L",
+      "dataPosse": "20/10/2005",
+      "endereco": "Rua Francisco De Paula Sobrinho, nº 120 – Cajuru CEP: 82.970-200 - Curitiba/PR",
+      "telefone": "Fixo (41)3111-9111 | Celular (41)99968-5264",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ ODAIR FAVARETO",
+      "matricula": "624",
+      "dataPosse": "24/01/2000",
+      "endereco": "Rua Eliezer Disaro Fangueiro, nº 309 - Uberaba CEP: 81.540-440 - Curitiba/PR",
+      "telefone": "Fixo (41)3111-9111 | Celular (41)99973-7908",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "LUIZ RAFAEL LEMUCHI DE LIMA",
+      "matricula": "20/315-L",
+      "dataPosse": "12/03/2020",
+      "endereco": "",
+      "telefone": "",
+      "email": " luizrafaelleiloeiro@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "MARCELO SOARES DE OLIVEIRA",
+      "matricula": "08/011-L",
+      "dataPosse": "20/02/2008",
+      "endereco": "Rua Marechal Deodoro, nº 235 – Salas 101 / 102 - Centro CEP: 80020-320 - Curitiba/PR",
+      "telefone": "Fixo 0800 052-4520 | (41)3029-4520 | Celular (41)99984-0825 | (41)99870-7000",
+      "email": "marcelo@oleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "MARCIANO MAURO PAGLIARINI",
+      "matricula": "23/365-L",
+      "dataPosse": "09/03/2023",
+      "endereco": "Rua José Botin, nº 348 – Centro CEP: 89.818-000 - Nova Itaberaba/SC",
+      "telefone": "Celular (49)99905-1072 | (49)99984-1734 | (49)99933-4629",
+      "email": " leiloeiro.marciano@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "MARCOS ANTÔNIO TULIO",
+      "matricula": "20/326-L",
+      "dataPosse": "29/09/2020",
+      "endereco": "Rua XV de novembro, nº 3333, Loja 01 - Centro CEP: 83.601-030 - Campo Largo/PR",
+      "telefone": "Celular (41) 98492-8213 | (41)98807-0429 | (41)99590-1080",
+      "email": "contato@tulioleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "MARCUS AURELIO MALINOSKI",
+      "matricula": "666",
+      "dataPosse": "13/03/2001",
+      "endereco": "Curitiba/PR",
+      "telefone": "(41)98407-8510",
+      "email": "mmalinoski@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "MARIA CLARICE DE OLIVEIRA",
+      "matricula": "680",
+      "dataPosse": "09/03/2004",
+      "endereco": "Rua Natal, nº 2450 - Recanto Tropical CEP: 85.807-100 - Cascavel/PR",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "MARILAINE BORGES DE PAULA",
+      "matricula": "22/356-L",
+      "dataPosse": "06/06/2022",
+      "endereco": "Rua Comendador Araújo, nº 727 – Centro CEP: 80.420-000 - Curitiba/PR",
+      "telefone": "Fixo 0800 355-8000 | (16)3515-8000 | Celular (16)98240-8000",
+      "email": "leiloeiro@e-confianca.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "MIGUEL DONHA JUNIOR",
+      "matricula": "14/256-L",
+      "dataPosse": "09/04/2014",
+      "endereco": "Travessa Miguel Siqueira Donha, nº 01 - Espaço Dois de Maio - Centro CEP: 83.501-010 - Almirante Tamandaré/PR",
+      "telefone": "Celular (41)99686-8289 | (41)99161-5017",
+      "email": "migueldonha@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "NEWTON JORGE GONÇALVES DE OLIVEIRA",
+      "matricula": "593",
+      "dataPosse": "01/04/1998",
+      "endereco": "Rua XV de Novembro, nº 2535 - Centro CEP: 83.601-030 - Campo Largo/PR",
+      "telefone": "Fixo (41)3292-2482 | Celular (41)99552-2902",
+      "email": "goncalvesnewton@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "PATRÍCIA PIMENTEL GROCOSKI COSTA",
+      "matricula": "22/352-L",
+      "dataPosse": "27/05/2022",
+      "endereco": "Rua Panamá, nº 2516, sala 03 – Embratel CEP: 76.820-768 - Porto Velho/RO",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "PAULO ROBERTO LEAL VARDANA",
+      "matricula": "522",
+      "dataPosse": "18/03/1987",
+      "endereco": "Rua Cyro Correia Pereira, 1.223 - CIC -Cidade Industrial CEP: 81.460-050 - Curitiba/PR",
+      "telefone": "Fixo (41)3347-0770",
+      "email": "cadastro@vardanaleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "PAULO ROBERTO NAKAKOGUE",
+      "matricula": "12/048-L",
+      "dataPosse": "01/08/2012",
+      "endereco": "Rua Nunes Machado, nº 611 - Rebouças CEP: 80.220-070 - Curitiba/PR",
+      "telefone": "Fixo (41)3092-6400 | Celular (41)98417-9400",
+      "email": "paulo@nakakogueleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "PAULO SETSUO NAKAKOGUE",
+      "matricula": "625",
+      "dataPosse": "31/01/2000",
+      "endereco": "Rua Senador Accioly Filho, nº 1625 - CIC - Cidade Industrial CEP: 81.310-000 - Curitiba/PR",
+      "telefone": "Fixo (41)3323-3030 | Celular (41)98417-6000",
+      "email": "paulo@psnleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "PEDRO LERNER KRONBERG",
+      "matricula": "20/322-L",
+      "dataPosse": "16/09/2020",
+      "endereco": "Rua André de Barros, nº 226, sala 402 - Centro, CEP: 80.010-080 - Curitiba/PR",
+      "telefone": "",
+      "email": "leiloes.pedrolkronberg@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "PLINIO BARROSO DE CASTRO FILHO",
+      "matricula": "668",
+      "dataPosse": "11/06/2001",
+      "endereco": "Rua Jacarezinho, nº 1257, 1º Andar - Cj. 104 - Mercês CEP: 80.810-130 - Curitiba/PR",
+      "telefone": "Fixo (41)3029-8555 | Celular (41)98402-6565",
+      "email": "pbcastro77@hotmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "POLIANA MIKEJEVS CALÇA",
+      "matricula": "23/370-L",
+      "dataPosse": "12/06/2023",
+      "endereco": "Rua Atilio Brunetti, n° 1349 - 141 - Capão Raso CEP: 81.130-230 - Curitiba/PR",
+      "telefone": "Celular (41)99618-5505 | (65)98143-9999",
+      "email": "poliana.mikejevs@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "RAFAEL DANIELEWICZ",
+      "matricula": "16/286-L",
+      "dataPosse": "21/12/2016",
+      "endereco": "Rua Dos Cedros, nº 620, Residencial Araucárias - Alphaville Graciosa CEP: 83.327-117 - Pinhais/PR",
+      "telefone": "Celular (41)98805-5935 | (41) 98872-3235",
+      "email": "contato@rdleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "RAIMUNDO MAGALHAES DE MORAES",
+      "matricula": "678",
+      "dataPosse": "09/01/2004",
+      "endereco": "Rua Desembargador Otávio do Amaral , nº 1890 - sobrado 06 - Mercês CEP: 80.810-130 - Curitiba/PR",
+      "telefone": "Fixo (41)3027-5252 | (41)3257-6722 | Celular (41)98415-6982",
+      "email": "leiloeiro@outlook.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "RICARDO FERREIRA GOMES",
+      "matricula": "21/332-L",
+      "dataPosse": "03/03/2021",
+      "endereco": "Rua Figueira, nº 574, 1º andar – Jd. Santa Rita CEP: 86.072-160 - Londrina/PR",
+      "telefone": "",
+      "email": "contato@ricardogomesleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "RODRIGO APARECIDO RIGOLON DA SILVA",
+      "matricula": "22/354-L",
+      "dataPosse": "31/05/2022",
+      "endereco": "Rua João Masiero Netto, nº 242 – Jd. Salto Grande CEP: 14.803-875 - Araraquara/SP",
+      "telefone": "",
+      "email": "contato@rigolonleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "ROGÉRIO ITO GOMES",
+      "matricula": "14/254-L",
+      "dataPosse": "10/01/2014",
+      "endereco": "Avenida Paraná, nº 1119, sala 4 - Jardim América CEP: 87.705-190 - Paranavaí/PR",
+      "telefone": "",
+      "email": "rogeriogomesleiloes@gmail.com",
+      "situacao": 0
+    },
+    {
+      "nome": "RUBENS HENRIQUE DE CASTRO",
+      "matricula": "10/035-L",
+      "dataPosse": "09/09/2010",
+      "endereco": "Avenida Jaime Reis, nº 30, Cj. 12 - São Francisco CEP: 80.510-010 - Curitiba/PR",
+      "telefone": "Fixo (41)3122-2000 | Celular (41)99912-1773",
+      "email": "rhc.leiloes@gmail.com",
+      "situacao": 1
+    },
+    {
+      "nome": "RUDIVAL ALMEIDA GOMES JUNIOR",
+      "matricula": "21/336-L",
+      "dataPosse": "16/07/2021",
+      "endereco": "Avenida Luis Viana Filho, nº 6462 - Wall Street Empresarial - PatamaresCEP: 41.730-101 - Salvador/BA",
+      "telefone": "",
+      "email": "rudival@rjleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "SANDRA DE FATIMA SANTOS",
+      "matricula": "22/364-L",
+      "dataPosse": "05/10/2022",
+      "endereco": "Rua Voluntário da Pátria, nº 198, Ed. Ouro Verde – Centro CEP: 36.520-000 - Visconde do Rio Branco/MG",
+      "telefone": "Celular (32)98809-4182",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "SIDNEY BELARMINO FERREIRA JUNIOR",
+      "matricula": "19/309-L",
+      "dataPosse": "16/10/2019",
+      "endereco": "Av. Bandeirantes, nº 981, sala 02 - Jardim Ipiranga CEP: 86.010-020 - Londrina/PR",
+      "telefone": "Celular (43)98843-4011 | (43)98810-7087",
+      "email": "contato@sfleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "SPENCER D’AVILA FOGAGNOLI",
+      "matricula": "12/235-L",
+      "dataPosse": "05/10/2012",
+      "endereco": "",
+      "telefone": "",
+      "email": "spencer@spencerleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "TATIANA PAULA ZANI DE SOUSA",
+      "matricula": "22/358-L",
+      "dataPosse": "06/06/2022",
+      "endereco": "Av. Dom Pedro II, nº 620 - salas 201, 203 e 204 - Jardim CEP: 09.080-000 - Santo André/SP",
+      "telefone": "fixo (11) 4425-2905 | Celular (11) 95606-6926 | (11)99553-2706",
+      "email": "tpzani@icloud.com",
+      "situacao": 1
+    },
+    {
+      "nome": "TIAGO TESSLER BLECHER",
+      "matricula": "22/362-L",
+      "dataPosse": "05/08/2022",
+      "endereco": "SHN Quadra 1, bloco F, sala 503, 01, Ed. Vision Work - Asa Norte CEP: 70.701-060 - Brasília/DF",
+      "telefone": "Celular (11)97259-0668 | (61)99850-4033",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "ULISSES DONIZETE RAMOS",
+      "matricula": "22/363-L",
+      "dataPosse": "19/08/2022",
+      "endereco": "",
+      "telefone": "",
+      "email": "leiloeiro@donizetteleiloes.com.br",
+      "situacao": 1
+    },
+    {
+      "nome": "VANESSA GOELZER DE ARAÚJO VARGAS E PINTO",
+      "matricula": "21/338-L",
+      "dataPosse": "24/09/2021",
+      "endereco": "Rua Martim Afonso, nº 252 - Zona 02 CEP 87.010-410 - Maringá/PR",
+      "telefone": "Celular (44)99112-9927 | (44)99927-9999 | (44)99926-3225",
+      "email": " contato@vargasepintoleiloes.com",
+      "situacao": 1
+    },
+    {
+      "nome": "VICENTE DE PAULA XAVIER FILHO",
+      "matricula": "14/264-L",
+      "dataPosse": "11/09/2014",
+      "endereco": "",
+      "telefone": "",
+      "email": "",
+      "situacao": 1
+    },
+    {
+      "nome": "WERNO KLÖCKNER JÚNIOR",
+      "matricula": "660",
+      "dataPosse": "11/12/2000",
+      "endereco": "Avenida Carlos Gomes, nº 226 - Térreo - Zona 05 CEP: 87.015-200 - Maringá/PR",
+      "telefone": "Fixo (44)3026-8008 | (44)3028-8008 | Celular (44)99973-8008 | (44)99866-0708",
+      "email": "werno@kleiloes.com.br",
+      "situacao": 1
+    }
+  ]
+}

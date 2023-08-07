@@ -90,8 +90,11 @@ module.exports = MA;
 
 /* const chamada = MA();
 chamada.then(function(result) {
- const json = JSON.stringify(result, null, 2);
-    console.log(json);
-}
-);
- */
+  const json = JSON.stringify(result, null, 2);
+    // console.log(json);
+    // Transforma em CSV
+    const csv = require('json2csv').parse(result); 
+    console.log(csv);
+
+ }
+ ); */
