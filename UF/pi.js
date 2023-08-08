@@ -1,6 +1,6 @@
 const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
- async function PR() {
+ async function PI() {
             let driver = await new Builder().forBrowser(Browser.CHROME).build();
             await driver.get('https://portal.pi.gov.br/jucepi/leiloeiro-oficial/');
             // Configura o driver para não aparecer na tela
@@ -115,10 +115,10 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         }
 
  
-module.exports = PR;
+module.exports = PI;
 
 /* 
-const chamada = PR();
+const chamada = PI();
 chamada.then(function(result) {
     //console.log(result);
  const json = JSON.stringify(result, null, 2);
