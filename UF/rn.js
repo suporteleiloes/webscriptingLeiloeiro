@@ -104,55 +104,183 @@ getHtml().then((res) => {
          }
       })
 
-      let countLeilo = 0;
-      let suspenso = 0;
-      let leiloeiros = [];
-      let leiloeiro = [];
+      // pessoas.forEach((pessoa, iPessoa) => {
+      //    pessoa.forEach((prop, iProp) => {
+      //       if(prop[0] === 'nome'){
+      //          if(countLeilo){
+      //             leiloeiros.push(leiloeiro);
+      //             leiloeiro = [];
+      //             suspenso = 0;
+      //             countLeilo = 0;
+      //          }
 
-      // todo: arrumar um jeito de chamar mais uma vez pra salvar o ultimo leiloeiro 
+      //          countLeilo++
+      //          const arrayNome = prop[1].split(' - ');
+      //          if(arrayNome[1] && (arrayNome[1].toLowerCase() === 'suspenso' || arrayNome[1].toLowerCase() === 'suspensa')){
+      //             suspenso = 1
+      //             leiloeiro.push(['nome', arrayNome[0]])
+      //          }else{
+      //             leiloeiro.push(['nome', prop[1]]);
+      //          }
 
-      pessoas.forEach((pessoa, iPessoa) => {
-         pessoa.forEach((prop, iProp) => {
-            if(prop[0] === 'nome'){
-               if(countLeilo){
-                  leiloeiros.push(leiloeiro);
-                  leiloeiro = [];
-                  suspenso = 0;
-                  countLeilo = 0;
-               }
+      //          if(iPessoa === pessoas.length - 1){
+      //             leiloeiros.push(leiloeiro);
+      //          }
+      //       }
 
-               countLeilo++
-               const arrayNome = prop[1].split(' - ');
-               if(arrayNome[1] && (arrayNome[1].toLowerCase() === 'suspenso' || arrayNome[1].toLowerCase() === 'suspensa')){
-                  suspenso = 1
-                  leiloeiro.push(['nome', arrayNome[0]])
+      //       if(prop[0].toLowerCase().slice(0,4) === 'matr'){
+      //          if(prop.length === 1){
+      //             const array = prop[0].split('nº');
+      //             leiloeiro.push(['matricula', array[1].trim()]);
+      //          }else{
+      //             leiloeiro.push(['matricula', prop[1].trim()])
+      //          }
+      //       }
+
+      //       let endereco = '';
+      //       const rascunho = [];
+      //       if(prop[0].toLowerCase().slice(0, 3) === 'end'){
+      //          const rascunho2 = [...prop];
+      //          rascunho2.shift();
+      //          rascunho.push('endereco');
+
+      //          rascunho2.forEach((str) => {
+      //             endereco += ` ${str}`
+      //          })
+      //       }
+
+      //       if(prop[0].toLowerCase().includes('cep')){
+      //          if(prop.length === 1){
+      //             const arrayCep = prop[0].toLowerCase().split('cep');
+      //             arrayCep.forEach((str) => {
+      //                endereco += ` ${arrayCep[0]} CEP ${arrayCep[1]}`
+      //             })
+      //          }else{
+      //             prop.forEach((str) => {
+      //                endereco += ` ${str}`
+      //             })
+      //          }
+      //       }
+            
+      //       if(prop[0].toLowerCase().slice(0,3) === 'tel'){
+      //          rascunho.push(endereco);
+
+      //          if(prop.length === 1){
+      //             const arrayTel = prop.split(':')
+      //          }
+      //       }
+      //    })
+
+      // })
+
+      const rawData = [
+         // ... (seus dados aqui)
+       ];
+       
+       const data = pessoas;
+
+       const cepPatterns = [
+         /\d{6}-\d{3}/,
+         /\d{5}-\d{3}/,
+         /\d{5}\.\d{3}-\d{2}/,
+         /\d{5}\.\d{3}-\d{3}/,
+         /\d{2}\.\d{3}-\d{3}/,
+         /\d{6}\.\d{3}-\d{2}/,
+         /\d{6}\.\d{3}-\d{3}/,
+         /\d{5}\.\d{2}-\d{3}/,
+         /\d{6}-\d{3}\./,
+         /\d{5}-\d{3}\./,
+         /\d{5}\.\d{3}-\d{2}\./,
+         /\d{5}\.\d{3}-\d{3}\./,
+         /\d{2}\.\d{3}-\d{3}\./,
+         /\d{6}\.\d{3}-\d{2}\./,
+         /\d{6}\.\d{3}-\d{3}\./,
+         /\d{5}\.\d{2}-\d{3}\./
+       ];
+       
+       const result = data.map(personData => {
+         const personInfo = {
+           suspenso: false,
+           nome: "",
+           matricula: null,
+           cep: null,
+           email: null,
+           telefones: [],
+           site: null
+         };
+       
+         for (const item of personData) {
+            const [key, value] = item;
+            const lowerKey = key.toLowerCase();
+            
+            if (lowerKey.includes('mail')) {
+               if(value){
+                   personInfo.email = value;
                }else{
-                  leiloeiro.push(['nome', prop[1]]);
+                  personInfo.email = item[0].trim().split(': ')[1]
                }
+           }
+
+            if (!Array.isArray(item) || item.length !== 2) {
+               continue; // Pula itens inválidos
             }
 
-            if(prop[0].toLowerCase().slice(0,4) === 'matr'){
-               if(prop.length === 1){
-                  const array = prop[0].split('nº');
-                  leiloeiro.push(['matricula', array[1].trim()]);
-               }else{
-                  leiloeiro.push(['matricula', prop[1].trim()])
+            const lowerValue = value.toLowerCase();
+       
+           if (lowerKey === "nome") {
+             personInfo.nome = value;
+             personInfo.suspenso = lowerValue.includes("suspenso");
+           } else if (lowerKey.includes("matr")) {
+             if (value.length === 1 && value[0].includes("aria ")) {
+               const matriculaArray = value[0].split("aria ")[1].split(" ");
+               if (matriculaArray.length > 1) {
+                 personInfo.matricula = matriculaArray[1];
                }
-            }
-         })
-
-      })
-      console.log(leiloeiros)
-
-
-      return pessoas
+             } else {
+               personInfo.matricula = value;
+             }
+           } else if (lowerKey.includes("cep")) {
+             for (const pattern of cepPatterns) {
+               const cepMatch = value.match(pattern);
+               if (cepMatch) {
+                 personInfo.cep = cepMatch[0].replace(/\.|-/g, "");
+                 break;
+               }
+             }
+           } else if (lowerKey.includes("tel")) {
+             if (value.includes(";")) {
+               personInfo.telefones = value.split(";").map(item => item.trim());
+             } else {
+               personInfo.telefones.push(value.trim());
+             }
+           } else if (lowerKey.includes("site")) {
+             if (value.includes("www") || value.includes("http")) {
+               personInfo.site = value;
+             }
+           } else if (lowerKey.startsWith("end")) {
+             for (const subValue of value) {
+               for (const pattern of cepPatterns) {
+                 const cepMatch = subValue.match(pattern);
+                 if (cepMatch) {
+                   personInfo.cep = cepMatch[0].replace(/\.|-/g, "");
+                   break;
+                 }
+               }
+             }
+           }
+           
+         }
+       
+         return personInfo;
+       })
+       
+      return result
    }
 
-   format(fragmentos)
+   fs.writeFile('../data.json', JSON.stringify(format(fragmentos), null, 2), {encoding: "utf-8"} ,(err) => {
+      if(err) throw err;
+      console.log('webScrape successful')
+   })
+  
 
-   // fs.writeFile('../data.json', JSON.stringify(format(fragmentos), null, 2), {encoding: "utf-8"} ,(err) => {
-   //    if(err) throw err;
-   //    console.log('webScrape successful')
-   // })
-   
 })

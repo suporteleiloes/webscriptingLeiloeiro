@@ -1,0 +1,214 @@
+[
+  {
+    "suspenso": true,
+    "nome": "Roberto Alexandre Neves Fernandes - SUSPENSO",
+    "matricula": "060/94",
+    "cep": "59015030",
+    "email": "robertoalexandre1060@outlook.com",
+    "telefones": [
+      "(84) 99965-2128"
+    ],
+    "site": "http://robertoalexandre.com.br"
+  },
+  {
+    "suspenso": false,
+    "nome": "Marcus Dantas Nepomuceno",
+    "matricula": "059/94",
+    "cep": "59014100",
+    "email": "marcusnepomuceno@mnleilao.com.br",
+    "telefones": [
+      "(84) 99982-7483"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "José Gomes da Costa Neto",
+    "matricula": "020/00",
+    "cep": "59161645",
+    "email": "netoleilao@ig.com.br",
+    "telefones": [],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Erick Luiz Neves da Câmara",
+    "matricula": "060/2009",
+    "cep": "59020200",
+    "email": "erickcamara_leiloeirooficial@yahoo.com.br",
+    "telefones": [
+      "(84) 99989-2425"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Roberto Alexandre Neves Fernandes Filho",
+    "matricula": "09/10",
+    "cep": "59014060",
+    "email": "robertoalexandreneves@gmail.com",
+    "telefones": [],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Francisco Doege Esteves Filho",
+    "matricula": "024/11",
+    "cep": "59031280",
+    "email": "francisco.doege@gmail.com",
+    "telefones": [
+      "(84) 99171-6264"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Filipe Pedro de Araújo",
+    "matricula": "029/11",
+    "cep": "59090568",
+    "email": "filipe_leiloeiro@hotmail.com",
+    "telefones": [
+      "(84) 99948-2284"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Edeylson Peixoto Fidelis",
+    "matricula": null,
+    "cep": "59020340",
+    "email": "fidelis@fidelisleiloes.com.br",
+    "telefones": [
+      "(084) 9 8827-0551"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Stella Araújo Zanatta",
+    "matricula": "0118/16",
+    "cep": null,
+    "email": "stellazanatta@gmail.com",
+    "telefones": [
+      "(84) 2020-4424",
+      "(84) 9 9166-4126"
+    ],
+    "site": "www.liloesrn.com.br"
+  },
+  {
+    "suspenso": false,
+    "nome": "Francisco Luã Costa",
+    "matricula": "026/17",
+    "cep": "59990000",
+    "email": "flc_adv@hotmail.com",
+    "telefones": [
+      "(84) 99986-1170"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Luciano de Morais Rabelo Soares",
+    "matricula": "0049/18",
+    "cep": "59014150",
+    "email": "lsprm@live.com",
+    "telefones": [
+      "(84) 9 9481-2795"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Alex Willian Hoppe",
+    "matricula": "028/2021",
+    "cep": null,
+    "email": "licitacoes@hoppeleiloes.com.br",
+    "telefones": [
+      "(47) 3622-5164"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Rudival Almeida Gomes Júnior",
+    "matricula": "036/2021",
+    "cep": null,
+    "email": "rudival@rjleiloes.com.br",
+    "telefones": [
+      "(71) 98211-2013"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Josecelli Kildare Fraga Gomes",
+    "matricula": "044/2021",
+    "cep": null,
+    "email": "kildare.gomes@hotmail.com",
+    "telefones": [
+      "(71) 99247-8696"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Celso Alves Cunha",
+    "matricula": null,
+    "cep": null,
+    "telefones": [
+      "(85) 98934-8464"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Antônio Romero Ferreira da Silva",
+    "matricula": null,
+    "cep": "59022220",
+    "email": "romerosilva@leiloescostaesilva.com.br",
+    "telefones": [],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Davi Borges de Aquino",
+    "matricula": "133/2021",
+    "cep": null,
+    "email": "contato@alfaleiloes.com",
+    "telefones": [
+      "(11) 3230-1126"
+    ],
+    "site": "https://www.alfaleiloes.com/"
+  },
+  {
+    "suspenso": false,
+    "nome": "Alessandra Cristine Aparecida de Carlos",
+    "matricula": "006/22",
+    "cep": null,
+    "email": "lele_carlos@hotmail.com.",
+    "telefones": [
+      "(84)98165-2095"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Cyntia Araújo Diniz Nobrega",
+    "matricula": "052/23",
+    "cep": "58600000",
+    "email": "parahybaleiloes@gmail.com",
+    "telefones": [
+      "(83) 99681714"
+    ],
+    "site": null
+  },
+  {
+    "suspenso": false,
+    "nome": "Tiago Tessler Blecher",
+    "matricula": "061/23",
+    "cep": "05443001",
+    "email": "priscilla.bulhoes@webleiloes.com.br",
+    "telefones": [],
+    "site": null
+  }
+]
