@@ -1,10 +1,13 @@
 const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
  async function MT() {
-            let driver = await new Builder().forBrowser(Browser.CHROME).build();
+    const chrome = require('selenium-webdriver/chrome');
+    const options = new chrome.Options();
+    options.addArguments('--headless');
+           let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
+
             await driver.get('http://www.jucemat.mt.gov.br/leiloeiros');
-            // Configura o driver para não aparecer na tela
-            await driver.manage().window().setRect(0, 0, 0, 0);
+       
 
             try {
                 

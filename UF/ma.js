@@ -1,10 +1,12 @@
 const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
  async function MA() {
-            let driver = await new Builder().forBrowser(Browser.CHROME).build();
+            const chrome = require('selenium-webdriver/chrome');
+            const options = new chrome.Options();
+            options.addArguments('--headless');
+            let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
             await driver.get('http://portal.jucema.ma.gov.br/pagina/11');
-            // Configura o driver para não aparecer na tela
-            await driver.manage().window().setRect(0, 0, 0, 0);
+        
             
             // Aguarda o carregamento da página e procura xpath=//div[5]/div
             await driver.wait(until.elementLocated(By.xpath("//div[5]/div")), 10000);
@@ -28,14 +30,14 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         matricula: linha.split('Matrícula')[1].split('–')[0].trim(),
                         dataPosse: linha.split('Em')[1].trim(),
                         endereco: '',
-                        telefones: '',
+                        telefone: '',
                         email: '',
                         situacao: 1, // Defina a situação como desejado
                     };
                 } if (linha.includes('Endereço:')) {
                     leiloeiro.endereco = linha.split('Endereço:')[1].trim();
                 } if (linha.includes('Contato:')) {
-                    leiloeiro.telefones = linha.split('Contato:')[1].trim();
+                    leiloeiro.telefone = linha.split('Contato:')[1].trim();
                 } if (linha.includes('E-mail:')) {
                     leiloeiro.email = linha.split('E-mail:')[1].trim();
                 }
@@ -67,10 +69,10 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     if (leiloeiro.email.includes('mailto:')){
                     leiloeiro.email = leiloeiro.email.split('">')[1].split('</a>')[0];
                     }
-                } if (leiloeiro.telefones) {
-                        leiloeiro.telefones = leiloeiro.telefones.replace(/<h4>/g, '').replace(/<\/h4>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
-                        if (leiloeiro.telefones.includes('<a href="callto:')){
-                        leiloeiro.telefones = leiloeiro.telefones.split('">')[1].split('</a>')[0];
+                } if (leiloeiro.telefone) {
+                        leiloeiro.telefone = leiloeiro.telefone.replace(/<h4>/g, '').replace(/<\/h4>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
+                        if (leiloeiro.telefone.includes('<a href="callto:')){
+                        leiloeiro.telefone = leiloeiro.telefone.split('">')[1].split('</a>')[0];
                         }
                 }
             });

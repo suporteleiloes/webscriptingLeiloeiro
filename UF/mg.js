@@ -1,10 +1,13 @@
 const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
  async function MG() {
-            let driver = await new Builder().forBrowser(Browser.CHROME).build();
+    const chrome = require('selenium-webdriver/chrome');
+    const options = new chrome.Options();
+    options.addArguments('--headless');
+           let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
+
             await driver.get('https://jucemg.mg.gov.br/pagina/140/leiloeiros-ordem-alfabetica');
-            // Define para o navegador ficar invisível
-            await driver.manage().window().setRect(0, 0, 0, 0);
+           
             
             // Aguarda o carregamento da página e procura xpath=//article/section
             await driver.wait(until.elementLocated(By.xpath("//article/section")), 10000);
@@ -30,7 +33,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         matricula: '',
                         dataPosse: '',
                         endereco: '',
-                        telefones: '',
+                        telefone: '',
                         email: '',
                         situacao: 1, // Defina a situação como desejado
                     };
@@ -40,7 +43,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                 } else if (linha.includes('CEP')){
                     leiloeiro.endereco = linha;
                 }  else if (linha.includes('Telefone:')) {
-                    leiloeiro.telefones = linha.split('Telefone:')[1].trim();
+                    leiloeiro.telefone = linha.split('Telefone:')[1].trim();
                 } else if (linha.includes('<a href="mailto:')) {
                     const regex = /<a href="mailto:(.*?)">/g;
                     leiloeiro.email = regex.exec(linha)[1];
@@ -54,7 +57,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                 leiloeiro.dataPosse = leiloeiro.dataPosse.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
                 leiloeiro.matricula = leiloeiro.matricula.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
                 leiloeiro.endereco = leiloeiro.endereco.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
-                leiloeiro.telefones = leiloeiro.telefones.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
+                leiloeiro.telefone = leiloeiro.telefone.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/<strong>/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
                 if (leiloeiro.email) {
                     leiloeiro.email = leiloeiro.email.replace(/<a href="mailto:/g, '').replace(/<\/a>/g, '').replace(/">/g, '').replace(/<\/strong>/g, '').replace(/&nbsp;/g, '');
                 }
