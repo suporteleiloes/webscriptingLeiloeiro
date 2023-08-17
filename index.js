@@ -5,6 +5,7 @@ const path = require('path');
 const csvFolder = path.join(__dirname, 'csv');
 const jsonFolder = path.join(__dirname, 'json');
 
+const ba = require('./UF/ba');
 const ma = require('./UF/ma');
 const mg = require('./UF/mg');
 const mt = require('./UF/mt');
@@ -17,38 +18,97 @@ const to = require('./UF/to');
 const sc = require('./UF/sc');
 const rs = require('./UF/rs');
 const ro = require('./UF/ro');
+const go = require('./UF/go');
 
 async function getLeiloeiros() {
-      const leiloeiros = [
-        ...await mg(),
-        ...await ma(),
-        ...await pb(),
-        ...await mt(),
-        ...await pi(),
-        ...await pe(),
-        ...await rr(),
-        ...await pr(),
-        ...await to(),
-        ...await rs(),
-        ...await ro(),
-        ...await sc()
-                        ];
-                
-                        
-      await exportJson(leiloeiros, 'leiloeiros');
-      await exportCsv(leiloeiros, 'leiloeiros');
 
-      return `Foram encontrados ${leiloeiros.length} leiloeiros`;
+      const BA = await ba();
+      await exportJson(BA, 'ba');
+      await exportCsv(BA, 'ba');
+     
+      const SC = await sc();
+      await exportJson(SC, 'sc');
+      await exportCsv(SC, 'sc');
+
+      const RO = await ro();
+      await exportJson(RO, 'ro');
+      await exportCsv(RO, 'ro');
+
+      const RS = await rs();
+      await exportJson(RS, 'rs');
+      await exportCsv(RS, 'rs');
+
+      const TO = await to();
+      await exportJson(TO, 'to');
+      await exportCsv(TO, 'to');
+
+      const PR = await pr();
+      await exportJson(PR, 'pr');
+      await exportCsv(PR, 'pr');
+
+      const RR = await rr();
+      await exportJson(RR, 'rr');
+      await exportCsv(RR, 'rr');
+
+      const PE = await pe();
+      await exportJson(PE, 'pe');
+      await exportCsv(PE, 'pe');
+
+      const PI = await pi();
+      await exportJson(PI, 'pi');
+      await exportCsv(PI, 'pi');
+
+      const MT = await mt();
+      await exportJson(MT, 'mt');
+      await exportCsv(MT, 'mt');
+
+      const PB = await pb();
+      await exportJson(PB, 'pb');
+      await exportCsv(PB, 'pb');
+
+      const MA = await ma();
+      await exportJson(MA, 'ma');
+      await exportCsv(MA, 'ma');
+
+      const MG = await mg();
+      await exportJson(MG, 'mg');
+      await exportCsv(MG, 'mg');
+
+      const GO = await go();
+      await exportJson(GO, 'go');
+      await exportCsv(GO, 'go');
+
+      const Br = [
+        ...BA,
+        ...GO, 
+        ...MG, 
+        ...MA, 
+        ...PB, 
+        ...MT, 
+        ...PI, 
+        ...PE, 
+        ...PR, 
+        ...RR, 
+        ...TO, 
+        ...RS, 
+        ...RO, 
+        ...SC
+      ];
+
+      await exportJson(Br, 'br');
+      await exportCsv(Br, 'br');
+      
+      return `Foram encontrados ${Br.length} leiloeiros`;
 }
 
 async function exportJson(data, name) {
-  fs.writeFile(path.join(jsonFolder, `${name}.json`), JSON.stringify(data), function (err) {
-    if (err) throw err;
-  });
-
   if (!fs.existsSync(jsonFolder)) {
     fs.mkdirSync(jsonFolder);
   }  
+  
+  fs.writeFile(path.join(jsonFolder, `${name}.json`), JSON.stringify(data), function (err) {
+    if (err) throw err;
+  });
 }
 
 async function exportCsv(data, name) {
@@ -61,9 +121,4 @@ async function exportCsv(data, name) {
   });
 }
 
-
 getLeiloeiros()
-
-
-
-

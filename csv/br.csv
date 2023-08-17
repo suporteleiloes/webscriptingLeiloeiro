@@ -1,4 +1,156 @@
 "nome","matricula","dataPosse","endereco","telefone","email","situacao"
+"Hilda Emília de Souza Costa Lima","01910/86","18/07/1986","Rua Otávio Mangabeira, 23, Vila Ruy Barbosa. Salvador-Bahia. CEP:40.430-320","(71) 99975-6741 / (71) 3314-4119 /","souzaleiloes@gmail.com /",1
+"Edílson Lopes Rocha","005240/96","24/12/1996","Avenida Tancredo Neves 1632- Torre Norte – sala 1611 – Salvador Trade Center – Caminho das Árvores. Salvador-Bahia. CEP:41.820-000","(71) 3313-4055 /","erleiloes@uol.com.br /",1
+"Paulo Cézar Rocha Teixeira","004627/00","04/12/2000","Rua Padre Feijó, 597 – aptº 102. Canela – Salvador-Bahia.CEP: 40.110-170","(71) 99612-8367 /","paulocezarteixeira@hotmail.com /",1
+"Orlando José Lacerda Pereira","004629/00","04/12/2000","Rua Professor Sabino Silva, nº 282, Aptº 202, Jardim Apipema CEP: 40.155-250 Salvador/Ba.","(71) 99978-0461 /","opleiloes@gmail.com /",1
+"Tânia Maria de Abreu","004630/00","04/12/2000","Rua Estrela Dalva, Quadra 13 – Casa 07, Lot. Pedra do Sal, Itapuã. Salvador-Bahia. CEP:41.620-340","(71) 99677-6321 / (75) 99866-5412 /","tania.abreuleiloes@gmail.com /",1
+"Oscar de Menezes Palmeira","004707/01","16/05/2001","Rua Cícero Simões, 119/701, EDF. Richard Strauss, Pituba, Salvador/Bahia. CEP: 41.830-475","(71) 3012-1385 / (71) 98886-1385 /","oscar.leiloeiro@bol.com.br /",1
+"Miguel Paulo Rodrigues da Silva","0017691/97","16/05/2001","Rua Conselheiro Dantas, 57 – Edf. Paraguassú, Sala 412 – Comércio. Salvador-Bahia. CEP:40.015-070","(71) 99988-5050 /","mpleiloes@mpleiloes.com.br /",1
+"Eustácio Medeiros Neves","01/0920285","06/07/2001","Rua Floriano Peixoto, 207 – Alto Maron, Itabuna-Bahia. CEP: 45.603-265","(73) 98838-3783 /","eustacioneves@hotmail.com /",1
+"Adilson Guimarães Araújo","04/0894479","30/03/2004","Caminho 01, Casa 17, Conj. Feira IV, Calumbi. Feira de Santana-Bahia. CEP: 44.008-030","(75) 99131-1166 / (75) 3614-6819 /","aguialeiloes@yahoo.com.br /",1
+"Arthur Ferreira Nunes","05/2600408","13/03/2006","Avenida Santo Antônio, 382, 1º Andar, Sala V 159, Capuchinhos. Feira de Santana-Bahia. CEP: 44.076-050","(71) 99219-4314 / (75) 98822-1482 /","arthur@nordesteleiloes.com.br /",1
+"Rudival Almeida Gomes Júnior","07/0657734","18/06/2007","Av. Luís Viana Filho, 6462, Empresarial Wall Street, sala 509, Torre A Salvador/BaCEP. 41.730-101","(71) 98211-2013 /","rudival@rjleiloes.com.br /",1
+"Antônio Romero Ferreira da Silva","07/1556567","22/08/2007","Rua Santa Bárbara de Saramandaia, 41 – 1º andar – Pernambués. Salvador-Bahia CEP: 41.100-310","(71) 98739-5589 / (71) 98171-9361 / (71) 98818-0183 / (71) 99924-5614 / (71) 99257-5751 /","romerosilva@leiloescostaesilva.com.br /",1
+"Maurício Paes Inácio","11/0235150","22/08/2011","Av. Tancredo Neves, nº 3343, Caminho das Árvores. Salvador/Bahia. CEP: 41.820-021","(71) 3102-0220 / (71) 98735-5309 / (71) 98735-5322 /","mauricioleiloes@gmail.com / contato@hastaleiloes.com.br /",1
+"Josecelli Kildare Fraga Gomes","11/0235371","28/11/2011","Rua Bombeiro Eliezer de Alexandrino, 107 – Cond. Residencial dos Coqueiros, Edf. Praia de Aleluia, ap.004 – Boca do Rio. Salvador – BA. CEP: 41.710-790","(71) 99247-8696 /","kildare.gomes@hotmail.com /",1
+"Péricles Luciano Santos de Jesus","13/0038512","25/04/2013","Rua Dr. Américo Pacheco Pereira, 42, Bairro Caípe, Terra Nova-Bahia. CEP: 44.270-000","(75) 98156-9257 /","centraldosleiloes@gmail.com / plsj10@hotmail.com /",1
+"Clauberto Fernandes Nascimento Júnior","14/0473866","03/08/2014","Cond. Petromar, s/n – Via B, Quadra 846, Casa B02 – Stella Maris. Salvador-Bahia. CEP:41.600-210","(71) 99996-0808 / (71) 99111-4533 /","hatoryleiloes@hotmail.com /",1
+"Tábata Mineiro Bezerra","14/2058017","03/12/2014","Rua JJ Seabra, nº 104 – Centro. Ibotirama-Bahia. CEP:47.520-000","(71) 99921-6482 /","tabatabezerra@yahoo.com.br /",1
+"Viriato Domingues Cravo","15/0559640","14/08/2015","Rua Dr. José Peroba, 149 – 3º andar – Sala 301, Stiep. Salvador-Bahia. CEP:41.770-235","(71) 99165-0099 /","contato@cravoleiloes.com.br /",1
+"Kátia Cerqueira da Silva Casaes","15/0995300","30/11/2017","Rua Cachoeira, 222 – Bairro Kalilandia Feira de Santana-Bahia. CEP:44.001-336","(75) 99855-9113 / (75) 99930-1979 /","contato@kcleiloes.com.br /",1
+"João Luiz de França Neto","17/0395634","18/11/2017","Rua Almira Wanderley, nº 154, Morada da Lua. Barreiras-Bahia CEP: 47.806-251","(77) 99827-8070 /","jocaleiloesagro@gmail.com /",1
+"Rafaela Santos Ribeiro do Vale","18/0051334","20/04/2018","Av. Santos Dumont, nº 1883, Salas 533/532, Edifício Aero Espaço Empresarial. Lauro de Freitas/BA.CEP: 42.702-400","(71) 99143-5962 /","rafaelaribeiroleiloes@gmail.com /",1
+"Ivana Montenegro Castelo Branco Rocha","18/9024402","25/09/2018","Rodovia BR-324 – Km 527 – 13225, Humildes. Feira de Santana – Bahia, CEP: 44.135-000","(75) 3626-7353 / (75) 99263-5858 /","contato@patiorochaleiloes.com.br /",1
+"João Paulo Mineiro Bezerra","18/8478183","09/04/2019","Rua Pastor Valdívia Coelho, 219 – Boca do Rio Salvador, Bahia, CEP: 41.706-110","(71) 8420-2465 /","bezerraleiloes@gmail.com /",1
+"Nina Chamadoiro Matos","19/7459676","09/04/2019","Rua Le Parc, Nº 493, Cond. Le Parc, Patamares. Salvador- Bahia. CEP: 41.680-100.","(71) 99185-5888 /","chamadoiroleiloes@gmail.com /",1
+"Thiago Pedreira do Couto Ferraz","19/7376010","07/09/2019","Rua Conselheiro Dantas, 267 – Edf. Paraguaçú – Sala 412 – Comércio Salvador – BA CEP: 40.015-070","(71) 98156-7958 /","thferraz@gmail.com /",1
+"José David Gonçalves de Melo","19/5569504","06/02/2020","Rua Leandro Barreto, nº 355, Bloco 17/003, Jardim São Paulo. Recife-PE. CEP: 50.790-000","(81) 99910-6770 /","contato@jdleiloes.com.br / jose@jdleiloes.com.br /",1
+"Gutemberg da Silva Araújo","19/5268148","13/05/2020","Rodovia Ba 522, Distrito Industrial Caroba.Candeias-BACEP: 43.841-000","(71) 99337-3733 /","contato@gutembergaraujoleiloes.com.br /",1
+"Teófilo Santos de Jesus","19/5408861","10/03/2020","Rua César Zama, 111, Centro. Macaúbas-BA CEP: 46.500-000","(77) 99933-6408 /","leilaoagrorural@gmail.com /",1
+"Thiago de Miranda Carvalho","20/4502942","17/10/2020","Rua Alceu Amoroso Lima, 786, Sala 821, Caminho das Árvores, Salvador-BA CEP: 40.820-770","(71) 3003-0577 /","contato@lancejudicial.com.br /",1
+"Anderson Douglas Gali Falleiros","20/3111893","09/12/2020","Rua 1822, nº400, sala 603, Edifício Ciaplan Empresarial Balneário Camboriú – SC CEP: 88.330-484","(47) 99600-3344 / (47) 3056-3040 /","contato@falleirosleiloes.com.br /",1
+"Maria Isabel Brito Mendes Palma Soeiro","20/2734854","22/01/2021","Av. Alphaville, 824, Ap. 802, Edf. Prime Ville, Alphaville 1, CEP.: 41.701-015, Salvador – Ba","(71) 3213-8209 / (71) 99981-3856 /","isabel@isabelleiloes.com.br /",1
+"Alex Willian Hoppe","20/4741157","22/01/2021","Rua Alberto Tokarski, nº 11, Compl. Galpão Centro. Canoinha/ Santa Catarina Cep 89.460-070","(47) 3622-5164 /","contato@hoppeleiloes.com.br /",1
+"Davi Borges de Aquino","20/2784770","22/01/2021","Rua Dinah Silveira de Queirós, 06 – Quinta do Candeal, Horto FlorestalCEP: 40.296-160 Salvador/BA","(11) 3230-1626 /","contato@alfaleiloes.com /",1
+"Maurice da Silva Oliveira","219217939","21/05/2021","Rua Jorge Amado, nº 90, Bairro Recanto do Lago, Teixeira de Freitas/BA,CEP: 45.987.164","(61) 98120-3901 / (73) 99167-4232 /","msoleiloes@gmail.com.br / atendimento@msoleiloes.com.br /",1
+"Tiago Tessler Blecher","21/9075077","28/05/2021","Rua Natingui, 862, Cj. 311/312, Vila Madalena– São Paulo-SPCEP: 05.443-001","(11) 3392-3446 /","credenciamento@webleilloes.com.br /",1
+"Fernando Caetano Moreira Filho","21/8920857","08/07/2021","RUA UM, Nº 300B, BOX 15, BAIRRO DO COMÉRCIO, CONTAGEM/MG, CEP: 32.152-000.","(37) 3242-2218 / (37) 99184-4173 /","secretario8@fernandoleiloeiro.com.br /",1
+"Jonas Gabriel Antunes Moreira","21/8919360","08/07/2021","Rua Major Manoel Antônio, nº 08, Sala 101, Centro Pará de Minas – MGCEP: 35.660-010","(37) 3242-2001 / (37) 99862-5727 /","jonasleiloeiro@yahoo.com.br /",1
+"Lucas Rafael Antunes Moreira","21/8919255","08/07/2021","Rua Matias Cardoso, nº 11, Sala 205, Santo Agostinho. Belo Horizonte– MGCEP: 30.170-050","(37) 3242-2001 / (37) 99182-2452 /","lucasleiloeiro@yahoo.com.br /",1
+"Rafaela Melo Ferreira Marzano","20/3159098","08/07/2021","Rodovia BR 262, Km 375, Fazenda Roda D’Água. Juatuba – MGCEP: 35.675-000","(31) 3360-8114 / (31) 98474-6757 /","marinacoelho@palaciodosleiloes.com.br /",1
+"Angela Saraiva Portes","21/8292996","03/09/2021","Ewerton Visco 290, Edf. Boulevard Sid Empresarial, Sala 901, Caminho das Árvores. Salvador – BACEP: 41.820-022","(31) 3207-3900 / (73) 99922-3900 /","angela@saraivaleiloes.com.br /",1
+"Jamile Santana Cerqueira","21/8199996","22/09/2021","Av. Ulysses Guimarães, 663, Sussuarana. Salvador – BACEP: 41.213-000","(75) 98155-7284 / (75) 99202-0901 /","jamile_cerqueira@hotmail.com jamile@ccjleiloes.com.br /",1
+"Uesley Da Silva Oliveira Dos Santos","21/8569165","22/09/2021","Avenida Paraíso, 540, Edf. Boullevard, Loja 01 e 02 – Anexo, Jardim Paraíso Luís Eduardo Magalhães /BACEP: 47.855-648","(77) 3628-6084 /","uesley@hotmail.com uesleysantos@carrollfamilyfarms.com /",1
+"Marco Túlio Montenegro Cavalcanti Dias","21/7684629","07/12/2021","Avenida João Machado, 553, Sala 407, 4º Andar, Empresarial Plaza Center, Centro João Pessoa – PBCEP: 58.013-520","(79) 99108-0454 / (83) 98787-8175 /","marcotulio@marcotulioleiloes.com.br marcotulio@lancecertoleiloes.com.br /",1
+"Daniel Elias Garcia","21/7570550","03/09/2021","Avenida Tancredo Neves, Ed. Salvador Prime Work, Sala 603, Caminho das Árvores.Salvador/BACEP: 41.820.020","0800 278 7431 / (71) 99734-6592 /","contato@dgleiloes.com.br /",1
+"Rodrigo Schmitz","21/7511260","10/12/2021","Ewerton Visco 290, Edf. Boulevard Sid Empresarial, Sala 1901, Caminho das Árvores. Salvador/BACEP: 41.820-022","0800 800 0086 /","contato@hleiloes.com /",1
+"Monique Pereira da Silva Bueno","22/5979004","13/07/2022","Rua Padre Anchieta nº 80.Seabra /BACEP: 46.900-000","(75) 99966-1173 /","ebsiluminacao@hotmail.com /",1
+"Marciano Aguiar Carneiro","22/5556758","20/07/2022","Avenida Tancredo Neves, 2539, Ceo Salvador Shopping Torre Nova Iorque, Salas 2504-2510Caminho das Árvores SALVADOR/BA, CEP 41.820-021","(62) 98120-6740 /","marcianoleiloes@gmail.com contato@vecchileiloes.com.br /",1
+"Camila Correia Vecchi Aguiar","22/5602423","20/07/2022","Avenida Tancredo Neves, 2539, Ceo Salvador Shopping Torre Nova Iorque, Salas 2504-2510Caminho das Árvores SALVADOR/BA, CEP 41.820-021","(62) 99971-9922(62) 98214-6560 /","vecchileiloes@gmail.com contato@vecchileiloes.com.br /",1
+"Carlos Chui","22/5585537","02/09/2022","R. Lord Cockrane 616 – conjunto 1310 – Bairro Ipiranga – SPCEP:04.2013-001","(11) 98107-8822 / (11) 2914-4535 /","contato@arremataronline.com.br /",1
+"Evanilde Aquino Pimentel","22/5780909","29/09/2022","Rua João Pimenta, 1093, Jd. Aurélio Bernardi.Ji-Paraná/ROCEP: 76.907-464","(69) 98133-1688 /","contato@rondonialeiloes.com.br /",1
+"Priscila Oliveira de França","22/4937650","25/10/2022","Rua castro Alves, nº 1202, Aptº 402, Centro.Luís Eduardo Magalhães/BACEP: 47.850-000","(77) 99999-6564 /","priscillafranca.adv@gmail.com /",1
+"Eduardo Schmitz","22/4721070","10/11/2022","Rua Jordânia, 507, Sala02, Nações, Balneário.Camboriú/SCCEP: 76.907-464","(47) 99220-5622 / 0800 0001986 /","comercial@clicleiloes.com.br /",1
+"Emílio Matos Rocha","22/4483030","06/01/2023","Rua Spartacus Coelho de Azevedo, nº 152, Leolina de Sá.Guanambi /BACEP: 46.430-000","(77) 99960-1900 /","dremiliomatos@gmail.com /",1
+"Mike Dutra Fleitas","23/3300090","27/04/2023","Av 136, n761, Ed Nasa Business Style, Setor Sul, Goiânia-GO, CEP 74815-610.","(62) 98101-0983 /","mikedutraleiloeiro@gmail.com /",1
+"Vinicius Martins Cutolo","23/3061177","23/06/2023","1ª Travessa Severino Vieira, Nº 179, Centro. Alagoinhas/BA, CEP: 480005-400","(71) 99939-3534 /","viniciusmcutolo@gmail.com /",1
+"Rodrigo Brandel Martins","12/0790378","–","–","","",0
+"JAIROMARTINSBORGES","003/84","05/09/1984","","98128-2482  - 99364-4863","realleiloes@hotmail.com",1
+"JAIROMARTINSBORGES","003/84","05/09/1984","","","",1
+"DOMINGOS RICARTIS DA SILVA","004/83","05/09/1983","Rua Presidente Kennedy nº. 367 Bairro Maracanã Anápolis – Goiás 75040-040","99638-0020 / 98535-9313","ricartispontiere@hotmail.com",0
+"JOÃO ALVES BARROS","007/90","29/08/1990","RUA B 14 Qd. 07 B Lt. 08 COND. JARDINS PARIS Goiânia – Goiás 74853-360","(62) 3249-9800 / 98177-2530","barros@portalleilomaster.com.br",1
+"VILTON PEREIRA DA SILVA","008/95","27/09/1995","Av. Pará nº. 41 Setor Central Iporá – Goiás 76200-000","(64) 3674-2019 / 98402-0063 / 99936-7641 (whatsapp) 98479-0994","viltonpereira1@gmail.com",1
+"VALDIVINO FERNANDES DE FREITAS","011/90","29/08/1990","Rua Ada Centini nº. 307 Qd. 20 Lt. 25 Setor Maracanã Anápolis – Goiás 75040-050","3315-2098 / 99650-2098 / 99288-8042","leiloeiro.valdivino@gmail.com",0
+"ARCHIBALDO JOSÉ MOREIRA DA SILVA","012/90","29/08/1990","Rua 88 nº. 679 Aptº. 402 Setor Sul Goiânia – Goiás 74085-010","3283-6161 / 99979-2613","archibaldomoreira@hotmail.com",0
+"BRÁULIO FERREIRA NETO","014/97","01/10/1997","Rua T-60 nº 130 Aptº. 301 Condomínio Ed. Guimarães Rosa Setor Bueno Goiânia – Goiás 74223-160","3285-5005 / 98111-6688","braulioferreira@uol.com.br",1
+"MURILO DE CARVALHO BARRA","017/00","29/06/2000","Av. T 4 nº. 877 Sala 801 Setor Bueno Goiânia – Goiás 74230-030","3275-5093","",0
+"MÁRCIA REGINA CARDELLICHIO NUNES","018/00","17/07/2000","Av. Perimetral Norte Qd. 21 B Lt. 0 Goiãnia II, esq. Com GO-080 Goiânia – Goiás 74665-510","(62) 3208-8285 / 3945-8285 / 99292-3536 / 98411-0763","leiloeira@mcleilao.com.br www.mcleilao.com.br",1
+"ANTÔNIO BRASIL II","019/00","03/07/2000","Avenida das Palmeiras esquina com Rua Vitória Régia Qd 05 Lt 06 Bairro Jardim dos Buritis Aparecida de Goiânia - GO 74923-640","3250-1500 / 99679-7104","antoniobrasil@leiloesbrasil.com.br",1
+"JOÃO PAULO DE SOUSA GUALBERTO","021/01","10/04/2001","Rua 108 nº. 124 Setor Sul Goiânia – Goiás 74085-080","3241-0558","jpgualberto@terra.com.br codex@terra.com.br",0
+"IVANA ABRANCHES JORDÃO COSTA","024/01","07/05/2001","Rua T 47 nº. 111 Aptº. 1301 Edifício Plaza D`Oro Setor Oeste Goiânia – Goiás 74140-120","(62) 3204.2030 e 99979.6176","ubaldo@ubaldoleiloes.com.br",1
+"WILSON LUIZ FERREIRA","027/01","18/06/2001","","3271-3788 / 99975-1000","leiloes1000@hotmail.com",0
+"ANTONIO SERGIO FELIPE","028/01","06/12/2001","Rua 31 nº. 430 Aptº. 202, Ed. Sant Laurent Setor Oeste Goiânia – Goiás 74140-070","99973-2962","asfexs@gmail.com",0
+"RUTE CRISTINA ABRANTES JACINTO","029/02","03/05/2002","Rua Dom Orione nº. 225 Ed. Piratini Setor Oeste Goiânia – Goiás 74140-080","(62) 3225-7825 / 98141-1739","rutecabrantes@hotmail.com",0
+"ALESSANDRA BRASIL DO VALLE","030/02","04/03/2002","Avendia das Palmeiras Qd 08 Lt 06 Jardim dos Buritis Aparecida de Goiânia – Goiás 74923-640","3250-1500 / 9969-0705","leiloesbrasil@leiloesbrasil.com.br",1
+"LEILA NANCI KARASIAKI","032/02","28/03/2002","Rua T 71 nº. 118 Aptº. 1502 Setor Bueno Goiânia – Goiás 74230-190","(62) 98544-3261","leilakarasiaki@gmail.com",1
+"LEONY GOMES DOS SANTOS JUNIOR","034/02","28/11/2002","Avenida das Palmeiras esquina com Rua Vitória Régia Qd 05 Lt 06 Bairro Jardim dos Buritis   Aparecida de Goiânia - GO 74923-640","3250-1500 / 99679-7098","leonyjr@leiloesbrasil.com.br",1
+"ÁLVARO SÉRGIO FUZO","035/03","17/01/2003","Rua T-37, nº 3.314, Qd. 141, Lt. 15/17, Aptº 2.701 - Edf. Piazza 25, Setor Bueno Goiânia – Goiás 74230-022","(62) 99614-3120","alvaro@leiloesjudiciaisgo.com.br contato@leiloesjudiciaisgo.com.br",1
+"FELIPE GUIMARÃES CARRIJO","039/04","30/12/2004","Rua 23 nº 44 Jardim Santo Antonio Goiânia – Goiás 74853-360","(62) 3249-9800 / 98270-3500","www.leilomaster.com.br / felipe@leilomaster.com.br",1
+"MARIA APARECIDA DE FREITAS FUZO","046/09","28/01/2009","Rua T-37, nº 3.314, Qd 141 Lt 15/17 Aptº 2.701 Edf. Piazza 25 Setor Bueno Goiânia – Goiás 74230-022","(62) 98177-3160 / 0800-730-4050","maria@leiloesjudiciais.com.br contato@leiloescentrooeste.com.br",1
+"ROBSON BISPO XAVIER","047/09","22/09/2009","Rua da Liberdade 14/15 Vila Martins Goiânia – Goiás 74703-210","(62) 3565-4510 (19) 99741-1540","comercial@arealeiloes.com.br robson2411@gmail.com",0
+"EDUARDO VINICIUS FLEURY LÔBO","048/10","12/03/2010","Rua dos Lirios Qd. 08 Lt. 04 S/N Jardins Munique Goiânia – Goiás 74853-360","(62) 3249-9800 / 98270-3300 / (62) 99858-5566","eduardo@leilomaster.com.br",1
+"KESLEY NUNES DE SOUZA","051/13","06/03/2013","Rua Iguaçu Qd. 128 Lt. 08/09 Aptº. 604 Residencial Anna Rita Setor dos Afonsos Aparecida de Goiânia – Goiás 74915-310","(62) 98160-6161","kesleyy@gmail.com",0
+"ALGLÉCIO BUENO DA SILVA","052/13","06/03/2013","Av. Sonnemberg nº 674 Qd 07 Lt 02 Conjunto Castelo Branco Setor Cidade Jardim Goiânia – Goiás 74413-125","(62) 98188-2222 / (62) 4107-0711","atendimento@leiloesgoias.com.br",1
+"GEOLIANO DE SOUZA LIMA","053/20","27/04/2020","","(62) 3924-9209 / 9980-1892","contato@teleselimaleiloes.com.br",1
+"IVAN RODRIGUES NOGUEIRA","054/16","16/03/2016","Avenida 136 nº 761 Sala B-12 Edifício Nasa Business Style Setor Sul Goiânia – Goiás 74093-250","(62) 3100-9531","arrematabem@arrematabem.com.br",1
+"ERICK SOARES HAMMOUD TELES","056/16","15/04/2016","Av. Francisco Matarazzo, n° 1.752, Conj. 2.305 – Perdizes São Paulo - SP 05002-100","(11) 2323-3353 / (11) 99839-9041","teles@tezaleiloes.com.br",1
+"CAMILLA CORREIA VECCHI AGUIAR","057/16","01/03/2016","Rua Trilha dos Mognos Qd. 25 Lt 01 Ecovila Santa Branca Teresópolis de Goiás – Goiás 75175-000","(62) 99971-9922 / 98214-6560","contato@vecchileiloes.com.br vecchileiloes@gmail.com",1
+"MAIK NUNES DE OLIVEIRA","059/17","08/02/2017","Avenida Perimetral Norte nº. 11.599 Qd. 2B Lt. 01 Goiânia – Goiás 74665-510","(62) 98483-2000","maiknunes@mcleilao.com.br",1
+"SÉRGIO FLEURY BATISTA","060/017","02/06/2017","Rua T 23 nº. 44 Bairro Santo Antônio Goiânia – Goiás 74853-360","(62) 99636-1800","sergio@portalleilomaster.com.br",1
+"RODOLPHO TIMÓTEO CARVALHO PORTILHO","061/17","12/07/2017","Rua 1011 Qd. 46 Lt. 06 Setor Pedro Ludovico Goiânia – Goiás 74820-240","","",0
+"MIKE DUTRA FLEITAS","062/17","19/07/2017","Fone: (62) 98101-0983 Avenida 136 nº. 761 11º Andar, Edificio Nasa Business Style Setor Sul 74093-250","(62) 98101-0983","mikedutraleiloeiro@gmail.com",1
+"GREGÓRIO EDUARDO CARDOSO SILVA","063/17","01/09/2017","Avenida Jamel Cecílio nº. 3.455 Sala 911 Ed. Flamboyant Business Jardim Goiás Goiânia – Goiás 74810-100","(62) 98239-6191","gregorio@granleiloes.com.br gregorio.jur@gmail.com",0
+"AVANI LUIZ DE MORAIS JÚNIOR","064/17","07/12/2017","Fazenda Vale Verde Aporé – Goiás 79825-000","(64) 99952-8608 / 0800.942-1316","avani.morais@bastonleiloes.com.br",0
+"ROGÉRIO AUGUSTO DOS SANTOS MAIA","065/18","04/10/2018","Rua Heitor Fleury Qd. 166 Lt. 01/13 aptº. 802 bloco 03 Residencial Privê Cidade Jardim Bairro Cidade Jardim Goiânia – Goiás 74423-160","(62) 98169-0211 / 99809-8347","rogeriosantosmaia@yahoo.com.br",1
+"JOHENN BRASIL BALDUINO","066/18","01/11/2018","Rua 4 nº. 515 Ed. Parthenon Center Sala 911 Centro Goiânia – Goiás 74020-904","(62) 98484-6856 / 3225-9010","johennbrasil@hotmail.com",1
+"LEONARDO COELHO AVELAR","067/19","05/06/2019","Avenida 136 nº 761 Sala B 12 Edifício Nasa Business Style Setor Sul Goiânia – Goiás 74093-250","(62) 98110-4643","leonardo@arrematabem.com.br",1
+"FABRÍCIO PEREIRA PAGANUCCI","068/19","24/06/2019","Rua Paranaíba nº. 422 térreo Centro Itumbiara – Goiás 75500-000","(64) 99291-0072","fabricio_paganucci@hotmail.com",1
+"RODRIGO SCHMITZ","069/19","13/08/2019","Av. T-4 nº 619 Sala 310 CP 65 Bairro Setor Bueno Goiânia – Goiás 74230-035","(64) 99654-8766 / 0800 800 0086","contato@hleiloes.com",1
+"CESAR AUGUSTO BAGATINI","070/19","13/09/2019","Rua Pintassilgo Qd. 38 Lt 08 Parque das Laranjeiras 5ª. Etapa Goiânia – Goiás 74855-620","(61) 98565-4265","federalleiloes@gmail.com",1
+"CLAUDIO MOREIRA SANTOS","071/19","04/12/2019","Rua Alípio Mendes s/n Qd. 08 Lt. 05 Casa 01 Cidade Jardim Goiânia – Goiás 74425-320","(62) 99846-7562","claudio_moreira10@hotmail.com",1
+"ORLANDO ARAÚJO DOS SANTOS","072/20","19/02/2020","Rua 1.114, nº 65, Quadra 211, Lote 07 - Setor Pedro Ludovico Goiânia – Goiás 74.830-390","(62) 3142-9004","contato@oaleiloes.com.br",1
+"YGOR FERREIRA BRASIL","074/20","24/04/2020","Avenida das Palmeiras, esquina com Rua Vitória Régia, Qd. 05, Lt. 06 - Bairro Jardim dos Buritis Aparecida de Goiânia - Go 74.923-640","(62) 99671-5102 - (62) 3250-1500","ygorbrasil@leiloesbrasil.com.br",1
+"GISELE DA COSTA GONÇALVES","075/20","13/05/2020","Av. Araguaia Qd. 76-A Lt 04-A Centro Anicuns – Goiás 76170-000","(64) 3564-1533 (64) 99345-7241","ggleiloes2020@gmail.com",0
+"JONAS GABRIEL ANTUNES MOREIRA","076/20","29/07/2020","Rua Coronel Batista nº 415 8º Andar Setor Central  Anápolis – Goiás 75020-080","(37) 3402-2001 (37) 99862-5727","jonasleiloeiro@yahoo.com.br",1
+"LUCAS RAFAEL ANTUNES MOREIRA","077/20","29/07/2020","Rua 72 Edifício QS Tower Sala 1507 Setor Jardim Goiás Goiânia – Goiás 74805-480","(37) 3242-2218 (37) 99182-2452","lucasleiloeiro@hotmail.com",1
+"FERNANDO CAETANO MOREIRA FILHO","078/20","29/07/2020","Rua 137 nº 556 1º Andar Setor Marista Goiânia - Goiás 74170-120","(31) 99621-8441","secretario8@fernandoleiloeiro.com.br",1
+"DENISE ARAÚJO DOS SANTOS","079/20","11/08/2020","Qd. 12 MR 07 Lt. 26 Setor Oeste Planaltina de Goiás – Goiás 73751-061","(61) 3208-4981 (61) 99911-3676","denise.leiloes@gmail.com",1
+"JEAN CARLO ROSA","080/20","11/09/2020","Rua Tókio Qd. 1 Lt. 14 Setor Watanabe Inhumas – Goiás 75407-106","(62) 98412-3017 (62) 3514-5229 – Skype jean.adv","jeancarlo@prosperarleiloes.com.br",1
+"JUSSIARA SANTOS ERMANO SUKIENNIK","082/20","21/10/2020","Rua 6 Qd. 31 Lt. 01 Jardim ABC Cidade Ocidental – Goiás 72800-526","(61) 99129-0232 (61) 3710-7000","contato@jussiaraleiloes.com",1
+"ALEX WILLIAN HOPPE","083/20","22/10/2020","Rua Alberto Tokarski nº. 11 Compl. Glapão Bairro Centro Municipio de Canoinhas Santa Catarina - SC 89460-070","(47) 3622-5164","licitacoes@hoppeleiloes.com.br",1
+"ANTONIO CARLOS PERES BERNARDINI","084/20","22/10/2020","Av. Castelo Branco nº. 4821 Setor Bueno Goiânia – Goiás 74430-130","(62) 4141-4905 (62) 98154-6124 (62) 98446-3535","acpbernardini@gmail.com",1
+"MARCIANO AGUIAR CARNEIRO","085/20","27/10/2020","Avenida 136 Sala 1202-A Ed. New York Setor Marista Goiânia – Goiás 74180-040","(62) 98120-6740","vecchileiloes@gmail.com",1
+"ROSSANA PAIVA BORGES DE OLIVEIRA","086/20","03/11/2020","Alameda das Caliandras nº Nt Qd 07 Lt 09 Jardins Munique  Goiânia – Goiás 74886-085","(62) 99676-6785 (62) 99875-0722","rossana@caiapoleiloes.com.br rossana_pboliveira@hotmail.com",1
+"FERNANDA MONT SERRAT PEREIRA RESENDE","087/20","09/12/2020","Rua Barão do Rio Branco Qd. 38 Lt. 1/20 Casa 13 Residencial Gauthier Cardoso Parque Anhanguera Goiânia - Goiás 74340-040","(62) 99227-9490","fernandamontserrat9@gmail.com",1
+"RUDIVAL ALMEIDA GOMES JÚNIOR","088/21","15/01/2021","Rua Anicuns Qd 19 Lt 3/4 Setor Esplanada dos Anicuns  Goiânia - Goiás 74443-030","(71) 98211-2013","rudival@rjleiloes.com.br www.rjleiloes.com.br",1
+"LUCAS ANDREATTA DE OLIVEIRA","089/21","15/01/2021","Rua C-259 519 Quadra 593 Lote 12-21 Apartamento 2302 Ed. Palazzo Bianco Setor Nova Suiça Goiânia - GO 74280220 e/ou","(11) 96190-0233","contato@leilofy.com.br",1
+"FREDERICO ALBERT KRAUSEGG NEVES","090/21","09/03/2021","Rua 13 nº. 45 Apartamento 2601 Torre 2 Bairro Jardim Goiás Goiânia – Goiás 74810-170","(62) 98239-4186 / (24) 22362409","contato@fredericoleiloes.com.br",1
+"BORGES GUEDES NETO","091/21","11/05/2021","Rua 5 nº 691, Ed. The Prime Tamandaré Office, Sala 1601 Setor Oeste Goiânia – Goiás 74115-060","(63) 98124-6565","bgnleiloesprime@gmail.com",1
+"BORGES GUEDES NETO","091/21","11/05/2021","Rua 5 nº 691, Ed. The Prime Tamandaré Office, Sala 1601 Setor Oeste Goiânia – Goiás 74115-060","(63) 98124-6565","bgnleiloesprime@gmail.com",1
+"JOSÉ VALERO SANTOS JÚNIOR","095/21","07/06/2021","Av. 136, 797, Ed. New York Square, sala 401, Setor Sul Goiânia - GO 74093-250","3003-0321/  (16)9.9616-9111","contato@valeroleiloes.com.br",1
+"LUIZ UBIRATÃ DE CARVALHO","105/22","02/02/2022","Rua Araguaia nº. A 203 C. G. Acropolis I (Flamboyant) Qd. GA-2 Bloco 71 Jardim Flamboyant Luziania - Goiás 72852-565","(61) 98166-8088","contato@luizleiloes.com.br",1
+"SAULO LUIZ BASTOS","106/22","16/02/2022","Praça Bartolomeu Gusmão Qd. L Lt. 15 Bairro Jundiaí Anápolis - Goiás 75110-060","(62) 98404-9135","sauloluizbastos@gmail.com",0
+"FREDERICO HORÁCIO DE LUIZ LOPES","107/22","24/02/2022","Rua S 6 nº 140 Apto 901 Residencial Leblon Setor Bela Vista Goiânia - Goiás 74823-470","(62) 98219-9583","fredhoracio15@gmail.com / https://arremateleiloesjudiciais.com.br",1
+"DENYS PYERRE DE OLIVEIRA","108/22","14/03/2022","Avenida T 4 nº 619 Edifício Bueno Vista Office Design 3º andar Setor Bueno Goiânia - Goiás 74230-035","(11) 3969-1200 / 0800.789-1200","contato@leje.com.br",1
+"DANIEL ELIAS GARCIA","109/22","30/03/2022","Rua Anardo Raul Garcia nº. 62 São Luiz Criciúma - SC 88803-495","0800.278-7431 / (48) 99138-6012","www.daniegarcialeiloes.com.br",1
+"FERNANDO JOSÉ CERELLO GONÇALVES PEREIRA","110/22","02/05/2022","Rua Professor Picarolo nº. 103 7º andar Bela Vista São Paulo - SP 01332-020","(11) 3149-4600","fabioreis@megaleiloes.com.br",1
+"MAGNUN LUIZ SERPA","113/22","24/08/2022","Rua Presidente Nilo Peçanha nº. 735 Bairro Floresta  Joinville - SC 89211-400","(47) 99933-0494 / (47) 3426-1464","contato@serpaleiloes.com.br",1
+"EDILSON LOPES ROCHA","114/22","01/09/2022","Avenida Santa Luzia nº 379 Condomínio Chácara Suíça, Edif. Otto Billian Bairro Horto Florestal Salvador - BA 40295-050","(71) 99972-0514","erleiloes@uol.com.br",1
+"MARCELO DA SILVA LIMA","117/22","31/09/2022","Rua T-30 nº 2078 Condomínio Like Bueno Torre Vitória Apto 3102 Setor Bueno Goiânia - Go 74215-060","(62) 99286-0458","msl.advocacia@terra.com.br",1
+"CARLOS AUGUSTO RIBEIRO LIMA","118/22","07/11/2022","Avenida Boulevard Conde dos Arcos Bl D do Tropical Privê Ap 506 Ed Ponta Negra Bairro Goiânia 2 Goiânia - Go 74663-130","(61) 99998-9923","administrativo@infinityleiloes.com.br / wauber1980@gmail.com",1
+"BRUNO BARRETO SANCHES","119/22","25/11/2022","Rua da Paz nº 17 Bairro dos Estados Campo Grande - MS 79002-190","(67) 98465-6955","bruno@barretoleiloes.com.br",1
+"KAIO ALBUQUERQUE ROSA BOTELHO","120/23","15/02/2023","CLN 03 Bloco C Lt 05 Apartamento 202 Riacho Fundo 1 Brasília - DF 71805-513","(61) 99650-0071","kaioo.albuquerque@gmail.com",1
+"CRISTIANE BORGUETTI MORAES LOPES","121/23","02/03/2023","Rua Laura nº 138 Centro Santo André - SP 09040-240","s (11) 4425-7652 / (11) 2988-6929","cristiane@lopesleiloes.com.br",1
+"FREDERICO ALBERTO SEVERINO FRAZÃO","122/23","20/04/2023","Rua Tabor nº 491 Apto 22 VG Bloco 2 Bairro Ipiranga  São Paulo - SP 04202-020","s  (11) 2626-5561 / (11) 96323-7104 / (11) 2424-8373","frederico@maisleilao.com.br",1
+"VICTOR ALBERTO SEVERINO FRAZÃO","123/23","20/04/2023","Avenida Marcos Penteado de Ulhoa Rodrigues nº 3800 Bloco G Apto 13 Bairro Tamboré Santana de Parnaíba - SP 06543-001","s (11) 2424-8373 / (11) 94783-6112","victor@sfrazao.com.br",1
+"RODRIGO FREITAS PALMA","126/023","20/07/2023","Rodovia GO 040, Qd. 70, Lt. 16, Setor Garavelo Aparecida de Goiânia - GO 74930-520","s (62) 98585-6132","renataandradadeeu@hotmail.com",1
+"MARCOS RODRIGO GONÇALVES RAMOS","127/023","25/07/2023","Fones: (62) 9.8555-9839  Rua José Salustiano, Quadra 54, Lote 1/5, nº 35, Aptº 1403-B Residencial Cascacavel Vila Rosa - Goiânia - GO - 74.345-270","s (62) 9.8555-9839","marcosrodrigo@gmail.com",1
+"MARCUS ALVES DE OLIVEIRA","129/023","31/07/2023","Avenida Perimetral Norte, esquina com Rua Esperança, nº 11.098, Codomínio Borges Landeiro,  Edifício Itaparica, Aptº, 303, Setor Candida de Moraes  Goiânia - GO - 74.463-330","s (62) 9.8415-4830","alvesgestaodenegocios@hotmail.com",1
+"JOSÉ AILTON GONÇALVES DA SILVA","094/21","31/05/2021","Rua Rio Grande do Sul, Qd. 01, Lt. 14, Setor Santa Izabel Porangatu - GO 76550-000","(62) 9.8111-6612","vania.alvesjesus@hotmail.com",0
+"JOSÉ AILTON GONÇALVES DA SILVA","094/21","31/05/2021","Rua Rio Grande do Sul, Qd. 01, Lt. 14, Setor Santa Izabel Porangatu - GO 76550-000","(62) 9.8111-6612","vania.alvesjesus@hotmail.com",0
+"LEONARDO RISSO DIB","081/20","21/09/2020","Rua 1.137 nº 306 Qd. 242 Lt 19 Setor Marista Goiânia – Goiás 74160-180","(62) 3941-0755 (62) 99991-0101","leonardo.r.dib@hotmail.com",0
+"LUIZ FELIPE CHAMON SALDANHA","058/16","17/08/2016","Rua Dona Carlota Joaquim Qd. 16 Lt. 04 Setor Sítio de Recreios Mansões do Campus Goiânia – Goiás 74691-180","(62) 98650-0000 / 98600-7904","luizsaldanha@aicloud.com",0
+"JOSÉ VIRGÍLIO FERREIRA FILHO","036/03","06/03/2003","","","",0
+"JAYME SIMÕES DE SOUZA FILHO","041/05","25/11/2005","","","",0
+"MARIA HELENA DE CASTRO","025/01","07/05/2001","Rua Jaó nº.81 Setor Santa Genoveva Goiânia – Goiás 74.670-460","(62) 3204-7158","",0
+"ELÍZIO OLIVEIRA COSTA","026/01","15/05/2001","","/Fax (62) 3877-0870 (comercial)","",0
+"MARCELO FERREIRA RAMOS DE OLIVEIRA","022/01","25/04/2001","Fone: 98115-4170 Av. Circular nº. 1117 Aptº. 1.101 Ed. Dom Thiago Setor Pedro Ludovico 74280-230","98115-4170","",0
+"MILTON MARTINS LEITE","006/83","18/11/1198","Rodovia BR 153 Km 17 Aparecida de Goiânia Aparecida de Goiânia – Goiás 74980-180","3283-6161 / 99904-7986","",0
+"MARCELLO BRASIL DE ALMEIDA","015/02","21/02/2002","Rua 76 nº. 46 Setor Central Goiânia - Goiás 74045-130","3225-9923 / 3225-9134 / 98111-9023","",0
+"LUCIANO BONFIM RESENDE","016/00","22/03/2000","Av. 85 nº. 1300 Aptº. 402-C Edif. Itatiaia Setor Marista Goiânia – Goiás 74160-010","3241-6905 / 99614-1372 / 3541-5086 (fax)","",0
+"CELSO LUIZ DE OLIVEIRA ARAUJO","031/02","25/03/2002","SQ. 11 Qd. 02 Casa 42 Cidade Ocidental Cidade Ocidental – Goiás 72880-000","","",0
+"ANTONIO BARBOSA SAMPAIO","033/02","23/04/2002","Rua 115 K nº. 79 Setor Sul Goiânia – Goiás 74085-340","3241-5732","",0
+"JOÃO PAULO GARCIA","038/04","14/06/2004","Condomínio Joelma Cristina Casa 6 Jardim Novo Mundo Goiânia – Goiás 74710-300","(62) 3206-3692 / 99285-3733","",0
 "Adriana Pires Amancio","820","06/08/2010","Caixa Postal 8098- Belo Horizonte- MG - CEP31310-970","(37) 3353-2301 / (37) 99915-8851","adriana.pires@apaleiloes.com.br",1
 "Aécio Reis Pedrosa","992","06/04/2015","Rua Campestre, nº 305 - Bairro Sagrada Família - Belo Horizonte - MG - CEP 31030-140","(35) 99228-1011","contato@alessandroteixeiraleiloes.com.br",1
 "Alex Willian Hoppe (MATRÍCULA SUPLEMENTAR)","1199","04/12/2020","Rua Alberto Tokarski, nº 11 - Bairro Centro -Canoinhas - SC - CEP89460-070","(47) 3622-5164","alex@hoppeleiloes.com.br",1
@@ -345,21 +497,7 @@
 "Douglas Richer e Silva Nascimento","","","R Doutor Virgínio Marques, 188 Iputinga - Recife - PE CEP: 50.731-330","(82) 9 9661.2014","douglasrsn@hotmail.com",1
 "Tiago Tessler Blecher","","","Rua: Rura Anterior Navarro, 69 Ed. Gabriel Bacelar Offices Graças - Recife - PE CEP: 50.050-290","(19) 9 9395.1133","credenciamento@webleiloes.com.br",1
 "Luiz Eduardo Gomes","","","Rua Dr. George Wiliam Butler, 432 Curado Curado - Recife - PE CEP: 50.950-000","(16) 9 9235.1627","16.luizeduardo@gmail.com",1
-"ANTONIO CARLOS RABELO NASCIMENTO","004/2004","01/12/2004","","","",0
-"BRIAN GALVÃO FROTA","011/2021","","End. Rua Salvador, nº 120 – 12º andar","92 98438-1616","brian@amazonasleiloes.com.br",1
-"CASSANDRA BUENO BRASIL","003/1998","","Endereço: RUA DO CUPUAÇUZEIRO, Nº 20","(95) 3623-8760 CEL (95) 99113-1882","cassandrabbrasil@hotmail.com",1
-"DEONIZIA KIRATCH","116/2023","","End. RUA DO FERRO Nº 4.343, CONJUNTO MARECHAL RONDON, FLODOALDO PONTES PINTO","(69) 99991-8800","contato@deonizialeiloes.com.br",1
-"FLAVIA CORREA DUARTE FEITOSA","115/2022","","End. Av. Jardim, 989, B08 A204-SAMAUMA","(95) 98101-7791","flavia.duarte.leiloeira@gmail.com",1
-"HUGO MOREIRA PIMENTA","007","","Endereço: Av. Torquato Tapajós, 5050 – Bairro Flores","(92) 3083-8700 (92) 98111-0909","hugo@moreirapimenta.lel.br",1
-"JIMMY ASAMI","113/2022","","End. RUA CAMPINA VERDE 80","(92) 99229-8637","jimmy@asamileiloes.com.br",1
-"MARIANA GOUVÊA LESSA","009/2021","","End. Av. Pedro Teixeira, 725, Torre 3, Apto 403","92 98110-8299","gerencia.manaus@vipleiloes.net.br",1
-"MAYCO SILVA DOS SANTOS","006","","","(95) 3224-2292 (95) 99144-5588","maycoss@gmail.com",1
-"OTONIEL FERREIRA DE SOUZA","001-82","","Endereço: AV. GETÚLIO VARGAS, 5272 CENTRO","(95) 3624-5947/3623-9655 CEL 99972-2983","callienderss@hotmail.com",1
-"RAFAEL GALVANI FERREIRA","112/2022","","End. AV. DOS ESTADOS, 226 CENTRO – TUCUMÃ","(94) 98185-3239","galvani@galvanileiloes.com.br",1
-"TIAGO TESSLER BLECHER","114/2022","","End. Rua Natingui, 00862 BL B SALA 312","(11) 97259-0668","jimmy@asamileiloes.com.br",1
-"WESLEY SILVA RAMOS","005","","","Cel (95) 98129-7859","wesleyleiloeiro@gmail.com",1
-"ALEX WILLIAM HOPPE","008/2020","","Rua: Alberto Tokarski, Nº 11 complemento Galpão","47 9183-4930","alex@hoppeleiloes.com.br",1
-"JOSECELLI KILDARE FRAGA GOMES","010/2021","","End. Rua Bombeiro Eliezer de Alexandrino, 107","71 99247-8696","kildare.gomes@hotmail.com",1
+"Lucas Andreatta de Oliveira","","","Rua santo Elias, 290-901 Espinheiro - Recife - SP CEP: 52.020-095","(11) 9 9142.8202","comercial@leiloariasmart.com.br",1
 "ADALBERTO SCHERER FILHO","21/329-L","02/08/2021","Rua Professor Pedro Viriato Parigot de Souza, nº 3050 - casa 02 - Mossunguê CEP: 81.200-100 - Curitiba/PR","","scherer@cibraco.com.br",1
 "ADRIANO MELNISKI","07/010-L","08/11/2007","Rua Canal Belém, nº 6212, Barracão - Boqueirão CEP: 81.650-180 - Curitiba/PR","Fixo (41)3079-6535 | Celular (41)99545-1962","contato@amleiloeiro.com.br",1
 "ADYEL MARQUES DE PAULA","14/261-L","29/05/2014","Avenida Candio de Abreu, n° 381, Sobreloja - Centro Cívico CEP: 80.530-000 - Curitiba/PR","Fixo (41)4141-3689 | Celular(41)99956-9226","marquesleiloes@gmail.com",1
@@ -377,9 +515,10 @@
 "AUGUSTO PARMEGGIANI PESTANA MARQUES GOMES","20/321-L","29/09/2020","Av. João Wallig, nº 1800, Cj. 4005 - Passo D’Areia CEP: 91.349-900 - Porto Alegre/RS","","administrativo@pestanaleiloes.com.br",1
 "BEATRIZ SILVA CARVALHO","22/342-L","01/04/2022","Rua Conselheiro Antonio Prado, 1026 - Centro CEP: 18.900-017 - Santa Cruz do Rio Pardo/SP","Fixo 0800-9709752 | Celular (14)99892-8770","leiloeirabeatriz@gmail.com",1
 "BRUNA CRISTINA SOARES","23/368-L","06/06/2023","Rua Tranquilo Noro, n° 642, casa 409 - Parque Verde CEP: 85.807-860 - Cascavel/PR","","brunna.csoares​@gmail.com",1
+"CAMILA DE MOURA GAIA PELLISSARI","23/376-L","11/07/2023","Rua General Osório, n° 422, apto 101 - Centro CEP:84.010-080 -Ponta Grossa/PR","","gaiacamila@hotmail.com",1
 "CARLOS AUGUSTO RIBEIRO LIMA","23/371-L","12/06/2023","Avenida Boulevard Conde dos Arcos - Bloco D do Tropical Privê - apto 506 - Ed. Ponta Negra - Goiânia 2 CEP: 74.663-130 - Goiânia/GO","","administrativo@infinityleiloes.com.br",1
-"CAROLINE DE SOUSA RIBAS","22/359-L","15/06/2022","Avenida Dom Pedro II, nº 620, sala 202 - Jardim CEP: 09.080-000 - Santo André/SP","Fixo (11)4425-2905 | Celular (11)99553-2706","desousacarol79@gmail.com",1
 "CARLOS CHUI","22/353-L","27/05/2022","","","contato@arremataronline.com.br",1
+"CAROLINE DE SOUSA RIBAS","22/359-L","15/06/2022","Avenida Dom Pedro II, nº 620, sala 202 - Jardim CEP: 09.080-000 - Santo André/SP","Fixo (11)4425-2905 | Celular (11)99553-2706","desousacarol79@gmail.com",1
 "CLAUDIO CESAR KUSS","507","23/10/1985","Rua João Lunardelli, 2095 - CIC - Cidade Industrial, CEP: 81.460-100 - Curitiba/PR","","claudio@claudiokussleiloes.com.br",1
 "CLEVER ELMES MILANI","16/283-L","01/11/2016","Travessa Sgoda, nº 45 - Roça Grande CEP: 83.403-525 - Colombo/PR","Fixo (41)3332-6868 | Celular (41)99102-5685 | (41)99164-5435","contato@milanileiloes.com.br",1
 "CONRADO AUGUSTO CARVALHO DE MAGALHÃES","22/343-L","05/04/2022","Avenida Higienópolis, nº 583 - 8° andar, sala 02 - Centro CEP: 86.020-080 - Londrina/PR","Fixo (43)3334-0664","contato@magalhaesleiloes.com.br",1
@@ -430,6 +569,7 @@
 "LEVY DOS SANTOS MORAES FILHO","19/303-L","05/06/2019","Rua Don Fernando Taddey, nº 851, sala 04-07 CEP: 86.400-000 - Jacarezinho - PR","Fixo (43)3525-1430 | Celular (43)98416-8417 | (43)99115-1979","santosmoraesleiloes@gmail.com",1
 "LILIAMAR FÁTIMA PARMEGGIANI PESTANA MARQUES GOMES","20/320-L","29/09/2020","Av. João Wallig, nº 1800, Conj. 4005 - Passo D’areia CEP: 91.349-900 – Porto Alegre/RS","","administrativo@pestanaleiloes.com.br",1
 "LUCAS EDUARDO DALCANALE","20/319-L","29/09/2020","Rua José Leal Fontoura, nº 560 - Centro CEP: 83.414-190 - Colombo/PR","","",1
+"LUCIA DE FATIMA SCORSIN SCHREIBER","23/377-L","28/07/2023","Rua Francisco Torres, n° 528, apto 111 - Centro CEP:80.060-130 -Curitiba/PR","","luciapr.schreiber@gmail.com&nbsp;",1
 "LUCIANO MARANGONI","19/308-L","04/10/2019","","","",1
 "LUIZ BARBOSA DE LIMA JUNIOR","10/030-L","23/02/2010","Av. Garibaldi nº 99, apto 28 - Bl Dom Duarte - Jardim Claudia CEP: 86.050-280 - Londrina/PR","Fixo (43)3472-3641 | Celular (43)99984-3739","luizb.lima@ymail.com",1
 "LUIZ CARLOS DALL’AGNOL","639","24/01/2000","Rua Visconde do Rio Branco, nº 3265 - Centro CEP: 85.810-180 - Cascavel/PR","Celular (45)99924-8184 | (45)999414-5555","lucadallagnol@hotmail.com&nbsp;",1
@@ -446,6 +586,7 @@
 "MIGUEL DONHA JUNIOR","14/256-L","09/04/2014","Travessa Miguel Siqueira Donha, nº 01 - Espaço Dois de Maio - Centro CEP: 83.501-010 - Almirante Tamandaré/PR","Celular (41)99686-8289 | (41)99161-5017","migueldonha@hotmail.com",1
 "NEWTON JORGE GONÇALVES DE OLIVEIRA","593","01/04/1998","Rua XV de Novembro, nº 2535 - Centro CEP: 83.601-030 - Campo Largo/PR","Fixo (41)3292-2482 | Celular (41)99552-2902","goncalvesnewton@hotmail.com",1
 "PATRÍCIA PIMENTEL GROCOSKI COSTA","22/352-L","27/05/2022","Rua Panamá, nº 2516, sala 03 – Embratel CEP: 76.820-768 - Porto Velho/RO","","",1
+"PAULO CASTELAN MINATTO","23/375-L","12/07/2023","Rua Princesa Isabel, n° 62 - Centro CEP:88.801-130 -Criciúma/SC","","secretaria@casadoleilao.com",1
 "PAULO ROBERTO LEAL VARDANA","522","18/03/1987","Rua Cyro Correia Pereira, 1.223 - CIC -Cidade Industrial CEP: 81.460-050 - Curitiba/PR","Fixo (41)3347-0770","cadastro@vardanaleiloes.com.br",1
 "PAULO ROBERTO NAKAKOGUE","12/048-L","01/08/2012","Rua Nunes Machado, nº 611 - Rebouças CEP: 80.220-070 - Curitiba/PR","Fixo (41)3092-6400 | Celular (41)98417-9400","paulo@nakakogueleiloes.com.br",1
 "PAULO SETSUO NAKAKOGUE","625","31/01/2000","Rua Senador Accioly Filho, nº 1625 - CIC - Cidade Industrial CEP: 81.310-000 - Curitiba/PR","Fixo (41)3323-3030 | Celular (41)98417-6000","paulo@psnleiloes.com.br",1
@@ -468,6 +609,21 @@
 "VANESSA GOELZER DE ARAÚJO VARGAS E PINTO","21/338-L","24/09/2021","Rua Martim Afonso, nº 252 - Zona 02 CEP 87.010-410 - Maringá/PR","Celular (44)99112-9927 | (44)99927-9999 | (44)99926-3225"," contato@vargasepintoleiloes.com",1
 "VICENTE DE PAULA XAVIER FILHO","14/264-L","11/09/2014","","","",1
 "WERNO KLÖCKNER JÚNIOR","660","11/12/2000","Avenida Carlos Gomes, nº 226 - Térreo - Zona 05 CEP: 87.015-200 - Maringá/PR","Fixo (44)3026-8008 | (44)3028-8008 | Celular (44)99973-8008 | (44)99866-0708","werno@kleiloes.com.br",1
+"ANTONIO CARLOS RABELO NASCIMENTO","004/2004","01/12/2004","","","",0
+"BRIAN GALVÃO FROTA","011/2021","","End. Rua Salvador, nº 120 – 12º andar","92 98438-1616","brian@amazonasleiloes.com.br",1
+"CASSANDRA BUENO BRASIL","003/1998","","Endereço: RUA DO CUPUAÇUZEIRO, Nº 20","(95) 3623-8760 CEL (95) 99113-1882","cassandrabbrasil@hotmail.com",1
+"DEONIZIA KIRATCH","116/2023","","End. RUA DO FERRO Nº 4.343, CONJUNTO MARECHAL RONDON, FLODOALDO PONTES PINTO","(69) 99991-8800","contato@deonizialeiloes.com.br",1
+"FLAVIA CORREA DUARTE FEITOSA","115/2022","","End. Av. Jardim, 989, B08 A204-SAMAUMA","(95) 98101-7791","flavia.duarte.leiloeira@gmail.com",1
+"HUGO MOREIRA PIMENTA","007","","Endereço: Av. Torquato Tapajós, 5050 – Bairro Flores","(92) 3083-8700 (92) 98111-0909","hugo@moreirapimenta.lel.br",1
+"JIMMY ASAMI","113/2022","","End. RUA CAMPINA VERDE 80","(92) 99229-8637","jimmy@asamileiloes.com.br",1
+"MARIANA GOUVÊA LESSA","009/2021","","End. Av. Pedro Teixeira, 725, Torre 3, Apto 403","92 98110-8299","gerencia.manaus@vipleiloes.net.br",1
+"MAYCO SILVA DOS SANTOS","006","","","(95) 3224-2292 (95) 99144-5588","maycoss@gmail.com",1
+"OTONIEL FERREIRA DE SOUZA","001-82","","Endereço: AV. GETÚLIO VARGAS, 5272 CENTRO","(95) 3624-5947/3623-9655 CEL 99972-2983","callienderss@hotmail.com",1
+"RAFAEL GALVANI FERREIRA","112/2022","","End. AV. DOS ESTADOS, 226 CENTRO – TUCUMÃ","(94) 98185-3239","galvani@galvanileiloes.com.br",1
+"TIAGO TESSLER BLECHER","114/2022","","End. Rua Natingui, 00862 BL B SALA 312","(11) 97259-0668","jimmy@asamileiloes.com.br",1
+"WESLEY SILVA RAMOS","005","","","Cel (95) 98129-7859","wesleyleiloeiro@gmail.com",1
+"ALEX WILLIAM HOPPE","008/2020","","Rua: Alberto Tokarski, Nº 11 complemento Galpão","47 9183-4930","alex@hoppeleiloes.com.br",1
+"JOSECELLI KILDARE FRAGA GOMES","010/2021","","End. Rua Bombeiro Eliezer de Alexandrino, 107","71 99247-8696","kildare.gomes@hotmail.com",1
 "Eduardo Gomes","007","23/11/2001","Rua NI Quadra 5, Lote 12, Setor Novo Horizonte – CEP: 77413-110, Gurupi – TO.","/ (63) 3312-8774","eduardoleiloeiro@uol.com.br",1
 "Jorge Francisco","009","12/09/2006","Quadra 906 Sul, Alameda 09, Lote 27, Plano Diretor Sul – CEP: 77023-432, Palmas – TO.","/ (63) 3214-3576","jogfrancisco@hotmail.com",1
 "Rossana Paiva Borges de Oliveira&nbsp;","011","13/02/2008","Quadra 110 Sul, Avenida NS-10, Caiapó Leilões, Plano Diretor Sul – CEP: 77.020-130, Palmas – TO.","(63) 3215-2176 / (63) 9989-1767 / (62) 9676-6785","rossana_pboliveira@hotmail.com",1
@@ -836,6 +992,9 @@ Telefone:&nbsp;&nbsp;(69)3449-2094","&nbsp;Rua José Antônio da Silva, nº 70 �
 Em frente&nbsp; a Drogaria Lá Paz.","(69) 99268-0027","leiloesaguiar@gmail.com",1
 "DAVI BORGES DE AQUINO","041/2023","26/05/2023","Avenida Paulista, nº 2421, 1º andar – Bela Vista, São Paulo/SP","(11) 3230-1126","inscricoes@alfaleiloes.com",1
 "DANIEL ELIAS GARCIA","042/2023","12/07/202","Rua Anardo Raul Garcia, 62 São Luiz, CEP 88803-495, Criciúma/SC","0800 278 7431 e (48) 99138-6012","contato@dgleiloes.com.br",1
+"Sued Peter Bastos Dyna","505","15/08/2023","Escritório  Rua Vinícius Torres,2300,101/507 Praia da Costa - Vila Velha/ES 29101-105  Depósito  Avenida Santa Leopoldina,2300,A Praia de Itaparica - Vila Velha/ES 29102-040","(27)9977-98227","suedpeter@hotmail.com leiloeiro@suedpeterleiloes.com.br",1
+"Viviane Aparecida Brassiani Engicht","504","15/08/2023","Escritório  Rua Alfredo Swarowsky,1505 Bela Aliança - Rio do Sul/SC 89161-375","(47)9881-20494","contato@brassianileiloes.com.br brassianileiloes@brassianileiloes.com.br",1
+"Thainá Lima","503","15/08/2023","Escritório  Rua Juvenal Maçaneiro,242,Apto 02 Belo Horizonte - Agronômica/SC 89188-000","(47)9883-39512","thainaaa.lima@gmail.com contato@taileiloes.com.br taileiloes@taileiloes.com.br",1
 "Lucas Andreatta De Oliveira","502","08/08/2023","Escritório  Avenida Jurema,200 Indianópolis - São Paulo/SP 04079-000","(11)3136-0640 (11)9142-82022","contato@leiloariasmart.com.br",1
 "Juliana Tais Benatti","501","08/08/2023","Escritório  Avenida Porto Alegre - D,427d Centro - Chapecó/SC 89802-130","(55)9916-22768","juliana@agilileiloes.com.br",1
 "Luci Vera Primaz Dos Reis","499","19/07/2023","Escritório  Rua Roque Gonzáles,378,402  - Três Passos/RS 98600-000","(55)9990-31016","contato@luciverareisleiloes.com",1
