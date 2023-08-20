@@ -33,6 +33,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         telefone: '',
                         email: '',
                         situacao: 1, // Defina a situação como desejado
+                        uf: 'MA'
                     };
                 } if (linha.includes('Endereço:')) {
                     leiloeiro.endereco = linha.split('Endereço:')[1].trim();

@@ -1,14 +1,14 @@
-"nome","matricula","dataPosse","endereco","telefone","email","situacao"
-"Erico Lages Soares","02/1994","28/03/1994","Rua Doutor Josué Moura Santos – s/n, bairro Pedra Mole, Teresina/PI, CEP: 64066-430.","(86) 3232-3480","",1
-"Suzana Conceição Medeiros de Carvalho","04/1996","14/10/1996","Rua Manoel Felício de Carvalho, nº1874, bairro Ininga, Teresina/PI.","(86) 3233-2622/ 99415-6879/ 99912-0212","",1
-"Ítalo Trindade Moura","11/2006","18/12/2006","Rua Manoel Domingues, nº1468, bairro Mafuá, Teresina/PI.","(86) 98848-8328, 99403-0706, 99970-9050","italo@italoleiloes.com",1
-"Erico Sobral Soares","15/2015","09/03/2015","Rua Dr. Josué de Moura Santos, nº1100, bairro Pedra Mole, Teresina/PI.","(86) 3301-5000/ 99442-2023","",1
-"Celso Alves Cunha","17/2020","13/07/2020","Rod. BR 343 Km 328, S/N, Área Rural, Setor Taquara, Teresina/PI, CEP: 64099-899.","(85) 9 9933-4813; (85) 9 8878-6038","",1
-"José David Gonçalves de Melo","18/2021","16/03/2021","R Leandro Barreto, 355 Bl 17 Apt 03, Jardim São Paulo – Recife/PE , CEP: 50790-000.","(81) 99910-6770","contato@jdleiloes.com.br / jose@jdleiloes.com.br /",1
-"Alex Willian Hoppe","19/2021","16/03/2021","Rua Alberto Tokaski, nº11, centro, Canoinhas/SC, CEP: 89460-070.","(47) 3622-5164","licitacoes@hoppeleiloes.com.br",1
-"Sergio Roberto Nogueira Lima","20/2021","16/03/2021","Av. Higino Cunha, nº1166, Ilhotas, Teresina/PI, CEP: 64014-535.","","sergiorobertonogueira@gmail.com",1
-"Daniel Elias Garcia","21/2021","09/11/2021","Rua Anardo Raul Garcia, 62, bairro São Luiz, CEP 88803-495, Criciúma/SC.","0800 278 7431, (48) 3081-2310 / 3413-7180. WhatsApp: (48) 99138-6012","contato@dgleiloes.com.br",1
-"Tiago Tessler Blecher","22/2022","04/08/2022","Rua Natingui, 862, Conjuntos 311 e 312, Vila Madalena, 5443-001, São Paulo – São Paulo.","(11) 97259-0668.","tiago.tessler@webleiloes.com.br",1
-"Davi Borges de Aquino","23/2023","31/03/2023","Rodovalho Junior, 44, Penha de França, 3605-000, São Paulo – São Paulo.","(11) 93207-1308/ (11) 3230-1126","inscricoes@alfaleiloes.com",1
-"Murilo Gonçalves Ramos","24/2023","21/06/2023","Itumbiara, 520, Cidade Jardim, 74413-120, Goiânia – Goiás.","(62) 98416-6234","mgrleiloes@gmail.com",1
-"Italo Trindade Moura Filho","25/2023","28/06/2023","Rua Minas Gerais – 318 – Matadouro – CEP: 64.003-850 – Teresina – Piauí.","(86) 98177-4875","italotrindade00@gmail.com",1
+"nome","matricula","dataPosse","endereco","telefone","email","situacao","uf"
+"Erico Lages Soares","02/1994","28/03/1994","Rua Doutor Josué Moura Santos – s/n, bairro Pedra Mole, Teresina/PI, CEP: 64066-430.","(86) 3232-3480","",1,"PI"
+"Suzana Conceição Medeiros de Carvalho","04/1996","14/10/1996","Rua Manoel Felício de Carvalho, nº1874, bairro Ininga, Teresina/PI.","(86) 3233-2622/ 99415-6879/ 99912-0212","",1,"PI"
+"Ítalo Trindade Moura","11/2006","18/12/2006","Rua Manoel Domingues, nº1468, bairro Mafuá, Teresina/PI.","(86) 98848-8328, 99403-0706, 99970-9050","italo@italoleiloes.com",1,"PI"
+"Erico Sobral Soares","15/2015","09/03/2015","Rua Dr. Josué de Moura Santos, nº1100, bairro Pedra Mole, Teresina/PI.","(86) 3301-5000/ 99442-2023","",1,"PI"
+"Celso Alves Cunha","17/2020","13/07/2020","Rod. BR 343 Km 328, S/N, Área Rural, Setor Taquara, Teresina/PI, CEP: 64099-899.","(85) 9 9933-4813; (85) 9 8878-6038","",1,"PI"
+"José David Gonçalves de Melo","18/2021","16/03/2021","R Leandro Barreto, 355 Bl 17 Apt 03, Jardim São Paulo – Recife/PE , CEP: 50790-000.","(81) 99910-6770","contato@jdleiloes.com.br / jose@jdleiloes.com.br /",1,"PI"
+"Alex Willian Hoppe","19/2021","16/03/2021","Rua Alberto Tokaski, nº11, centro, Canoinhas/SC, CEP: 89460-070.","(47) 3622-5164","licitacoes@hoppeleiloes.com.br",1,"PI"
+"Sergio Roberto Nogueira Lima","20/2021","16/03/2021","Av. Higino Cunha, nº1166, Ilhotas, Teresina/PI, CEP: 64014-535.","","sergiorobertonogueira@gmail.com",1,"PI"
+"Daniel Elias Garcia","21/2021","09/11/2021","Rua Anardo Raul Garcia, 62, bairro São Luiz, CEP 88803-495, Criciúma/SC.","0800 278 7431, (48) 3081-2310 / 3413-7180. WhatsApp: (48) 99138-6012","contato@dgleiloes.com.br",1,"PI"
+"Tiago Tessler Blecher","22/2022","04/08/2022","Rua Natingui, 862, Conjuntos 311 e 312, Vila Madalena, 5443-001, São Paulo – São Paulo.","(11) 97259-0668.","tiago.tessler@webleiloes.com.br",1,"PI"
+"Davi Borges de Aquino","23/2023","31/03/2023","Rodovalho Junior, 44, Penha de França, 3605-000, São Paulo – São Paulo.","(11) 93207-1308/ (11) 3230-1126","inscricoes@alfaleiloes.com",1,"PI"
+"Murilo Gonçalves Ramos","24/2023","21/06/2023","Itumbiara, 520, Cidade Jardim, 74413-120, Goiânia – Goiás.","(62) 98416-6234","mgrleiloes@gmail.com",1,"PI"
+"Italo Trindade Moura Filho","25/2023","28/06/2023","Rua Minas Gerais – 318 – Matadouro – CEP: 64.003-850 – Teresina – Piauí.","(86) 98177-4875","italotrindade00@gmail.com",1,"PI"

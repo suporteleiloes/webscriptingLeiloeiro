@@ -88,7 +88,8 @@ let driver = await new Builder().forBrowser(Browser.CHROME).build();
                             endereco: endereco,
                             telefone: telefone,
                             email: email,
-                            situacao: situacao
+                            situacao: situacao,
+                            uf: "SC",
                         };
                     
                                         // Adiciona o objeto no array

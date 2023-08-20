@@ -1,40 +1,40 @@
-"nome","matricula","dataPosse","endereco","telefone","email","situacao"
-"Eduardo Gomes","007","23/11/2001","Rua NI Quadra 5, Lote 12, Setor Novo Horizonte – CEP: 77413-110, Gurupi – TO.","/ (63) 3312-8774","eduardoleiloeiro@uol.com.br",1
-"Jorge Francisco","009","12/09/2006","Quadra 906 Sul, Alameda 09, Lote 27, Plano Diretor Sul – CEP: 77023-432, Palmas – TO.","/ (63) 3214-3576","jogfrancisco@hotmail.com",1
-"Rossana Paiva Borges de Oliveira&nbsp;","011","13/02/2008","Quadra 110 Sul, Avenida NS-10, Caiapó Leilões, Plano Diretor Sul – CEP: 77.020-130, Palmas – TO.","(63) 3215-2176 / (63) 9989-1767 / (62) 9676-6785","rossana_pboliveira@hotmail.com",1
-"Antonio Carlos Volpi Santana","012","01/07/2009","Quadra 308 Sul, Alameda 1, Lote 37/39, Plano Diretor Sul – CEP: 77.021-060, Palmas – TO.","(63) 3225-3686 / (63) 9242-2002 / (63) 8466-8230","leiloesbrasilto@gmail.com",1
-"Marco Antônio Ferreira de Menezes","015","13/09/2012","Quadra 406 Norte, Alameda 09, Lote 19, QI 05, Plano Diretor Norte – CEP: 77.006-488, Palmas – TO.","(63) 3224-6110","leiloeirojudicial@gmail.com",1
-"Marcos Wladimir Dulnik","016","10/04/2013","Quadra 605 Sul, Alameda 09, Lote 15, QI 07, Plano Diretor Sul – CEP: 77.016-398, Palmas – TO.","(63) 3214-1160","mwdulnik@gmail.com",1
-"Danyllo de Oliveira Maia","017","24/05/2016","Quadra 208 Sul, Alameda 13, 10, Plano Diretor Sul – CEP: 77.001-970, Palmas – TO.","/ (63) 9 9988-4000","danyllo@dmleiloesjudiciais.com.br",1
-"Victor de Oliveira Dorta","018","01/03/2018","Quadra 1.007 Sul, Alameda 05, QI 08, Lote 09, Plano Diretor Sul – CEP: 77.018-571, Palmas –TO.","(63) 9 9989-0210 / (63) 9 8442-8781","victorodorta@gmail.com",1
-"Tatianna Dinelly Silva e Bonato","019","06/08/2018","Avenida 15 de Novembro, nº. 1137 – CEP. 77.813-450, Araguaína – TO.","(63) 9 9989-0205","tatianadinelly@hotmail.com",1
-"César Augusto Bagatini","020","20/08/2019","Quadra 706 Sul, Alameda 2, Residencial Luna, Apartamento 502, Plano Diretor Sul – CEP: 77.022-372, Palmas – TO.","(61) 9 8565-4265","federalleiloes@gmail.com",1
-"Sandro de Oliveira&nbsp;","021","14/04/2020","Quadra 706 Sul, Alameda 12, Lote 12, Apartamento 603, Residencial Gran Park Veredas, Plano Diretor Sul – CEP: 77.022-372, Palmas – TO.","(91) 9 8146-8372","olsandro@yahoo.com.br",1
-"Álvaro Sérgio Fuzo","022","28/05/2020","Rua Copaíba, S/N, Quadra 127, Lote 07, Setor Morada do Sol – CEP: 77.066-158, Palmas – TO.","(62) 9 9614-3120.","alvarofuzo@leiloesjudiciais.com.br",1
-"Fernanda Lima Mascarenhas","023","19/10/2020","Avenida JK, Quadra 106 Sul, Lote 23, 2º Andar – CEP: 77.020-040, Palmas – TO.","(63) 9 8445-7633.","flimamascarenhas@gmail.com",1
-"Kátia Nunes Gaioso Oliveira (DESTITUÍDA A PEDIDO)","024","26/01/2021","Avenida Pedro Ludovico, Esquina com a Rua 14, Centro – CEP: 77.560-970, Brejinho de Nazaré – TO.","(63) 9 9112-0062.","katiagaiosoleiloeira@hotmail.com",1
-"Borges Guedes Neto","025","26/01/2021","205 Sul, Alameda 12, QI 08, nº. 04, Plano Diretor Sul – CEP: 77.015-278, Palmas – TO.","(63) 9 8124-6565.","bgnleiloesprime@gmail.com",1
-"Josecelli Kildare Fraga Gomes","026","04/05/2021","Rua Bombeiro Eliezer de Alexandrino, 107, Edifício Praia de Aleluia, Boca do Rio – CEP: 41.710-790, Salvador – Bahia.","(71) 9 9247-8696","Kildare.gomes@hotmail.com",1
-"Rudival Almeida Gomes Junior","027","04/05/2021","Edifício Empresarial Wall Stret, sala 509, Patamares – CEP: 41.730-101, Salvador – BA.","(71) 9 8211-2013","rudival@rjleiloes.com.br",1
-"Murilo Gonçalves Ramos","028","04/05/2021","Fazenda Nossa Senhora Aparecida, S/N, Zona Rural – CEP: 77.450-000, Jaú do Tocantins – TO.","(62) 9 8416-6234","murilo-ramos@hotmail.com",1
-"Tiago Tessler Blecher","029","08/07/2021","Avenida Marquês de São Vicente, 405, Conjunto1214 – CEP: 01.139-001, Barra Funda – SP.","(19) 9 8395-1133","tiago@spleiloes.com.br",1
-"Danilo Aparecido de Oliveira&nbsp;","030","24/09/2021","Rua Flórida, 1901, Apartamento 21 – CEP: 04.565-000, Cidade Monções – SP.","(11) 9 9641-1516","danilo.liver@hotmail.com",1
-"Arnold Strass","031","24/09/2021","Alameda das Hortências, 731, Jardim Véu de Noiva – CEP: 12.460-000, Campos do Jordão – SP.","(12) 3663-4005 / (12) 9 9630-0015.","leiloes@savoyleiloes.com.br",1
-"Ivan Rodrigues Nogueira&nbsp;","032","15/10/2021","Rua Padre Josimo, S/N, Quadra 05, Lote 18, Jardim Dom Fernando I – CEP: 74.765-340, Goiânia – GO.","(62) 3100-9531","arrematabem@arrematabem.com.br",1
-"Leonardo Coelho Avelar&nbsp;","033","15/10/2021","Rua C-125, Quadra 219, Lote 7/9, Edifício Ferrara, Apartamento 604, Jardim América – Goiânia – GO.","","arrematabem@arrematabem.com.br",1
-"Bruno Barretos Sanches","034","26/11/2021","Rua Frei Gregório, 620, Jardim Monte Líbano – CEP: 79.004-580, Campo Grande – MS.","","bruno@barretoleiloes.com.br",1
-"Nelci Dezan","035","07/12/2021","Avenida Tocantins, Quadra 18, Lote 01, Sala 05, Prédio Academia Triaton em Frente Posto Trevo – CEP: 77.064-580, Taquaralto, Palmas – TO.","(45) 9 9932-1112","",1
-"Tullio Deusdará Martins Belarmino","036","29/12/2021","Rua 26 de Julho, nº. 226, Centro – CEP: 77.710-000, Pedro Afonso – TO.","(63) 9 8453-7777","",1
-"Daniel Elias Garcia","037","29/12/2021","Quadra 104 Norte, Avenida LO 4, Edifício Freire, Sala 03 e 06 – Palmas – TO.","0800 278 7431 / (48) 9 9138-6012","contato@dgleiloes.com.br",1
-"Alex Willian Hoppe","038","04/02/2022","Rua Alberto Tokarski, n°. 11, Centro – CEP: 89.460-000, Canoinhas – SC.","(11) 9 3207-1308 / (11) 3230-1126","licitacoes@hoppeleiloes.com.br",1
-"Carlos Chui","040","30/10/2022","Rua Lord Cockrane, 616, Conjunto 1310, 13°andar, Ipiranga – CEP: 04.213-001, São Paulo – SP.","(11) 9 8107-8822","contato@arremataronline.com.br",1
-"Uesley Da Silva Oliveira Dos Santos","041","01/11/2022","Tancredo Neves, 295, 6, Jardim Paraíso – CEP: 47.855-686, Luis Eduardo Magalhães – BA.","","",1
-"Rafael Galvani Ferreira","042","13/11/2022","Avenida dos Estados, 226, Centro – CEP: 68.385-000, Tucumã – PA.","(94) 9 8185-3239","contato@galvanileiloes.com.br",1
-"Livia Leilane de Oliveira","43","05/12/2023","ARSE 13, Alameda 2, Plano Diretor Sul – CEP: 77.020-102, Palmas – TO.","","livialeilaneoliveira@gmail.com",1
-"Milena Rosa Di Giacomo Adri","44","04/01/2023","Afonso Pena, 5723, Santa Fé – CEP:79.031-010, Campo Grande – Mato Grosso do Sul.","","contatoms@megaleiloes.com.br",1
-"João Luiz de França Neto","45","01/03/2023","Rua Almira Alencar Wanderley, n°. 154, Morada da Lua – CEP: 47.806-251, Barreiras – BA.","","jocaleiloesagro@gmail.com",1
-"Mike Dutra Fleitas","46","06/06/2023","Avenida 136, nº. 761, Edifício Nasa Business Style, Setor Sul – CEP: 74,093-250, Goiânia – GO.","/ (62) 9 8101-0983","mikedutraleiloeiro@gmail.com",1
-"Lucas Fernandes Almeida","49","11/07/2023","ACSU NE 50, Rua 2, B-4, Plano Diretor Norte – CEP: 77.006-388, Palmas – TO.","(63) 9 8468-3983","lucas@leiloestocantins.com",1
-"Mouzar Baston Filho","47","18/07/2023","Paulo VI, 612, Baston Leilões, Residencial Paraíso – CEP: 14.403-143, Franco – SP.","","mouzar@bastonleiloes.com",1
-"Rodolfo da Rosa Schontag","48","19/07/2023","Adolfo Melo, 35, 601, Centro – CEP: 88.015-090, Florianópolis – SC.","","contato@leiloeiropublico.com.br",1
-"Aluísio Francisco de Assis Cardoso Bringel","50","18/07/2023","10, 21, Quadra A, Jardim do Ipês I – CEP: 77.820-012, Araguaína – TO.","","aluisio.sancar@gmail.com",1
+"nome","matricula","dataPosse","endereco","telefone","email","situacao","uf"
+"Eduardo Gomes","007","23/11/2001","Rua NI Quadra 5, Lote 12, Setor Novo Horizonte – CEP: 77413-110, Gurupi – TO.","/ (63) 3312-8774","eduardoleiloeiro@uol.com.br",1,"TO"
+"Jorge Francisco","009","12/09/2006","Quadra 906 Sul, Alameda 09, Lote 27, Plano Diretor Sul – CEP: 77023-432, Palmas – TO.","/ (63) 3214-3576","jogfrancisco@hotmail.com",1,"TO"
+"Rossana Paiva Borges de Oliveira&nbsp;","011","13/02/2008","Quadra 110 Sul, Avenida NS-10, Caiapó Leilões, Plano Diretor Sul – CEP: 77.020-130, Palmas – TO.","(63) 3215-2176 / (63) 9989-1767 / (62) 9676-6785","rossana_pboliveira@hotmail.com",1,"TO"
+"Antonio Carlos Volpi Santana","012","01/07/2009","Quadra 308 Sul, Alameda 1, Lote 37/39, Plano Diretor Sul – CEP: 77.021-060, Palmas – TO.","(63) 3225-3686 / (63) 9242-2002 / (63) 8466-8230","leiloesbrasilto@gmail.com",1,"TO"
+"Marco Antônio Ferreira de Menezes","015","13/09/2012","Quadra 406 Norte, Alameda 09, Lote 19, QI 05, Plano Diretor Norte – CEP: 77.006-488, Palmas – TO.","(63) 3224-6110","leiloeirojudicial@gmail.com",1,"TO"
+"Marcos Wladimir Dulnik","016","10/04/2013","Quadra 605 Sul, Alameda 09, Lote 15, QI 07, Plano Diretor Sul – CEP: 77.016-398, Palmas – TO.","(63) 3214-1160","mwdulnik@gmail.com",1,"TO"
+"Danyllo de Oliveira Maia","017","24/05/2016","Quadra 208 Sul, Alameda 13, 10, Plano Diretor Sul – CEP: 77.001-970, Palmas – TO.","/ (63) 9 9988-4000","danyllo@dmleiloesjudiciais.com.br",1,"TO"
+"Victor de Oliveira Dorta","018","01/03/2018","Quadra 1.007 Sul, Alameda 05, QI 08, Lote 09, Plano Diretor Sul – CEP: 77.018-571, Palmas –TO.","(63) 9 9989-0210 / (63) 9 8442-8781","victorodorta@gmail.com",1,"TO"
+"Tatianna Dinelly Silva e Bonato","019","06/08/2018","Avenida 15 de Novembro, nº. 1137 – CEP. 77.813-450, Araguaína – TO.","(63) 9 9989-0205","tatianadinelly@hotmail.com",1,"TO"
+"César Augusto Bagatini","020","20/08/2019","Quadra 706 Sul, Alameda 2, Residencial Luna, Apartamento 502, Plano Diretor Sul – CEP: 77.022-372, Palmas – TO.","(61) 9 8565-4265","federalleiloes@gmail.com",1,"TO"
+"Sandro de Oliveira&nbsp;","021","14/04/2020","Quadra 706 Sul, Alameda 12, Lote 12, Apartamento 603, Residencial Gran Park Veredas, Plano Diretor Sul – CEP: 77.022-372, Palmas – TO.","(91) 9 8146-8372","olsandro@yahoo.com.br",1,"TO"
+"Álvaro Sérgio Fuzo","022","28/05/2020","Rua Copaíba, S/N, Quadra 127, Lote 07, Setor Morada do Sol – CEP: 77.066-158, Palmas – TO.","(62) 9 9614-3120.","alvarofuzo@leiloesjudiciais.com.br",1,"TO"
+"Fernanda Lima Mascarenhas","023","19/10/2020","Avenida JK, Quadra 106 Sul, Lote 23, 2º Andar – CEP: 77.020-040, Palmas – TO.","(63) 9 8445-7633.","flimamascarenhas@gmail.com",1,"TO"
+"Kátia Nunes Gaioso Oliveira (DESTITUÍDA A PEDIDO)","024","26/01/2021","Avenida Pedro Ludovico, Esquina com a Rua 14, Centro – CEP: 77.560-970, Brejinho de Nazaré – TO.","(63) 9 9112-0062.","katiagaiosoleiloeira@hotmail.com",1,"TO"
+"Borges Guedes Neto","025","26/01/2021","205 Sul, Alameda 12, QI 08, nº. 04, Plano Diretor Sul – CEP: 77.015-278, Palmas – TO.","(63) 9 8124-6565.","bgnleiloesprime@gmail.com",1,"TO"
+"Josecelli Kildare Fraga Gomes","026","04/05/2021","Rua Bombeiro Eliezer de Alexandrino, 107, Edifício Praia de Aleluia, Boca do Rio – CEP: 41.710-790, Salvador – Bahia.","(71) 9 9247-8696","Kildare.gomes@hotmail.com",1,"TO"
+"Rudival Almeida Gomes Junior","027","04/05/2021","Edifício Empresarial Wall Stret, sala 509, Patamares – CEP: 41.730-101, Salvador – BA.","(71) 9 8211-2013","rudival@rjleiloes.com.br",1,"TO"
+"Murilo Gonçalves Ramos","028","04/05/2021","Fazenda Nossa Senhora Aparecida, S/N, Zona Rural – CEP: 77.450-000, Jaú do Tocantins – TO.","(62) 9 8416-6234","murilo-ramos@hotmail.com",1,"TO"
+"Tiago Tessler Blecher","029","08/07/2021","Avenida Marquês de São Vicente, 405, Conjunto1214 – CEP: 01.139-001, Barra Funda – SP.","(19) 9 8395-1133","tiago@spleiloes.com.br",1,"TO"
+"Danilo Aparecido de Oliveira&nbsp;","030","24/09/2021","Rua Flórida, 1901, Apartamento 21 – CEP: 04.565-000, Cidade Monções – SP.","(11) 9 9641-1516","danilo.liver@hotmail.com",1,"TO"
+"Arnold Strass","031","24/09/2021","Alameda das Hortências, 731, Jardim Véu de Noiva – CEP: 12.460-000, Campos do Jordão – SP.","(12) 3663-4005 / (12) 9 9630-0015.","leiloes@savoyleiloes.com.br",1,"TO"
+"Ivan Rodrigues Nogueira&nbsp;","032","15/10/2021","Rua Padre Josimo, S/N, Quadra 05, Lote 18, Jardim Dom Fernando I – CEP: 74.765-340, Goiânia – GO.","(62) 3100-9531","arrematabem@arrematabem.com.br",1,"TO"
+"Leonardo Coelho Avelar&nbsp;","033","15/10/2021","Rua C-125, Quadra 219, Lote 7/9, Edifício Ferrara, Apartamento 604, Jardim América – Goiânia – GO.","","arrematabem@arrematabem.com.br",1,"TO"
+"Bruno Barretos Sanches","034","26/11/2021","Rua Frei Gregório, 620, Jardim Monte Líbano – CEP: 79.004-580, Campo Grande – MS.","","bruno@barretoleiloes.com.br",1,"TO"
+"Nelci Dezan","035","07/12/2021","Avenida Tocantins, Quadra 18, Lote 01, Sala 05, Prédio Academia Triaton em Frente Posto Trevo – CEP: 77.064-580, Taquaralto, Palmas – TO.","(45) 9 9932-1112","",1,"TO"
+"Tullio Deusdará Martins Belarmino","036","29/12/2021","Rua 26 de Julho, nº. 226, Centro – CEP: 77.710-000, Pedro Afonso – TO.","(63) 9 8453-7777","",1,"TO"
+"Daniel Elias Garcia","037","29/12/2021","Quadra 104 Norte, Avenida LO 4, Edifício Freire, Sala 03 e 06 – Palmas – TO.","0800 278 7431 / (48) 9 9138-6012","contato@dgleiloes.com.br",1,"TO"
+"Alex Willian Hoppe","038","04/02/2022","Rua Alberto Tokarski, n°. 11, Centro – CEP: 89.460-000, Canoinhas – SC.","(11) 9 3207-1308 / (11) 3230-1126","licitacoes@hoppeleiloes.com.br",1,"TO"
+"Carlos Chui","040","30/10/2022","Rua Lord Cockrane, 616, Conjunto 1310, 13°andar, Ipiranga – CEP: 04.213-001, São Paulo – SP.","(11) 9 8107-8822","contato@arremataronline.com.br",1,"TO"
+"Uesley Da Silva Oliveira Dos Santos","041","01/11/2022","Tancredo Neves, 295, 6, Jardim Paraíso – CEP: 47.855-686, Luis Eduardo Magalhães – BA.","","",1,"TO"
+"Rafael Galvani Ferreira","042","13/11/2022","Avenida dos Estados, 226, Centro – CEP: 68.385-000, Tucumã – PA.","(94) 9 8185-3239","contato@galvanileiloes.com.br",1,"TO"
+"Livia Leilane de Oliveira","43","05/12/2023","ARSE 13, Alameda 2, Plano Diretor Sul – CEP: 77.020-102, Palmas – TO.","","livialeilaneoliveira@gmail.com",1,"TO"
+"Milena Rosa Di Giacomo Adri","44","04/01/2023","Afonso Pena, 5723, Santa Fé – CEP:79.031-010, Campo Grande – Mato Grosso do Sul.","","contatoms@megaleiloes.com.br",1,"TO"
+"João Luiz de França Neto","45","01/03/2023","Rua Almira Alencar Wanderley, n°. 154, Morada da Lua – CEP: 47.806-251, Barreiras – BA.","","jocaleiloesagro@gmail.com",1,"TO"
+"Mike Dutra Fleitas","46","06/06/2023","Avenida 136, nº. 761, Edifício Nasa Business Style, Setor Sul – CEP: 74,093-250, Goiânia – GO.","/ (62) 9 8101-0983","mikedutraleiloeiro@gmail.com",1,"TO"
+"Lucas Fernandes Almeida","49","11/07/2023","ACSU NE 50, Rua 2, B-4, Plano Diretor Norte – CEP: 77.006-388, Palmas – TO.","(63) 9 8468-3983","lucas@leiloestocantins.com",1,"TO"
+"Mouzar Baston Filho","47","18/07/2023","Paulo VI, 612, Baston Leilões, Residencial Paraíso – CEP: 14.403-143, Franco – SP.","","mouzar@bastonleiloes.com",1,"TO"
+"Rodolfo da Rosa Schontag","48","19/07/2023","Adolfo Melo, 35, 601, Centro – CEP: 88.015-090, Florianópolis – SC.","","contato@leiloeiropublico.com.br",1,"TO"
+"Aluísio Francisco de Assis Cardoso Bringel","50","18/07/2023","10, 21, Quadra A, Jardim do Ipês I – CEP: 77.820-012, Araguaína – TO.","","aluisio.sancar@gmail.com",1,"TO"

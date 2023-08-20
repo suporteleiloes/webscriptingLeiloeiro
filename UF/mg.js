@@ -36,6 +36,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         telefone: '',
                         email: '',
                         situacao: 1, // Defina a situação como desejado
+                        uf: 'MG'
                     };
                 } else if (linha.includes('Matrícula')) {
                     leiloeiro.matricula = linha.split('Matrícula: ')[1].split('de')[0].trim();

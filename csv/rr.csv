@@ -1,16 +1,16 @@
-"nome","matricula","dataPosse","endereco","telefone","email","situacao"
-"ANTONIO CARLOS RABELO NASCIMENTO","004/2004","01/12/2004","","","",0
-"BRIAN GALVÃO FROTA","011/2021","","End. Rua Salvador, nº 120 – 12º andar","92 98438-1616","brian@amazonasleiloes.com.br",1
-"CASSANDRA BUENO BRASIL","003/1998","","Endereço: RUA DO CUPUAÇUZEIRO, Nº 20","(95) 3623-8760 CEL (95) 99113-1882","cassandrabbrasil@hotmail.com",1
-"DEONIZIA KIRATCH","116/2023","","End. RUA DO FERRO Nº 4.343, CONJUNTO MARECHAL RONDON, FLODOALDO PONTES PINTO","(69) 99991-8800","contato@deonizialeiloes.com.br",1
-"FLAVIA CORREA DUARTE FEITOSA","115/2022","","End. Av. Jardim, 989, B08 A204-SAMAUMA","(95) 98101-7791","flavia.duarte.leiloeira@gmail.com",1
-"HUGO MOREIRA PIMENTA","007","","Endereço: Av. Torquato Tapajós, 5050 – Bairro Flores","(92) 3083-8700 (92) 98111-0909","hugo@moreirapimenta.lel.br",1
-"JIMMY ASAMI","113/2022","","End. RUA CAMPINA VERDE 80","(92) 99229-8637","jimmy@asamileiloes.com.br",1
-"MARIANA GOUVÊA LESSA","009/2021","","End. Av. Pedro Teixeira, 725, Torre 3, Apto 403","92 98110-8299","gerencia.manaus@vipleiloes.net.br",1
-"MAYCO SILVA DOS SANTOS","006","","","(95) 3224-2292 (95) 99144-5588","maycoss@gmail.com",1
-"OTONIEL FERREIRA DE SOUZA","001-82","","Endereço: AV. GETÚLIO VARGAS, 5272 CENTRO","(95) 3624-5947/3623-9655 CEL 99972-2983","callienderss@hotmail.com",1
-"RAFAEL GALVANI FERREIRA","112/2022","","End. AV. DOS ESTADOS, 226 CENTRO – TUCUMÃ","(94) 98185-3239","galvani@galvanileiloes.com.br",1
-"TIAGO TESSLER BLECHER","114/2022","","End. Rua Natingui, 00862 BL B SALA 312","(11) 97259-0668","jimmy@asamileiloes.com.br",1
-"WESLEY SILVA RAMOS","005","","","Cel (95) 98129-7859","wesleyleiloeiro@gmail.com",1
-"ALEX WILLIAM HOPPE","008/2020","","Rua: Alberto Tokarski, Nº 11 complemento Galpão","47 9183-4930","alex@hoppeleiloes.com.br",1
-"JOSECELLI KILDARE FRAGA GOMES","010/2021","","End. Rua Bombeiro Eliezer de Alexandrino, 107","71 99247-8696","kildare.gomes@hotmail.com",1
+"nome","matricula","dataPosse","endereco","telefone","email","situacao","uf"
+"ANTONIO CARLOS RABELO NASCIMENTO","004/2004","01/12/2004","","","",0,"RR"
+"BRIAN GALVÃO FROTA","011/2021","","End. Rua Salvador, nº 120 – 12º andar","92 98438-1616","brian@amazonasleiloes.com.br",1,"RR"
+"CASSANDRA BUENO BRASIL","003/1998","","Endereço: RUA DO CUPUAÇUZEIRO, Nº 20","(95) 3623-8760 CEL (95) 99113-1882","cassandrabbrasil@hotmail.com",1,"RR"
+"DEONIZIA KIRATCH","116/2023","","End. RUA DO FERRO Nº 4.343, CONJUNTO MARECHAL RONDON, FLODOALDO PONTES PINTO","(69) 99991-8800","contato@deonizialeiloes.com.br",1,"RR"
+"FLAVIA CORREA DUARTE FEITOSA","115/2022","","End. Av. Jardim, 989, B08 A204-SAMAUMA","(95) 98101-7791","flavia.duarte.leiloeira@gmail.com",1,"RR"
+"HUGO MOREIRA PIMENTA","007","","Endereço: Av. Torquato Tapajós, 5050 – Bairro Flores","(92) 3083-8700 (92) 98111-0909","hugo@moreirapimenta.lel.br",1,"RR"
+"JIMMY ASAMI","113/2022","","End. RUA CAMPINA VERDE 80","(92) 99229-8637","jimmy@asamileiloes.com.br",1,"RR"
+"MARIANA GOUVÊA LESSA","009/2021","","End. Av. Pedro Teixeira, 725, Torre 3, Apto 403","92 98110-8299","gerencia.manaus@vipleiloes.net.br",1,"RR"
+"MAYCO SILVA DOS SANTOS","006","","","(95) 3224-2292 (95) 99144-5588","maycoss@gmail.com",1,"RR"
+"OTONIEL FERREIRA DE SOUZA","001-82","","Endereço: AV. GETÚLIO VARGAS, 5272 CENTRO","(95) 3624-5947/3623-9655 CEL 99972-2983","callienderss@hotmail.com",1,"RR"
+"RAFAEL GALVANI FERREIRA","112/2022","","End. AV. DOS ESTADOS, 226 CENTRO – TUCUMÃ","(94) 98185-3239","galvani@galvanileiloes.com.br",1,"RR"
+"TIAGO TESSLER BLECHER","114/2022","","End. Rua Natingui, 00862 BL B SALA 312","(11) 97259-0668","jimmy@asamileiloes.com.br",1,"RR"
+"WESLEY SILVA RAMOS","005","","","Cel (95) 98129-7859","wesleyleiloeiro@gmail.com",1,"RR"
+"ALEX WILLIAM HOPPE","008/2020","","Rua: Alberto Tokarski, Nº 11 complemento Galpão","47 9183-4930","alex@hoppeleiloes.com.br",1,"RR"
+"JOSECELLI KILDARE FRAGA GOMES","010/2021","","End. Rua Bombeiro Eliezer de Alexandrino, 107","71 99247-8696","kildare.gomes@hotmail.com",1,"RR"

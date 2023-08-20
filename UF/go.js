@@ -77,7 +77,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         endereco: endereco,
         telefone: telefone,
         email: email,
-        situacao: situacao
+        situacao: situacao,
+        uf: 'GO'
     };
 
                     // Adiciona o objeto no array
