@@ -35,7 +35,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
                         let nome = '';
                         let endereco = '';
-                        let telefone = '';
+                        let telefone  = '';
+let site = '';
                         let email = '';
                         let situacao = 0;
                         let matricula = '';
@@ -69,6 +70,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: 'SP'

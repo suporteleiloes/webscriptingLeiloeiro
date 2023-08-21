@@ -28,7 +28,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 1;
                     let matricula = '';
@@ -56,6 +57,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     telefone = telefone.trim();
                     }
 
+                    if(dados.includes('ite:')){
+                    site = dados.split('ite:')[1].split('</p>')[0];
+                    site = site.replace(/<[^>]*>?/gm, '').trim();
+                    }
+
                     if(dados.includes('mail:')){
                     email = dados.split('mail:')[1].split('</p>')[0];
                     if (email.includes('mailto:')) {
@@ -70,6 +76,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: 'TO'

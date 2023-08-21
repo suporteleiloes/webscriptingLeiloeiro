@@ -23,7 +23,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                  
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 1;
                     let matricula = '';
@@ -67,6 +68,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                                                         email = email.replace(/&nbsp;/g, ' ').trim();
                                                         }
 
+                                                        if(html.includes('ite:')){
+                                                            site = html.split('ite:')[1].split('<br>')[0].trim();
+                                                            site = site.replace(/&nbsp;/g, ' ').trim();
+                                                            }
+
                                                         if(html.includes('ancelamento')){
                                                             situacao = 0;
                                                             } else if(html.includes('egular')){
@@ -81,6 +87,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         dataPosse: dataPosse,
         endereco: endereco,
         telefone: telefone,
+site: site,
         email: email,
         situacao: situacao,
         uf: 'SE',

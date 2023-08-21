@@ -36,7 +36,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                 for (let i = 0; i < contador_elementskit; i++) {
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = '';
                     let matricula = '';
@@ -131,6 +132,10 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         email = email.trim();
                     }
 
+                    if (texto.includes('ite:')) {
+                        site = texto.split('ite:')[1].split('"')[0].trim();
+                    }
+
                     
                     if (texto.includes('DESCREDENCIADO')) {
                         situacao = 0;
@@ -150,6 +155,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: 'RR',

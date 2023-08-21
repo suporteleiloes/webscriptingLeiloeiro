@@ -23,7 +23,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                                         
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 1;
                     let matricula = '';
@@ -66,6 +67,12 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                    
                     } 
 
+                    if(texto.includes('<i class="icon-communication-051 u-line-icon-pro"></i></span></div> <div class="media-body g-color-text">')){
+                    site = texto.split('<i class="icon-communication-051 u-line-icon-pro"></i></span></div> <div class="media-body g-color-text">')[1].split('</div>')[0];
+                    site = site.replace(/\n/g, "");
+                    site = site.trim();
+                    }
+
                     if(texto.includes('<i class="icon-communication-154 u-line-icon-pro"></i></span></div> <div class="media-body g-color-text">')){
                     email = texto.split('<i class="icon-communication-154 u-line-icon-pro"></i></span></div> <div class="media-body g-color-text">')[1].split('</div>')[0];
                     // remove os \n
@@ -80,6 +87,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         dataPosse: dataPosse,
         endereco: endereco,
         telefone: telefone,
+site: site,
         email: email,
         situacao: situacao,
         uf: 'PE'

@@ -27,7 +27,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     if(dados.includes('cula')) {
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+                    let site = '';
                     let email = '';
                     let situacao = 0;
                     let matricula = '';
@@ -56,6 +57,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     telefone = dados.split('fone:')[1].split('</p>')[0].trim();
                     }
                     telefone = telefone.split('Site:')[0].trim();
+                    
+                    if(dados.includes('Site:')) {
+                    site = dados.split('Site:')[1].split('</p>')[0].trim();
+                    site = site.replace(/&nbsp;/g, '').trim();
+                    }
 
                     if(dados.includes('mail:')) {
                     email = dados.split('mail:')[1].split('</p>')[0].trim();
@@ -77,6 +83,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         dataPosse: dataPosse,
                         endereco: endereco,
                         telefone: telefone,
+site: site,
                         email: email,
                         situacao: situacao,
                         uf: 'DF'

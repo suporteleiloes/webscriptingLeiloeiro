@@ -23,7 +23,8 @@ let driver = await new Builder().forBrowser(Browser.CHROME).build();
 
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 0;
                     let matricula = '';
@@ -87,6 +88,7 @@ let driver = await new Builder().forBrowser(Browser.CHROME).build();
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: "SC",

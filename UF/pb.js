@@ -19,7 +19,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+                    let site = '';
                     let email = '';
                     let situacao = '';
                     let matricula = '';
@@ -41,6 +42,22 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
                         telefone = texto.split('Telefone:')[1].split('Site:')[0];
                         telefone = telefone.trim();
+                        
+                        if(texto.includes('Site:')){
+                            site = texto.split('Site:')[1];
+                        }
+
+                        if(site.includes('Situação:')){
+                            site = site.split('Situação:')[0];
+                            site = site.trim();
+                        } else if(site.includes('\n')){
+                            site = site.split('\n')[0];
+                            site = site.trim();
+                        } else if(site.includes('E-mail:')){
+                            site = site.split('E-mail:')[0];
+                            site = site.trim();
+                        }
+
 
                         if(telefone.includes('\n')){
                             telefone = telefone.split('\n')[0];
@@ -70,6 +87,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: 'PB'

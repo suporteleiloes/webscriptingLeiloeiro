@@ -25,7 +25,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                    
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+                    let site = '';
                     let email = '';
                     let situacao = 0;
                     let matricula = '';
@@ -49,6 +50,12 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
                                 if(linhaTelefoneEmail[k].match(/\d{3,}/g)){
                                     telefone = linhaTelefoneEmail[k] + ' / ' + telefone;
+                                }
+
+                                // se tiver www. é site
+                                if(linhaTelefoneEmail[k].includes('www.')){
+                                    site = linhaTelefoneEmail[k];
+                                    site = site.replace(/<[^>]*>?/gm, '').trim();
                                 }
                                
                             }
@@ -87,6 +94,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         dataPosse: dataPosse,
         endereco: endereco,
         telefone: telefone,
+site: site,
         email: email,
         situacao: situacao,
         uf: 'BA'

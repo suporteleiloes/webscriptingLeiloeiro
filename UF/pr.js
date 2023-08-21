@@ -73,7 +73,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
             }
 
                 // Se achar o texto "<p>Telefone:" no texto com html, o telefone vai ser entre "<p>Telefone:" e "</p>"
-                let telefone = '';
+                let telefone  = '';
+let site = '';
                 if (html.includes('HABILITADO COM RESSALVA')) {
                     telefone = '';
             } else {
@@ -116,6 +117,16 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                 let email = "";
             }
 
+            if(html.includes('Site')){
+                // Pega o site entre "Site:" e "</p>"
+                site = html.split('Site:')[1].split('</p>')[0];
+                // tira as tags html
+                site = site.replace(/<[^>]*>/g, '');
+                // tira os espaços
+                site = site.trim();
+            }
+
+
             let situacao = 0;
             if (html.includes('REGULAR' || 'HABILITADO' || 'LICENCIADO')) {
                 situacao = 1;
@@ -129,6 +140,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         dataPosse: dataPosse,
                         endereco: endereco,
                         telefone: telefone,
+site: site,
                         email: email,
                         situacao: situacao,
                         uf: 'PR'

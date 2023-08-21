@@ -24,7 +24,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                    
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 1;
                     let matricula = '';
@@ -56,6 +57,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     telefone = telefone.trim();
                     }
 
+                    if(texto.includes('Site:')){
+                        site = texto.split('Site:')[1].split('<br>')[0];
+                    site = site.trim();
+                    }
+
                     // if icludes E-mails:
                     if(texto.includes('E-mails:')){
                         email = semhtml.split('E-mails:')[1].split('Site')[0];
@@ -83,6 +89,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
         dataPosse: dataPosse,
         endereco: endereco,
         telefone: telefone,
+        site: site,
         email: email,
         situacao: situacao,
         uf: 'PI'

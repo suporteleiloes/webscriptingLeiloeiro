@@ -24,7 +24,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
          for (let i = 0; i < contador - 2; i++) {
                     let nome = '';
                     let endereco = '';
-                    let telefone = '';
+                    let telefone  = '';
+let site = '';
                     let email = '';
                     let situacao = 1;
                     let matricula = '';
@@ -48,6 +49,10 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                     telefone = telefone.trim();
                 }
 
+                if(texto.includes('href="')){
+                    site = texto.split('href="')[1].split('"')[0].trim();
+                }
+
                 if(texto.includes("e-Mail")){
                     email = texto.split("e-Mail")[1].split("<br>")[0].trim();
                     email = email.replace(/<[^>]*>?/gm, ' ').replace(/&nbsp;/g, ' ').replace(/:/g, ' ').trim();
@@ -64,6 +69,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                             dataPosse: dataPosse,
                             endereco: endereco,
                             telefone: telefone,
+site: site,
                             email: email,
                             situacao: situacao,
                             uf: 'RS',

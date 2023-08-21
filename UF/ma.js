@@ -31,16 +31,20 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                         dataPosse: linha.split('Em')[1].trim(),
                         endereco: '',
                         telefone: '',
+                        site: '',
                         email: '',
                         situacao: 1, // Defina a situação como desejado
                         uf: 'MA'
                     };
-                } if (linha.includes('Endereço:')) {
+                } else if (linha.includes('Endereço:')) {
                     leiloeiro.endereco = linha.split('Endereço:')[1].trim();
-                } if (linha.includes('Contato:')) {
+                } else if (linha.includes('Contato:')) {
                     leiloeiro.telefone = linha.split('Contato:')[1].trim();
-                } if (linha.includes('E-mail:')) {
+                } else if (linha.includes('E-mail:')) {
                     leiloeiro.email = linha.split('E-mail:')[1].trim();
+                } else if (linha.includes('Site:')) {
+                    leiloeiro.site = linha.split('Site:')[1].trim();
+                    leiloeiro.site = leiloeiro.site.replace(/<[^>]*>/g, '').trim();
                 }
             }
 

@@ -6,7 +6,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
     options.addArguments('--headless');
            let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
 
-            await driver.get('https://jucemg.mg.gov.br/pagina/140/leiloeiros-ordem-alfabetica');
+            await driver.get('https://jucemg.mg.gov.br/pagina/140/leiloeir  os-ordem-alfabetica');
            
             
             // Aguarda o carregamento da página e procura xpath=//article/section
@@ -48,6 +48,11 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
                 } else if (linha.includes('<a href="mailto:')) {
                     const regex = /<a href="mailto:(.*?)">/g;
                     leiloeiro.email = regex.exec(linha)[1];
+                    if(leiloeiro.email.includes('"')) {
+                        leiloeiro.email = leiloeiro.email.split('"')[0];
+                    }
+                } else if (linha.includes('www')) {
+                    leiloeiro.site = linha.split('www')[1].trim();
                 }
             }
 
