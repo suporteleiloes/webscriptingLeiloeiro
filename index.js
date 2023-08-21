@@ -23,7 +23,7 @@ const se = require('./UF/se');
 const rs = require('./UF/rs');
 const ro = require('./UF/ro');
 const go = require('./UF/go');
-
+const sp = require('./UF/sp');
 
 
 async function getLeiloeiros() {
@@ -100,6 +100,10 @@ async function getLeiloeiros() {
       await exportJson(SE, 'se');
       await exportCsv(SE, 'se');
 
+      const SP = await sp();
+      await exportJson(SP, 'sp');
+      await exportCsv(SP, 'sp');
+
       const Br = [
             ...BA,
             ...AM,
@@ -118,7 +122,8 @@ async function getLeiloeiros() {
             ...MA,
             ...MG,
             ...GO,
-            ...SE
+            ...SE,
+            ...SP
       ];
 
       await exportJson(Br, 'br');
