@@ -5,6 +5,7 @@ const path = require('path');
 const csvFolder = path.join(__dirname, 'csv');
 const jsonFolder = path.join(__dirname, 'json');
 
+const al = require('./UF/al');
 const am = require('./UF/am');
 const ap = require('./UF/ap');
 const ba = require('./UF/ba');
@@ -26,8 +27,13 @@ const sc = require('./UF/sc');
 const se = require('./UF/se');
 const sp = require('./UF/sp');
 const to = require('./UF/to');
+const AL = require('./UF/al');
 
 async function getLeiloeiros() {
+
+        const AL = await al();
+        await exportJson(AL, 'al');
+        await exportCsv(AL, 'al');
 
         const AM = await am();
         await exportJson(AM, 'am');
@@ -114,6 +120,7 @@ async function getLeiloeiros() {
         await exportCsv(TO, 'to');
 
       const Br = [
+            ...AL,
             ...AM,
             ...AP,
             ...BA,

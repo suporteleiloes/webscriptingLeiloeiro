@@ -4,8 +4,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
     const chrome = require('selenium-webdriver/chrome');
     const options = new chrome.Options();
     options.addArguments('--headless');
-           let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
-          
+          // let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
+          let driver = await new Builder().forBrowser(Browser.CHROME).build();
 
             await driver.get('https://www.jucerja.rj.gov.br/AuxiliaresComercio/Leiloeiros');
        
