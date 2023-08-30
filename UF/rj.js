@@ -8,7 +8,8 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
           let driver = await new Builder().forBrowser(Browser.CHROME).build();
 
             await driver.get('https://www.jucerja.rj.gov.br/AuxiliaresComercio/Leiloeiros');
-       
+            await driver.manage().window().maximize();
+
             try {
 
                 let leiloeiros = [];
@@ -85,7 +86,7 @@ const {Builder, Browser, By, Key, until} = require('selenium-webdriver');
 
         }
 
-
+        await driver.executeScript("arguments[0].scrollIntoView(true);", await driver.findElement(By.xpath("//li[@class='arrow foward']")));
         await driver.findElement(By.xpath("//li[@class='arrow foward']")).click();
         await driver.wait(until.elementLocated(By.xpath("/html/body/div/section[2]/div/div[1]/section[2]/div[2]/div")), 10000);
      //   await driver.sleep(1000);

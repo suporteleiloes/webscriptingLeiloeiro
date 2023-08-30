@@ -14,6 +14,7 @@ const df = require('./UF/df');
 const go = require('./UF/go');
 const ma = require('./UF/ma');
 const mg = require('./UF/mg');
+const ms = require('./UF/ms');
 const mt = require('./UF/mt');
 const pb = require('./UF/pb');
 const pe = require('./UF/pe');
@@ -66,6 +67,10 @@ async function getLeiloeiros() {
         const MG = await mg();
         await exportJson(MG, 'mg');
         await exportCsv(MG, 'mg');
+
+        const MS = await ms();
+        await exportJson(MS, 'ms');
+        await exportCsv(MS, 'ms');
 
         const MT = await mt();
         await exportJson(MT, 'mt');
@@ -129,6 +134,7 @@ async function getLeiloeiros() {
             ...GO,
             ...MA,
             ...MG,
+            ...MS,
             ...MT,
             ...PB,
             ...PE,
