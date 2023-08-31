@@ -21,6 +21,7 @@ const pe = require('./UF/pe');
 const pi = require('./UF/pi');
 const pr = require('./UF/pr');
 const rj = require('./UF/rj');
+const rn = require('./UF/rn');
 const ro = require('./UF/ro');
 const rr = require('./UF/rr');
 const rs = require('./UF/rs');
@@ -96,6 +97,10 @@ async function getLeiloeiros() {
         await exportJson(RJ, 'rj');
         await exportCsv(RJ, 'rj');
 
+        const RN = await rn();
+        await exportJson(RN, 'rn');
+        await exportCsv(RN, 'rn');
+
         const RO = await ro();
         await exportJson(RO, 'ro');
         await exportCsv(RO, 'ro');
@@ -141,6 +146,7 @@ async function getLeiloeiros() {
             ...PI,
             ...PR,
             ...RJ,
+            ...RN,
             ...RO,
             ...RR,
             ...RS,
