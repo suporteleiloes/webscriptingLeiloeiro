@@ -1,7 +1,7 @@
 "nome","matricula","dataPosse","endereco","telefone","email","situacao","uf","site"
 "Adriana Pires Amancio","820","06/08/2010","Caixa Postal 8098- Belo Horizonte- MG - CEP31310-970","(37) 3353-2301 / (37) 99915-8851","adriana.pires@apaleiloes.com.br",1,"MG",".apaleiloes.com.br"">"
 "Aécio Reis Pedrosa","992","06/04/2015","Rua Campestre, nº 305 - Bairro Sagrada Família - Belo Horizonte - MG - CEP 31030-140","(35) 99228-1011","contato@alessandroteixeiraleiloes.com.br",1,"MG",
-"Alex Willian Hoppe (MATRÍCULA SUPLEMENTAR)","1199","04/12/2020","Rua Alberto Tokarski, nº 11 - Bairro Centro -Canoinhas - SC - CEP89460-070","(47) 3622-5164","alex@hoppeleiloes.com.br",1,"MG",
+"Alex Willian Hoppe (MATRÍCULA SUPLEMENTAR)","1199","04/12/2020","Rua Alberto Tokarski, nº 11 - Bairro Centro -Canoinhas - SC - CEP89460-070","(47) 3622-5164","contato@hoppeleiloes.com.br",1,"MG",
 "Alexandra Benedita de Sousa Casado(Licenciadaaté 02/12/2023)","1289","06/06/2022","Rua Milton do Lago Garcia, nº 445 - Bairro Jardim Amaryllis - Poços de Caldas - MG - CEP 37705-214","(35) 98807-9556","",1,"MG",
 "Alexandre Paiva Frade","828","05/10/2010","Avenida Getúlio Vargas, nº 350, Cobertura - Bairro Centro - São Lourenço - MG - CEP 37470-000","(35) 3332-4150 / (35) 99103-1922","",1,"MG",
 "Alexandre Reis Pedrosa","677","08/10/2008","Rua Campestre, nº 305 A - Bairro Sagrada Família - Belo Horizonte - MG - CEP 31030-140","(31) 2551-3688 / (31) 99222-6692","",1,"MG",
@@ -25,7 +25,8 @@
 "Carolina Camargos Marques Florentino","997","20/07/2015","Rua Sevilha, nº 277 - Bairro Vila Castela - Nova Lima - MG - CEP 34000-000","(31) 3241-4164 / (31) 99194-3904","",1,"MG",
 "Caroline de Sousa Ribas (MATRÍCULA SUPLEMENTAR)","1250","04/11/2021","Rua Tatuí, nº 15,Apto. 71 - Bairro Jardim Haydee - Mauá - SP - CEP 09370-290","(11) 4425-5925","caroline@liderleiloes.com.br",1,"MG",
 "Cesar Augusto Bagatini (MATRÍCULA SUPLEMENTAR)","1239","08/09/2021","Rua Paraíba, nº 499, Fundos - Bairro Centro - Poços de Caldas - MG - CEP 37701-726","(35) 99118-8991","",1,"MG",
-"Cibelle Simonetti Sales (MATRÍCULA SUPLEMENTAR)","1240","30/09/2021","Estrada Geral de Arroio Fundo, nº 1 - Bairro Arroio Fundo -Bela Vista do Toldo - SC - CEP89478-000","(47) 99645-6023","cibelle@rocketleiloes.com.br",1,"MG",".rocketleiloes.com.br"">"
+"Cibelle Simonetti Sales (MATRÍCULA SUPLEMENTAR)","1244","04/10/2021","Rua Padre Estevão Pernet, nº 160, Conjunto 307A - Bairro Vila Gomes Cardim - São Paulo - SP - CEP 03315-000","(11) 2941-8023 / (11) 99921-5533","cibelle@rocketleiloes.com.br",1,"MG",
+"Clauberto Fernandes Nascimento Júnior(MATRÍCULA SUPLEMENTAR)","1240","30/09/2021","Estrada Geral de Arroio Fundo, nº 1 - Bairro Arroio Fundo -Bela Vista do Toldo - SC - CEP89478-000","(47) 99645-6023","",1,"MG",
 "Cláudio Luiz Reis Araujo","658","13/03/2008","Avenida Engenheiro Gerhard Ett, nº 1525 - Bairro Paulo Camilo Pena - Betim - MG - CEP 32669-110","(31) 3591-5086","",1,"MG",
 "Cristiane Borguetti Moraes Lopes (MATRÍCULA SUPLEMENTAR)","1355","07/07/2023","Rua Laura, nº 138 - Bairro Centro - Santo André - SP - CEP 09040-240","(11) 98931-3126","",1,"MG",
 "Cristiano Gomes Ferreira","563","05/11/2004","Avenida Artur Bernardes, nº 216, Apto. 1502 - Bairro Vila Paris- Belo Horizonte - MG - CEP 30380-752","(31) 99990-2422","",1,"MG",
@@ -44,7 +45,7 @@
 "Emidio José Correia de Medeiros(Licenciado até 02/08/2024)","1274","21/03/2022","Avenida Monsenhor Afonso Ligório da Rosa, nº 1701 - Bairro Jardim Américo - Cambuí- MG - CEP 37600-000","(35) 99780-8989","",1,"MG",
 "Érica Cristina Alves","1353","23/06/2023","Rua Tito Guimarães, nº 128, Apto. 501- Bairro Buritis - Belo Horizonte - MG- CEP 30575-070","(37) 99107-6263","",1,"MG",
 "Erico Lages Soares (MATRÍCULA SUPLEMENTAR)","1238","26/08/2021","Avenida Engenheiro Gerhard Ett, nº 1525 -Lote D- Bairro Paulo Camilo 3 - Betim - MG- CEP 32.669-110","(11) 97449-2023","erico@ericoleiloes.com.br",1,"MG",
-"Errol Flynn Lopes Pereira dos Reis","653","15/01/2008","Rua Alagoas, nº 977, Loja - Bairro Funcionários -Belo Horizonte - MG - CEP 30130-167","(31) 97171-3258","",1,"MG",
+"Errol Flynn Lopes Pereira dos Reis","653","15/01/2008","Rua Camapuan, nº 700, Apto. 601 - Bairro Grajaú-Belo Horizonte - MG - CEP 30431-236","(31) 97171-3258","",1,"MG",
 "Evandro Moura de Siqueira","1132","12/06/2019","","(31) 97149-0784","",1,"MG",
 "Evanilde Aquino Pimentel Rosa (MATRÍCULA SUPLEMENTAR)","1327","05/12/2022","","(69) 98133-1688","",1,"MG",
 "Fábio Guimarães de Carvalho","446","21/05/2001","Rua João Calmeto de Castro, nº 155 - Bairro Belvedere - Barbacena - MG - CEP 36201-132","(31) 98871-0763","",1,"MG",
@@ -107,9 +108,11 @@
 "Marco Antônio Barbosa de Oliveira Junior","565","12/11/2004","Avenida Barão Homem de Melo, nº 4444, 2º Andar - Bairro Estoril - Belo Horizonte - MG - CEP 30494-270","(31) 3024-4451 / (31) 98977-8881","contato@marcoantonioleiloeiro.com.br",1,"MG",
 "Marcos Ferreira de Carvalho","203","05/03/1991","Rua Planetoide, nº 281 - Bairro Santa Lúcia - Belo Horizonte - MG - CEP 30360-440","(31) 3227-9037 / (31) 99975-1154","",1,"MG",
 "Marcos Garcia Almeida","661","13/06/2008","Rua Santa Catarina, nº 475 - Bairro Nossa Senhora Aparecida - Luz - MG - CEP 35595-000","(37) 99104-2298 / (31) 98904-9067","",1,"MG",
+"Marcos Paulo Branco de Morais","1360","21/08/2023","Rua Alves Martins, nº 16, ap 02- Bairro Calafate- Belo Horizonte - MG - CEP 30411-510","(31) 98563-5165 / (31) 99695-8880","",1,"MG",".saladeleiloes.com.br"">http://"
 "Marcos Roberto Torres (MATRÍCULA SUPLEMENTAR)","1241","30/09/2021","Rua Alice Além Saadi, nº 855, Sala 2305 - Bairro Nova Ribeirânia - Ribeirão Preto - SP - CEP 14096-570","(16) 3629-6203 / (16) 99717-7401","leiloeiro@3torresleiloes.com.br",1,"MG",
 "Marcos Rodrigo Custódio Soares","1122","23/04/2019","Rua Coronel Osório, n° 333 - Capetinga - MG - CEP 37993-000","(35) 99958-1439","",1,"MG",
 "Marcus Vinícius da Silva","107","24/05/1983","Rua Tiradentes, nº 765, Sala 401 - Bairro Centro - Montes Claros - MG - CEP 39402-381","(38) 3221-5324 / (38) 3212-3175","",1,"MG",
+"Marcus Vinicius Yoshimi Uebara","1359","21/08/2023","Rua Padre Estevão Pernet, nº 718, sala 2601 -Tatuapé - São Paulo- SP - CEP 03315-000","(11) 3107-0933","contato@destakleiloes.com.br",1,"MG",
 "Maria Elizabeth de Carvalho Russo","98","21/12/1982","Rua Rio Grande do Norte, nº 888, Apto. 702 - Bairro Funcionários - Belo Horizonte - MG - CEP 30130-131","(31) 3261-9782 / (31) 99153-7389","",1,"MG",
 "Marilaine Borges de Paula (MATRÍCULA SUPLEMENTAR)","1249","04/11/2021","Avenida Braz Olaia Acosta, nº 727, Sala 510 - Bairro Jardim California - Ribeirão Preto - SP - CEP 14026-040","(16) 99717-6595","leiloeiro@e-confianca.com.br",1,"MG",
 "Mike Dutra Fleitas (MATRÍCULA SUPLEMENTAR)","1125","26/04/2019","Rua A, Lote 16, Condomínio Itambé - Cássia - MG - CEP 37980-000","(35) 3541-2573 / (16) 99200-0339","mikedutraleiloeiro@gmail.com",1,"MG",".mikedutraleiloeiro.com.br"">"
