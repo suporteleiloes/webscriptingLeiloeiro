@@ -1,5 +1,6 @@
 const fs = require("fs");
 const json2csv = require("json2csv").parse;
+const csvtojsonV2=require("csvtojson");
 const path = require("path");
 
 const csvFolder = path.join(__dirname, "csv");
@@ -30,141 +31,81 @@ const sc = require("./UF/sc");
 const se = require("./UF/se");
 const sp = require("./UF/sp");
 const to = require("./UF/to");
-const AL = require("./UF/al");
 
 async function getLeiloeiros() {
-  const AC = await ac();
-  await exportJson(AC, "ac");
-  await exportCsv(AC, "ac");
+  try {
+    const UF_FUNCTIONS = [
+      { name: "rj", func: rj },
+      { name: "ac", func: ac },
+      { name: "al", func: al },
+      { name: "am", func: am },
+      { name: "ap", func: ap },
+      { name: "ba", func: ba },
+      { name: "ce", func: ce },
+      { name: "df", func: df },
+      { name: "go", func: go },
+      { name: "ma", func: ma },
+      { name: "mg", func: mg },
+      // { name: "ms", func: ms },
+      { name: "mt", func: mt },
+      { name: "pb", func: pb },
+      { name: "pe", func: pe },
+      { name: "pi", func: pi },
+      { name: "pr", func: pr },
+      { name: "rn", func: rn },
+      { name: "ro", func: ro },
+      { name: "rr", func: rr },
+      { name: "rs", func: rs },
+      { name: "sc", func: sc },
+      { name: "se", func: se },
+      { name: "sp", func: sp },
+      // { name: "to", func: to },
+    ];
 
-  const AL = await al();
-  await exportJson(AL, "al");
-  await exportCsv(AL, "al");
+    for (let i = 0; i < UF_FUNCTIONS.length; i++) {
+      const { name, func } = UF_FUNCTIONS[i];
+      let success = false;
+      while (!success) {
+        try {
+          const data = await func();
+          await exportJson(data, name);
+          await exportCsv(data, name);
+          success = true;
+        } catch (error) {
+          console.log(`Erro em ${name}: ${error.message}`);
+        }
+      }
+    }
+  } catch (error) {
+    console.log(error);
+  }
+}
 
-  const AM = await am();
-  await exportJson(AM, "am");
-  await exportCsv(AM, "am");
+mergeCsv = () => {
+  const files = fs.readdirSync(csvFolder);
+  let merged = "";
 
-  const AP = await ap();
-  await exportJson(AP, "ap");
-  await exportCsv(AP, "ap");
+  files.forEach((file) => {
+    const filePath = path.join(csvFolder, file);
+    const data = fs.readFileSync(filePath, "utf8");
+    merged += data;
+  });
 
-  const BA = await ba();
-  await exportJson(BA, "ba");
-  await exportCsv(BA, "ba");
+  fs.writeFileSync(path.join(csvFolder, "br.csv"), merged);
+}
 
-  const CE = await ce();
-  await exportJson(CE, "ce");
-  await exportCsv(CE, "ce");
+completeJson = () => {
+  const csv = fs.readFileSync(path.join(csvFolder, "br.csv"), "utf8");
+  
+  csvtojsonV2({
+    noheader:false,
+    output: "json"
+  })
+  .fromString(csv)
+  .then((jsonObj)=>{
+    fs.writeFileSync(path.join(jsonFolder, "br.json"), JSON.stringify(jsonObj));
+  })
 
-  const DF = await df();
-  await exportJson(DF, "df");
-  await exportCsv(DF, "df");
-
-  const GO = await go();
-  await exportJson(GO, "go");
-  await exportCsv(GO, "go");
-
-  const MA = await ma();
-  await exportJson(MA, "ma");
-  await exportCsv(MA, "ma");
-
-  const MG = await mg();
-  await exportJson(MG, "mg");
-  await exportCsv(MG, "mg");
-
-  const MS = await ms();
-  await exportJson(MS, "ms");
-  await exportCsv(MS, "ms");
-
-  const MT = await mt();
-  await exportJson(MT, "mt");
-  await exportCsv(MT, "mt");
-
-  const PB = await pb();
-  await exportJson(PB, "pb");
-  await exportCsv(PB, "pb");
-
-  const PE = await pe();
-  await exportJson(PE, "pe");
-  await exportCsv(PE, "pe");
-
-  const PI = await pi();
-  await exportJson(PI, "pi");
-  await exportCsv(PI, "pi");
-
-  const PR = await pr();
-  await exportJson(PR, "pr");
-  await exportCsv(PR, "pr");
-
-  const RJ = await rj();
-  await exportJson(RJ, "rj");
-  await exportCsv(RJ, "rj");
-
-  const RN = await rn();
-  await exportJson(RN, "rn");
-  await exportCsv(RN, "rn");
-
-  const RO = await ro();
-  await exportJson(RO, "ro");
-  await exportCsv(RO, "ro");
-
-  const RR = await rr();
-  await exportJson(RR, "rr");
-  await exportCsv(RR, "rr");
-
-  const RS = await rs();
-  await exportJson(RS, "rs");
-  await exportCsv(RS, "rs");
-
-  const SC = await sc();
-  await exportJson(SC, "sc");
-  await exportCsv(SC, "sc");
-
-  const SE = await se();
-  await exportJson(SE, "se");
-  await exportCsv(SE, "se");
-
-  const SP = await sp();
-  await exportJson(SP, "sp");
-  await exportCsv(SP, "sp");
-
-  const TO = await to();
-  await exportJson(TO, "to");
-  await exportCsv(TO, "to");
-
-  const Br = [
-    ...AC,
-    ...AL,
-    ...AM,
-    ...AP,
-    ...BA,
-    ...CE,
-    ...DF,
-    ...GO,
-    ...MA,
-    ...MG,
-    ...MS,
-    ...MT,
-    ...PB,
-    ...PE,
-    ...PI,
-    ...PR,
-    ...RJ,
-    ...RN,
-    ...RO,
-    ...RR,
-    ...RS,
-    ...SC,
-    ...SE,
-    ...SP,
-    ...TO,
-  ];
-
-  await exportJson(Br, "br");
-  await exportCsv(Br, "br");
-
-  return `Foram encontrados ${Br.length} leiloeiros`;
 }
 
 async function exportJson(data, name) {
@@ -195,4 +136,6 @@ async function exportCsv(data, name) {
   );
 }
 
-getLeiloeiros();
+getLeiloeiros()
+  .then(() => mergeCsv())
+  .then(() => completeJson());
