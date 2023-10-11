@@ -2,6 +2,19 @@ const fs = require("fs");
 const json2csv = require("json2csv").parse;
 const csvtojsonV2=require("csvtojson");
 const path = require("path");
+const express = require('express');
+const cors = require('cors');
+const app = express();
+require('dotenv').config();
+
+
+// Configuração do Ambiente
+var {
+  HOST,
+  SERVER_PORT
+} = process.env;
+
+const interval = 24 * 60 * 60 * 1000; // 24 horas
 
 const leiloeiro_csvFolder = path.join(__dirname, "leiloeiros/csv");
 const leiloeiro_jsonFolder = path.join(__dirname, "leiloeiros/json");
@@ -222,10 +235,84 @@ const csv = fs.readFileSync(path.join(federacao_csvFolder, "br.csv"), "utf8");
 
 }
 
+async function leiloeiros() {
 getLeiloeiros()
   .then(() => mergeCsv())
   .then(() => completeJson());
+}
 
+async function federacoes() {
 getFederacao()
   .then(() => fed_mergeCsv())
   .then(() => fed_completeJson());
+}
+
+setInterval(leiloeiros, interval);
+setInterval(federacoes, interval);
+
+app.use(express.json());
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Middleware para tratamento de erros global
+app.use((err, req, res, next) => {
+  console.error(err.stack);
+  res.status(500).json({ error: 'Ocorreu um erro interno', message: err.message });
+});
+
+// Middleware para permitir CORS
+app.use(cors());
+app.use((req, res, next) => {
+    res.header('Access-Control-Allow-Origin', '*');
+    res.header('Access-Control-Allow-Methods', 'GET, POST, PUT, DELETE');
+    res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept');
+    next();
+});
+
+app.get('/', (req, res) => {
+  res.send('Web Scraping API!');
+});
+
+// Rota para listar os leiloeiros, passar o nome da UF como parâmetro
+app.get('/leiloeiros/:uf', (req, res) => {
+  const { uf } = req.params;
+  if (!fs.existsSync(leiloeiro_jsonFolder)) {
+    res.status(404).json({ error: 'Arquivo não encontrado' });
+  } else {
+    const filePath = path.join(leiloeiro_jsonFolder, `${uf}.json`);
+    if (!fs.existsSync(filePath)) {
+      res.status(404).json({ error: 'Arquivo não encontrado' });
+    } else {
+      const data = fs.readFileSync(filePath, 'utf8');
+      res.json(JSON.parse(data));
+    }
+  }
+}
+);
+
+// Rota para listar os leiloeiros nas federações, passar o nome da UF como parâmetro
+app.get('/federacoes/:uf', (req, res) => {
+  const { uf } = req.params;
+  if (!fs.existsSync(federacao_jsonFolder)) {
+    res.status(404).json({ error: 'Arquivo não encontrado' });
+  } else {
+    const filePath = path.join(federacao_jsonFolder, `${uf}.json`);
+    if (!fs.existsSync(filePath)) {
+      res.status(404).json({ error: 'Arquivo não encontrado' });
+    } else {
+      const data = fs.readFileSync(filePath, 'utf8');
+      res.json(JSON.parse(data));
+    }
+  }
+}
+);
+
+// Rota para lidar com solicitações de rota não encontradas (erro 404)
+app.use((req, res) => {
+  res.status(404).json({ error: 'Rota não encontrada' });
+});
+
+// Iniciar o servidor
+app.listen(SERVER_PORT, HOST, () => {
+  console.log(`Servidor rodando em http://${HOST}:${SERVER_PORT}`);
+});
+

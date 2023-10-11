@@ -1,0 +1,8 @@
+version: 1.0"
+
+services:
+  webscrapper:
+    build: .
+    ports:
+      - "3000:3000"
+    restart: always
