@@ -35,6 +35,7 @@ const sp = require("./leiloeiros/UF/sp");
 const to = require("./leiloeiros/UF/to");
 
 const rs_federacao = require("./federacoes/UF/rs");
+const to_federacao = require("./federacoes/UF/to");
 
 async function getLeiloeiros() {
   try {
@@ -89,6 +90,7 @@ async function getFederacao() {
   try {
     const UF_FUNCTIONS = [
       { name: "rs", func: rs_federacao },
+      { name: "to", func: to_federacao },
     ];
 
     for (let i = 0; i < UF_FUNCTIONS.length; i++) {

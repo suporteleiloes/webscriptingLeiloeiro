@@ -4,15 +4,14 @@ async function RS() {
   const chrome = require("selenium-webdriver/chrome");
   const options = new chrome.Options();
   options.addArguments("--headless");
-  // let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
-  let driver = await new Builder().forBrowser(Browser.CHROME).build();
+ let driver = await new Builder().forBrowser(Browser.CHROME).setChromeOptions(options).build();
+  //  let driver = await new Builder().forBrowser(Browser.CHROME).build();
 
   await driver.get(
     "https://www.farsul.org.br/https:/www.farsul.org.br/farsul/farsul-divulga-relacao-de-leiloeiros-recadastrados-no-estado,412481.jhtml"
   );
   await driver.manage().window().maximize();
 
-    // pega os dados de /html/body/div[2]/section/div/div[1]/article/div/div/div/div[2]/table/tbody
     const base = await driver.findElements(
       By.xpath(
         "/html/body/div[2]/section/div/div[1]/article/div/div/div/div[2]/table/tbody/tr"
@@ -23,12 +22,8 @@ async function RS() {
 
   try {
 
-    const base_html = await driver
-      .findElement(By.xpath("/html/body/div[2]/section/div/div[1]/article/div/div/div/div[2]/table/tbody"))
-      .getAttribute("innerHTML");
+    const base_html = await driver.findElement(By.xpath("/html/body/div[2]/section/div/div[1]/article/div/div/div/div[2]/table/tbody")).getAttribute("innerHTML");
 
-      // faz um loop para percorrer todos os "<span class="CharOverride-2">" "</span>"
-      // e pegar o texto entre eles
       let nome = "";
 
       const regex = /<span class="CharOverride-2">(.+?)<\/span>/g;
