@@ -195,8 +195,37 @@ async function fed_exportCsv(data, name) {
   );
 }
 
+fed_mergeCsv = () => {
+  const files = fs.readdirSync(federacao_csvFolder);
+  let merged = "";
+
+    files.forEach((file) => {
+      const filePath = path.join(federacao_csvFolder, file);
+      const data = fs.readFileSync(filePath, "utf8");
+      merged += data;
+    });
+
+  fs.writeFileSync(path.join(federacao_csvFolder, "br.csv"), merged);
+}
+
+fed_completeJson = () => {
+const csv = fs.readFileSync(path.join(federacao_csvFolder, "br.csv"), "utf8");
+
+    csvtojsonV2({
+      noheader:false,
+      output: "json"
+    })
+    .fromString(csv)
+    .then((jsonObj)=>{
+      fs.writeFileSync(path.join(federacao_jsonFolder, "br.json"), JSON.stringify(jsonObj));
+    })
+
+}
+
 getLeiloeiros()
   .then(() => mergeCsv())
   .then(() => completeJson());
 
 getFederacao()
+  .then(() => fed_mergeCsv())
+  .then(() => fed_completeJson());
